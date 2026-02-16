@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "1d72026991e2bc76",
+    "type": "split",
+    "children": [
+      {
+        "id": "416939332e9d3226",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bac8475d90daeebf",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "d48570f66e25623f",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "переменные/атрибуты переменных/типы данных/преобразование/схема преобразования без потери точности.canvas",
+                "viewState": {
+                  "x": 720,
+                  "y": -124,
+                  "zoom": -0.9349695720607757
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "схема преобразования без потери точности"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c855587ab82e615b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac363156588df663",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f916ecdb77f2d894",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "640b51d0597204b0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "памят",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8114ab150595b317",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "742324be3100b90c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d8e9442aa2462c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3344d0410646f39",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "мат операции/приоритет операций.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for приоритет операций"
+            }
+          },
+          {
+            "id": "766ab53f3c67af80",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "мат операции/приоритет операций.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from приоритет операций"
+            }
+          },
+          {
+            "id": "de365a1f31790647",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5ccfa6cd99556b25",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "мат операции/приоритет операций.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of приоритет операций"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d48570f66e25623f",
+  "lastOpenFiles": [
+    "переменные/объявление и присвоение.md",
+    "Pasted image 20241104205929.png",
+    "переменные/атрибуты переменных/имя объекта.md",
+    "переменные/клонирование.md",
+    "переменные/переменная.md",
+    "переменные/атрибуты переменных/значения переменной/значение переменной.md",
+    "переменные/атрибуты переменных/типы данных/тип данных.md",
+    "пакет/интерфейс/implements.md",
+    "пакет/интерфейс/interface.md",
+    "блок кода.md",
+    "пакет/интерфейс/встроенные/Cloneable/Cloneable.md",
+    "пакет/интерфейс/встроенные/Cloneable/методы/clone().md",
+    "пакет/класс/встроенные/enum/методы/ordinal().md",
+    "пакет/класс/встроенные/Exception/Exception.md",
+    "пакет/класс/встроенные/CloneNotSupportException/CloneNotSupportException.md",
+    "пакет/класс/встроенные/Exception/методы/getMessage().md",
+    "пакет/класс/встроенные/CloneNotSupportException",
+    "пакет/интерфейс/встроенные/Cloneable/методы",
+    "пакет/интерфейс/встроенные/Cloneable",
+    "пакет/интерфейс/встроенные",
+    "пакет/обобщения/generics-обобщения.md",
+    "пакет/обобщения/обобщенный класс.md",
+    "пакет/обобщения/обобщенный интерфейс.md",
+    "пакет/обобщения/обобщенный метод.md",
+    "пакет/импорт классов и пакетов.md",
+    "пакет/обобщения",
+    "пакет/класс/class.md",
+    "пакет/класс/метод/main.md",
+    "пакет/класс/модификаторы/модификатор.md",
+    "пакет/класс/метод/передаваемые параметры.md",
+    "пакет/класс/встроенные/Object/Object.md",
+    "пакет/класс/встроенные/Object/методы",
+    "пакет/класс/встроенные/Object",
+    "пакет/класс/встроенные/enum/методы",
+    "переменные/атрибуты переменных/типы данных/примитивные типы",
+    "переменные/атрибуты переменных/типы данных/примитивные типы",
+    "переменные/атрибуты переменных/типы данных/преобразование/схема преобразования без потери точности.canvas",
+    "пакет/класс/Иерархия классов.canvas",
+    "переменные/атрибуты переменных/типы данных/преобразование/схема преобразования с потерей точности.canvas"
+  ]
+}

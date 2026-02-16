@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"0675770abdbd45f9","type":"file","file":"переменные/атрибуты переменных/типы данных/целочисленные/int.md","x":760,"y":-280,"width":380,"height":380},
+		{"id":"b289cc7ac6cc86c4","type":"file","file":"переменные/атрибуты переменных/типы данных/строковые и символьные/char.md","x":740,"y":-960,"width":400,"height":400},
+		{"id":"7961103c41578949","type":"file","file":"переменные/атрибуты переменных/типы данных/целочисленные/short.md","x":160,"y":-260,"width":357,"height":340},
+		{"id":"cb525e754e7837c9","type":"file","file":"переменные/атрибуты переменных/типы данных/целочисленные/byte.md","x":-360,"y":-260,"width":340,"height":340},
+		{"id":"5d88806a8ff3202f","type":"file","file":"переменные/атрибуты переменных/типы данных/с точкой/float.md","x":740,"y":312,"width":400,"height":400},
+		{"id":"6573c0d0157c84b8","type":"file","file":"переменные/атрибуты переменных/типы данных/с точкой/double.md","x":1400,"y":312,"width":400,"height":400},
+		{"id":"4afa15191ee9f72b","type":"file","file":"переменные/атрибуты переменных/типы данных/целочисленные/long.md","x":1400,"y":-275,"width":400,"height":370}
+	],
+	"edges":[
+		{"id":"6f34077decacc39b","fromNode":"cb525e754e7837c9","fromSide":"right","toNode":"7961103c41578949","toSide":"left"},
+		{"id":"9bf8f7bed9857445","fromNode":"7961103c41578949","fromSide":"right","toNode":"0675770abdbd45f9","toSide":"left"},
+		{"id":"95f24b9ca870e4ca","fromNode":"0675770abdbd45f9","fromSide":"right","toNode":"4afa15191ee9f72b","toSide":"left"},
+		{"id":"83bc2712ac22ee6d","fromNode":"b289cc7ac6cc86c4","fromSide":"bottom","toNode":"0675770abdbd45f9","toSide":"top"},
+		{"id":"5b72d0c37072e194","fromNode":"5d88806a8ff3202f","fromSide":"right","toNode":"6573c0d0157c84b8","toSide":"left"},
+		{"id":"ff02bafa4f5b7bee","fromNode":"0675770abdbd45f9","fromSide":"bottom","toNode":"6573c0d0157c84b8","toSide":"top"}
+	]
+}

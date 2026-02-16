@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"a543a38f5526c62d","x":-360,"y":-680,"width":400,"height":400,"type":"file","file":"переменные/атрибуты переменных/типы данных/целочисленные/int.md"},
+		{"id":"db4d3532cc14717f","x":360,"y":-680,"width":400,"height":400,"type":"file","file":"переменные/атрибуты переменных/типы данных/целочисленные/long.md"},
+		{"id":"55041e860b56c5ec","x":360,"y":40,"width":400,"height":400,"type":"file","file":"переменные/атрибуты переменных/типы данных/с точкой/double.md"},
+		{"id":"868a799bd7a7cdb0","x":-360,"y":40,"width":400,"height":400,"type":"file","file":"переменные/атрибуты переменных/типы данных/с точкой/float.md"}
+	],
+	"edges":[
+		{"id":"e69b0a77d7ecdb3b","fromNode":"a543a38f5526c62d","fromSide":"bottom","toNode":"868a799bd7a7cdb0","toSide":"top"},
+		{"id":"a7b3d3daa44eee09","fromNode":"db4d3532cc14717f","fromSide":"left","toNode":"868a799bd7a7cdb0","toSide":"right"},
+		{"id":"782c60ca1207c639","fromNode":"db4d3532cc14717f","fromSide":"bottom","toNode":"55041e860b56c5ec","toSide":"top"}
+	]
+}

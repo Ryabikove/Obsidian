@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"f5dbe6cd42d73571","x":-81,"y":-140,"width":164,"height":60,"color":"3","type":"text","text":"балансировщик"},
+		{"id":"c9aa4283c1cd7503","x":-66,"y":-520,"width":133,"height":60,"color":"3","type":"text","text":"создатель"},
+		{"id":"a40927d480059425","x":60,"y":-340,"width":156,"height":60,"color":"5","type":"text","text":"конструкторы"},
+		{"id":"c29d18894d78d0b9","x":-217,"y":-340,"width":140,"height":60,"color":"5","type":"text","text":"поисковики"},
+		{"id":"f060cd264d746add","x":-192,"y":-460,"width":90,"height":60,"color":"3","type":"text","text":"Кэш"},
+		{"id":"f10946da03b131a9","x":300,"y":-340,"width":140,"height":60,"color":"6","type":"text","text":"авторизация"},
+		{"id":"b8a23adae17b0aaf","x":-337,"y":-520,"width":80,"height":60,"color":"3","type":"text","text":"БД"},
+		{"id":"c624281670a171f0","x":-359,"y":-660,"width":125,"height":60,"color":"5","type":"text","text":"Реплики"},
+		{"id":"c67ae40f4207c2ec","x":-91,"y":-20,"width":185,"height":60,"color":"5","type":"text","text":"фронт (сайт/бот/приложение)"},
+		{"id":"1dc2a23dd3f68d2b","x":-71,"y":100,"width":145,"height":60,"type":"text","text":"пользователь"},
+		{"id":"cdc49f21b19647c4","x":-644,"y":-140,"width":387,"height":227,"type":"text","text":"Легенда элементов\n1. Бирюзовый - множественные экземпляры\n2. Песочный - единственные экземпляры\n3. Фиолетовый - запланировано"}
+	],
+	"edges":[
+		{"id":"5d8c4d2462661c79","fromNode":"1dc2a23dd3f68d2b","fromSide":"top","toNode":"c67ae40f4207c2ec","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"fb85a4574a17b6df","fromNode":"c67ae40f4207c2ec","fromSide":"top","toNode":"f5dbe6cd42d73571","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"b5e427cc0b1ce6d1","fromNode":"f5dbe6cd42d73571","fromSide":"top","toNode":"c29d18894d78d0b9","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"de55ea2d7d97b203","fromNode":"f5dbe6cd42d73571","fromSide":"top","toNode":"a40927d480059425","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"d7c148f7f21c94ea","fromNode":"a40927d480059425","fromSide":"top","toNode":"c9aa4283c1cd7503","toSide":"bottom"},
+		{"id":"e0b29657fbe13e52","fromNode":"c29d18894d78d0b9","fromSide":"left","toNode":"b8a23adae17b0aaf","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"8014d339491504e2","fromNode":"c9aa4283c1cd7503","fromSide":"left","toNode":"b8a23adae17b0aaf","toSide":"right"},
+		{"id":"484408dbba506acc","fromNode":"c29d18894d78d0b9","fromSide":"top","toNode":"f060cd264d746add","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"66929d0a244ec046","fromNode":"b8a23adae17b0aaf","fromSide":"top","toNode":"c624281670a171f0","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"82423816dbcf6c5d","fromNode":"f5dbe6cd42d73571","fromSide":"right","toNode":"f10946da03b131a9","toSide":"bottom","color":"6"}
+	]
+}

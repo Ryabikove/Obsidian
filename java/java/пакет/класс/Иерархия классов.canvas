@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"018cd3f3ba756c9d","x":-160,"y":-160,"width":250,"height":60,"type":"text","text":"Object\nclass"},
+		{"id":"057d833f8d9199be","x":-217,"y":-340,"width":365,"height":90,"type":"text","text":"выше по иерархии находится тот класс, от которого идет наследование"},
+		{"id":"22e0a0af3c797656","x":-160,"y":-40,"width":250,"height":100,"type":"text","text":"Alive\nclass\n-> Object"},
+		{"id":"2839ae2c8827496c","x":0,"y":160,"width":250,"height":90,"type":"text","text":"Plants\nclass\n-> Alive"},
+		{"id":"44301b16131cc184","x":-342,"y":160,"width":250,"height":90,"type":"text","text":"Animal\nclass\n->Alive"},
+		{"id":"85c3a30f60cd8e39","x":-207,"y":-480,"width":345,"height":90,"type":"text","text":"преобразование от нижнестоящего класса к вышестоящему происходит автоматически"}
+	],
+	"edges":[
+		{"id":"4421001d50543c44","fromNode":"44301b16131cc184","fromSide":"top","toNode":"22e0a0af3c797656","toSide":"bottom"},
+		{"id":"90a5e3fbc5f6bbaf","fromNode":"22e0a0af3c797656","fromSide":"top","toNode":"018cd3f3ba756c9d","toSide":"bottom"},
+		{"id":"1831685ae383d19a","fromNode":"2839ae2c8827496c","fromSide":"top","toNode":"22e0a0af3c797656","toSide":"bottom"}
+	]
+}

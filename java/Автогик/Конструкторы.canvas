@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"4ab23ca2880b5a6c","type":"text","text":"балансировщик","x":-5,"y":200,"width":180,"height":60,"color":"2"},
+		{"id":"52aa991a1faa64b0","x":-320,"y":120,"width":250,"height":60,"type":"text","text":"Легенда\n"},
+		{"id":"e2bd1683e0be79d4","x":-40,"y":40,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"21474ce22c927dc8","fromNode":"4ab23ca2880b5a6c","fromSide":"top","toNode":"e2bd1683e0be79d4","toSide":"bottom","fromEnd":"arrow"}
+	]
+}
