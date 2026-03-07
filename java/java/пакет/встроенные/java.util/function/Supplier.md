@@ -4,8 +4,8 @@
 
 Пример кода:
 ```
-Supplier<Object> isNotEmpty = () -> new Object(); 
-Object result = isNotEmpty.test("Hello"); // true
+Supplier<Object> newObject = () -> new Object(); 
+Object result = newObject.get(); // true
 ```
 
 #интерфейс 

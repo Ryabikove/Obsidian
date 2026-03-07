@@ -15,4 +15,6 @@ for (Map.Entry<String, Book> entry : map.entrySet()) {
 }
 ```
 
+Наследуется от [[java/пакет/встроенные/java.util/Map|Map]]
+
 #коллекция #класс 

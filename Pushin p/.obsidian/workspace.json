@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "731189f25e196e15",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0ad6ec59064f20d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d597970bd3caa1af",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "a747db21d537c81c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "группирование/ссылка.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ссылка"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5c2dbaa8189c0309",
+    "type": "split",
+    "children": [
+      {
+        "id": "565554de327f1cc7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce4f7e2157f931d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7aae45647b025f6a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "09bb372a50360ca6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7d45845fcb7000f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "69e323c466abb923",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc389bed5beae01b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "b1dd095572d5a3bf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d32b4b7a66df759b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "256e51d8022a7abb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d597970bd3caa1af",
+  "lastOpenFiles": [
+    "группирование/ссылка.md",
+    "Untitled.canvas",
+    "запись.md",
+    "шаблон.md",
+    "тип записи/цель/цель.md",
+    "пользователь.md",
+    "тип записи/второстепенная.md",
+    "тип записи/главная.md",
+    "тип записи/доход/доход.md",
+    "базовые атрибуты/содержание.md",
+    "базовые атрибуты/оглавление.md",
+    "цель проекта.md",
+    "группирование",
+    "термины/подтип записи.md",
+    "термины/тип записи.md",
+    "базовые атрибуты/абсолютная дата.md",
+    "базовые атрибуты/время последнего изменения.md",
+    "термины/базовый атрибут.md",
+    "термины/атрибут.md",
+    "термины/автоопределение.md",
+    "термины/заполненность.md",
+    "термины/отображаемость.md",
+    "термины/термин.md",
+    "термины/уникальность.md",
+    "термины/редактируемость.md",
+    "тип записи/расход/расход.md",
+    "тип записи/ежедневная/ежедневная.md",
+    "тип записи/доход",
+    "тип записи/расход",
+    "тип записи/цель",
+    "термины",
+    "тип записи",
+    "базовые атрибуты",
+    "тип записи/ежедневная",
+    "Проект"
+  ]
+}

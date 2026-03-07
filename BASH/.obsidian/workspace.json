@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "122ee43cd0380a09",
+    "type": "split",
+    "children": [
+      {
+        "id": "504fec5acb626eb1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82e963fcdb9e0e7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "переменные/встроенные переменные.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "встроенные переменные"
+            }
+          },
+          {
+            "id": "eb04d981af4da70d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef4723fdf8562dc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3531f383c5253f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2308aeed906f1476",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2fc454440f62ee2a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b3750aa5fe80491f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 226.5
+  },
+  "right": {
+    "id": "b02ffe383ac18418",
+    "type": "split",
+    "children": [
+      {
+        "id": "0cd67a1cee8af647",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15f3532efa558bed",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9c7fc6597bd6e991",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "5a8fe51978d0502f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f848f3fb4347cc87",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "eb04d981af4da70d",
+  "lastOpenFiles": [
+    "арифметические операции/арифметические операции.md",
+    "служебные символы/знак доллар.md",
+    "служебные символы/служебный символ.md",
+    "переменные/встроенные переменные.md",
+    "переменные/типы переменных/окружения.md",
+    "переменные/типы переменных/локальные.md",
+    "переменные/переменная.md",
+    "переменные/типы переменных/параметры командной строки.md",
+    "служебные символы/двоеточие.md",
+    "работа со строками/операции со строками.md",
+    "переменные/объявление переменной.md",
+    "переменные/присваивание значения переменной.md",
+    "переменные/подстановка значения переменной.md",
+    "проверка условий/test.md",
+    "проверка условий/флаги файлов.md",
+    "служебные символы/решетка.md",
+    "работа со строками",
+    "пробельные символы.md",
+    "комментарий.md",
+    "экранирование/экранирование.md",
+    "экранирование/строгое.md",
+    "экранирование/специальные экранированные символы.md",
+    "экранирование/нестрогое.md",
+    "служебные символы/точка-с-запятой.md",
+    "служебные символы/точка.md",
+    "служебные символы/тире.md",
+    "служебные символы/тильда.md",
+    "переменные/встроенные переменные",
+    "логические операции",
+    "арифметические операции",
+    "проверка условий",
+    "код завершения",
+    "экранирование",
+    "переменные/типы переменных",
+    "переменные",
+    "служебные символы/слеши"
+  ]
+}

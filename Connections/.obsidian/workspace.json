@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "9cf8835a0f3f46f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "d12459b766310a4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d4415929db59072",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "91dd1be02e1d5cba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "архитектура сети/уровни модели OSI/физический.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "физический"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "94444ff61f6f9dcc",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b4e92a7bc4b4d6d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8422b9c864af96b8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e8a05726f60c3e05",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1cfcbacbde4e4cc8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "22af63431861037a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a20752b9f2a7b91c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "841f3a90e7677689",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "архитектура сети/уровни модели OSI/транспортный.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for транспортный"
+            }
+          },
+          {
+            "id": "f4b90a4b2b15fae9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "архитектура сети/уровни модели OSI/транспортный.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from транспортный"
+            }
+          },
+          {
+            "id": "9770b11fb305ea4f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "13751e1bb3b4e5d6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "архитектура сети/уровни модели OSI/транспортный.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of транспортный"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "91dd1be02e1d5cba",
+  "lastOpenFiles": [
+    "архитектура сети/уровни модели TCP-IP/сетевых интерфейсов/сетевых интерфейсов.md",
+    "архитектура сети/уровни модели TCP-IP/интернет/интернет.md",
+    "архитектура сети/уровни модели OSI/физический.md",
+    "технология передачи/ethernet/ethernet.md",
+    "архитектура сети/OSI.md",
+    "архитектура сети/уровни модели OSI/канальный/канальный.md",
+    "архитектура сети/уровни модели TCP-IP/транспортный.md",
+    "архитектура сети/TCP-IP.md",
+    "архитектура сети/уровни модели OSI/транспортный.md",
+    "архитектура сети/уровни модели OSI/прикладной.md",
+    "архитектура сети/уровни модели OSI/представления.md",
+    "архитектура сети/уровни модели TCP-IP/прикладной.md",
+    "архитектура сети/уровни модели OSI/сетевой.md",
+    "оборудование/кабели/витая пара/витая пара.md",
+    "RJ/RJ.md",
+    "оборудование/коннектеры",
+    "архитектура сети/уровни модели TCP-IP/интернет/протоколы/IP/IP.md",
+    "RJ",
+    "оборудование/коннектеры/8P8C.md",
+    "оборудование/соединение уст-в.md",
+    "протяженность/виды протяженности.md",
+    "протяженность/глобальная.md",
+    "протяженность/локальная.md",
+    "протяженность/муниципальная.md",
+    "протяженность/объединение сетей.md",
+    "протяженность/персональная.md",
+    "оборудование/кабели/витая пара/Untitled",
+    "оборудование/кабели/витая пара",
+    "оборудование/кабели/оптоволокно",
+    "оборудование/кабели/коаксиальный",
+    "оборудование/кабели",
+    "представление информации.md",
+    "оборудование/маршрутизатор/маршрутизатор.md",
+    "архитектура сети/уровни модели TCP-IP/сетевых интерфейсов/протоколы",
+    "архитектура сети/уровни модели TCP-IP/сетевых интерфейсов",
+    "оборудование/маршрутизатор"
+  ]
+}
