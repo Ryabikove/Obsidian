@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"2e549c16b48ef9cb","type":"text","text":"Модель - интерфейс с общим описанием модели и перечислением её поколений.","x":105,"y":130,"width":220,"height":140,"color":"1"},
-		{"id":"94611ddaeb73eab9","type":"text","text":"Поколение - интерфейс с подробным описанием, списком характеристик, возможных конфигураций ","x":105,"y":326,"width":220,"height":174,"color":"1"},
+		{"id":"94611ddaeb73eab9","type":"text","text":"Поколение - интерфейс с подробным описанием, списком характеристик, возможных конфигураций ","x":105,"y":326,"width":220,"height":194,"color":"1"},
 		{"id":"f8b492e152a8bbb4","type":"text","text":"Предложения - список предложений на рынке","x":105,"y":570,"width":220,"height":90,"color":"1"},
 		{"id":"5e8ad99b4eef0e3a","type":"text","text":"/start - [[Автогик/3 Информационная архитектура/Карты/Модули/Главный-приветственный экран|главное-приветственное окно]]\nПривет, *общее описание ресурса*","x":-1055,"y":-280,"width":280,"height":120,"color":"4"},
 		{"id":"c79d9c6390b32b29","type":"text","text":"/top - [[Автогик/3 Информационная архитектура/Карты/Модули/Популярные|каталог популярных моделей]] всех категорий","x":-1040,"y":-140,"width":265,"height":80,"color":"4"},
@@ -14,14 +14,17 @@
 		{"id":"20f5f07a11e77c6e","type":"text","text":"регистрация с подтверждением через номер телефона или почту","x":-320,"y":-280,"width":250,"height":100},
 		{"id":"03c260c16a8638f5","type":"text","text":"вход в аккаунт","x":-365,"y":-145,"width":155,"height":60},
 		{"id":"c924d112def2adb7","type":"text","text":"/compare - интерфейс с [[Автогик/3 Информационная архитектура/Карты/Модули/Сравнение|таблицей сравнения]]","x":-460,"y":140,"width":250,"height":60,"color":"4"},
-		{"id":"d6f241c25d922b19","type":"text","text":"/favourite - [[Автогик/3 Информационная архитектура/Карты/Модули/Избранное|избранное]]","x":520,"y":115,"width":250,"height":50,"color":"4"},
+		{"id":"d6f241c25d922b19","type":"text","text":"/liked - [[Автогик/3 Информационная архитектура/Карты/Модули/Понравившееся|избранное]]","x":520,"y":115,"width":250,"height":50,"color":"4"},
 		{"id":"0408896158d9624c","type":"text","text":"Легенда:\n- Зеленый - описание есть\n- Серый - второстепенный функционал\n- Красный - описание отсутствует\n- Бирюзовый - запланировано","x":420,"y":-195,"width":305,"height":220,"color":"6"},
 		{"id":"475b2d7f1d9e0fd9","type":"text","text":"Основные:\n- Страна\n- Концерн\n- Бренд\n- Модель\n- Поколение","x":-1025,"y":170,"width":250,"height":230},
 		{"id":"d5f6e365eef02f3a","type":"text","text":"Дополнительные:\n- Страна-производитель\n- Объем двигателя\n- Тип двигателя\n- Разгон до 100\n- Расход на 100 км\n- Привод\n- Тип коробки","x":-1024,"y":400,"width":249,"height":280},
-		{"id":"7487bd30e36c1ce2","type":"text","text":"Детальные:\n- Клиренс","x":-510,"y":470,"width":250,"height":210,"color":"5"},
 		{"id":"5edf361b8ecc7bde","type":"text","text":"Второстепенные:\n- Цена\n- Годы производства\n- Тип кузова\n- Мощность","x":-510,"y":266,"width":287,"height":204},
 		{"id":"758b9a5c4aecae04","type":"text","text":"Список моделей","x":-723,"y":720,"width":177,"height":60},
-		{"id":"a680295b2d609939","type":"text","text":"/halc - [[Автогик/3 Информационная архитектура/Карты/Модули/Калькуляторы|окно с калькуляторами]]:\n- растаможки\n- владения годового","x":-20,"y":-160,"width":360,"height":120,"color":"4"}
+		{"id":"a680295b2d609939","type":"text","text":"/halc - [[Автогик/3 Информационная архитектура/Карты/Модули/Калькуляторы|окно с калькуляторами]]:\n- растаможки\n- владения годового","x":-20,"y":-160,"width":360,"height":120,"color":"4"},
+		{"id":"7487bd30e36c1ce2","type":"text","text":"Детальные:\n- Клиренс","x":-510,"y":470,"width":250,"height":210,"color":"5"},
+		{"id":"74c8f69c66a56762","type":"text","text":"/test - [[Автогик/3 Информационная архитектура/Карты/Модули/Тест на подходящий автомобиль|тест на подходящий автомобиль]]","x":520,"y":231,"width":250,"height":70,"color":"5"},
+		{"id":"0eae564e57100172","x":520,"y":368,"width":250,"height":60,"color":"5","type":"text","text":"/favourite - избранное"},
+		{"id":"e8314010dc73f0c7","type":"text","text":"/me - [[Автогик/3 Информационная архитектура/Карты/Модули/Об аккаунте|Об аккаунте]]","x":520,"y":480,"width":250,"height":60,"color":"5"}
 	],
 	"edges":[
 		{"id":"fc2fb6a8d6074840","fromNode":"cc80bbf32709acf7","fromSide":"right","toNode":"20f5f07a11e77c6e","toSide":"left"},
@@ -42,6 +45,13 @@
 		{"id":"635cff9b623539c7","fromNode":"d6f241c25d922b19","fromSide":"left","toNode":"2e549c16b48ef9cb","toSide":"right"},
 		{"id":"f60aec72aa67d3ff","fromNode":"3d94cb07f16a7de8","fromSide":"bottom","toNode":"d5f6e365eef02f3a","toSide":"right"},
 		{"id":"c2cafcfe4dfabe10","fromNode":"3d94cb07f16a7de8","fromSide":"bottom","toNode":"7487bd30e36c1ce2","toSide":"left"},
-		{"id":"b10fd24fede07296","fromNode":"3d94cb07f16a7de8","fromSide":"bottom","toNode":"758b9a5c4aecae04","toSide":"top"}
+		{"id":"b10fd24fede07296","fromNode":"3d94cb07f16a7de8","fromSide":"bottom","toNode":"758b9a5c4aecae04","toSide":"top"},
+		{"id":"076ca891082f9f7c","fromNode":"e8314010dc73f0c7","fromSide":"top","toNode":"0eae564e57100172","toSide":"bottom"},
+		{"id":"e31ecbf6525189d4","fromNode":"74c8f69c66a56762","fromSide":"left","toNode":"2e549c16b48ef9cb","toSide":"right"},
+		{"id":"f243c990ed91d0ff","fromNode":"74c8f69c66a56762","fromSide":"left","toNode":"94611ddaeb73eab9","toSide":"right"},
+		{"id":"a3fffd2ecac905fd","fromNode":"74c8f69c66a56762","fromSide":"left","toNode":"1a42d0291a00d03f","toSide":"right"},
+		{"id":"4f5bceb06204ebe4","fromNode":"0eae564e57100172","fromSide":"left","toNode":"94611ddaeb73eab9","toSide":"right"},
+		{"id":"21a45360c034b8b5","fromNode":"0eae564e57100172","fromSide":"left","toNode":"2e549c16b48ef9cb","toSide":"right"},
+		{"id":"daffecd58ea41df7","fromNode":"0eae564e57100172","fromSide":"left","toNode":"1a42d0291a00d03f","toSide":"right"}
 	]
 }
