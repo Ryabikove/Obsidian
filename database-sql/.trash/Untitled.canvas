@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"440d13ab9d711376","type":"text","text":"","x":-300,"y":20,"width":250,"height":60},
-		{"id":"83d86a18936fbe0d","x":-720,"y":-260,"width":400,"height":400,"type":"file","file":"sql/SQL.md"}
-	],
-	"edges":[]
-}
