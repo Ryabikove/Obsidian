@@ -1,0 +1,13 @@
+Таблица в БД, содержащая информацию о [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Концерн/Концерн|концернах]].
+
+| Field name            | Data type                 | Unique         | Not Null | Default | Description                                                                                                                                 |
+| --------------------- | ------------------------- | -------------- | -------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| id                    | Small serial              | PK             | +        | -       | Идентификатор                                                                                                                               |
+| short_name            | Varchar(50)               | +              | +        | -       | Короткое имя                                                                                                                                |
+| full_name             | Varchar(100)              | +              | +        | -       | Полное имя                                                                                                                                  |
+| logo                  | #TODO написать тип данных | -              | -        | -       | Логотип бренда                                                                                                                              |
+| country_code          | Varchar(3)                | FK one to many | +        | -       | Страна основания из таблицы [[Autogeek/3 Data architecture/Структура данных/Сущности/General/Country/Tables/Countries\|countries]] |
+| main_brand_id         | Int                       | FK one to one  | +        | -       | Главный бренд из таблицы [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Brand/Tables/Brands\|brands]]           |
+| capitalization        | Big int                   | -              | -        | -       | Капитализация ($)                                                                                                                           |
+| grows                 | Small int                 | -              | -        | -       | Рост (%) по отношению к периоду в 3 года                                                                                                    |
+| description_n_history | Text                      | -              | -        | -       | Концепция + общие принципы машиностроения, а так же история концерна                                                                        |

@@ -1,0 +1,11 @@
+Таблица с характеристиками комплектаций
+
+| Field name          | Data type | Unique        | Not Null | Default | Description                                                                                                                                                                       |
+| ------------------- | --------- | ------------- | -------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| id                  | Serial    | PK            | +        | -       | Идентификатор                                                                                                                                                                     |
+| linght_props_id     | Int       | FK one to one | -        | -       | Идентификатор обзорно-световых характеристик из таблицы [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Таблицы/Light_props\|light_props]] |
+| anti-theft_props    | Int       | FK one to one | -        | -       | Id of anti-theft properties from table [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Таблицы/Anti-theft_props\|anti-theft_props]]        |
+| interier_props_id   | Int       | FK one to one | -        | -       | Идентификатор характеристик салона из таблицы [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Таблицы/Interier_props\|interier_props]]     |
+| safety_props_id     | Int       | FK one to one | -        | -       | Идентификатор характеристик безопасности из таблицы [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Таблицы/Safety_props\|safety_props]]   |
+| multimedia_props_id | Int       | FK one to one | -        | -       | Id of multimedia properties from table [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Таблицы/Multimedia_props\|multimedia_props]]        |
+| exterier_props_id   | Int       | FK one to one | -        | -       | Id of exterier properties from table [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Таблицы/Exterier_props\|exterier_props]]              |
