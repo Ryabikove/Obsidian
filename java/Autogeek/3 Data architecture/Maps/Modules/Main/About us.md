@@ -1,10 +1,9 @@
-Экран, содержащий описание продукта, его основные функции и контакты.
+Module, which contains description of product, main functions and contacts.
 
-**Описание продукта:**
+*Description*:
 
-
-Переход к модулю осуществляется:
-- На сайте:
-	- Через [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Основное меню|основное меню]]
-- В телеграм-боте:
-	- Вызывается командой "/about"
+Wired with:
+- On site:
+	- [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Main menu|Main menu]];
+- In telegram bot:
+	- Command "/about".

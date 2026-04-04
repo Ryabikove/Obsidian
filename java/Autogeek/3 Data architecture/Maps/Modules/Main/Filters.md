@@ -1,33 +1,32 @@
-В зависимости от представления окно или меню, содержащая фильтры для [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Список сущностей|списка сущностей]].
+Depending on the view, a window or menu containing filters for the [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|Entity list]].
 
-Типы фильтров в порядке уточнения:
-- Основные:
-	- Страна - родина бренда;
-	- Концерн
-	- Бренд
-	- Модель
-	- Поколение
-- Второстепенные:
-	- Цена
-	- Годы производства
-	- Тип кузова
-	- Мощность (л.с.)
-- Дополнительные:
-	- Страна-производитель
-	- Объем двигателя (л)
-	- Тип двигателя
-	- Разгон до 100 (с)
-	- Расход на 100 км (л)
-	- Привод
-	- Тип коробки
-- Детальные - #TODO *поздняя реализация*: 
-	- [[характеристики]]
+Filter types:
+- Primary:
+	- Country of origin;
+	- Concern;
+	- Brand;
+	- Model;
+	- Generation;
+- Secondary:
+	- Price;
+	- Production years;
+	- Body type;
+	- Power (hp);
+- Additional:
+	- Country of manufacture;
+	- Engine capacity (liters);
+	- Engine type;
+	- Acceleration to 100 (seconds);
+	- Fuel consumption per 100 km (liters);
+	- Drive;
+	- Transmission type;
+- Detailed - *late release*:
 
-Принципы:
-- Если пользователь [[Autogeek/3 Data architecture/Карты/Модули/Основные/Авторизация и регистрация|авторизованный]], то фильтры можно сохранять в шаблоны
+Principles:
+- if the account is [[Autogeek/3 Data architecture/Maps/Modules/Main/Autorization and Registration|verified]], user can save filters as samples.
 
-Переход к модулю осуществляется:
-- На сайте:
-	- Через [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Основное меню|основное меню]]
-- В телеграм-боте:
-	- С помощью команды "/filters"
+Wired with:
+- On site:
+	- [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Main menu|Main menu]];
+- In telegram bot:
+	- Command "/filters".

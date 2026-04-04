@@ -7,5 +7,5 @@ kметод объекта [[Java/package/class/Scanner/объекты/in/in|in]
  System.out.printf("Your number: %s\\n", num);
  in.close();
 
-[[Java/package/built-in/java.lang/String|String]]
+[[Java/package/built-in/java/lang/String|String]]
 #метод

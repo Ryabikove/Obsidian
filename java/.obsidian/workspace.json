@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ad0421fb39f59d5f",
+        "id": "edbf36d638ed3455",
         "type": "tabs",
         "children": [
           {
-            "id": "46f8f9f6c3b83964",
+            "id": "b93c1d9335987a9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/memory/io streams/Serialization.md",
+                "file": "Study/2 algorithms and data structures/Data structures.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Serialization"
+              "title": "Data structures"
+            }
+          },
+          {
+            "id": "7804cc037373c424",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/2 algorithms and data structures/Data structures.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Data structures"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TODO",
+                "query": "review",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,51 +196,51 @@
       "bases:Create new base": false
     }
   },
-  "active": "46f8f9f6c3b83964",
+  "active": "7804cc037373c424",
   "lastOpenFiles": [
-    "Java/package/built-in/java.io/InvalidClassException.md",
-    "Java/memory/io streams/Serialization.md",
-    "Java/Keyword.md",
-    "Java/package/built-in/java.io/BufferedReader.md",
-    "Java/memory/io streams/Transient.md",
-    "Java/package/built-in/java.io/Serializable.md",
-    "Java/memory/io streams/Input-Output streams.md",
-    "Java/memory/io streams/Blocking and non-blocking.md",
-    "Java/package/built-in/java.io/BufferedWriter.md",
-    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Brand/Brand.md",
-    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Brand/Tables/Brands.md",
+    "Java/memory/data structures/Restricted data structures.md",
+    "Study/2 algorithms and data structures/Data structures.md",
+    "Java/memory/data structures/Non-linear data structures.md",
+    "Java/package/built-in/java/TreeSet.md",
+    "Java/package/built-in/java/util/TreeMap.md",
+    "Java/memory/data structures/Physical stores.md",
+    "Java/memory/data structures/Non-Linear structures",
+    "Java/package/built-in/java/util/Stack.md",
+    "Java/package/built-in/java/util/Set.md",
+    "Java/package/built-in/java/util/Queue.md",
+    "Java/package/built-in/java/util/Map.md",
+    "Study/2 algorithms and data structures/Algorithms and Data structures.md",
+    "Java/memory/data structures/Data structures.md",
+    "Java/memory/data structures",
+    "Java/package/built-in/java/util/HashMap.md",
+    "Study/2 algorithms and data structures/Algorithms.md",
+    "Java/operations/Big O notation.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Tables/Articles.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Tables/JSONB",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Review/Tables/Reviews.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Article.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Review/Review.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Tables",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Account/Tables/Accounts.md",
     "Autogeek/TODO.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Engine/Engine.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Engine/Tables/Engines.md",
     "Autogeek/3 Data architecture/Data structure/Entities/Users/Account/Account.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Secondary/Entities list.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Secondary/Main menu.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Secondary/Assistant menu.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Secondary/Secondary.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Main/More suitable car - test.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Main/Filters.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Main/More likely auto - test.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Main/Test .md",
-    "Autogeek/3 Data architecture/Maps/Modules/Main/Compare.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Main/Recommendation.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Main/Popular.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Main/Liked.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Main/Help.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Secondary",
-    "Autogeek/3 Data architecture/Maps/Modules/Secondart",
-    "Autogeek/3 Data architecture/Maps/Modules/Main",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Report/Report.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Review/Tables",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Review",
+    "Autogeek/Basic architecture.canvas",
     "Autogeek/3 Data architecture/Maps/Map.canvas",
-    "Autogeek/3 Data architecture/Maps/Modules/Основные",
-    "Autogeek/3 Data architecture/Maps/Modules/Дополнительные",
-    "Autogeek/3 Data architecture/Maps/Modules",
-    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/Susp_brake_props",
-    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/Other_props",
-    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/Body_props",
-    "Autogeek/3 Data architecture/Data structure/Entities/Users/Report/Tables",
+    "Autogeek/3 Data architecture/Карты/Модули/Основные",
+    "Autogeek/3 Data architecture/Карты/Модули",
+    "Autogeek/3 Data architecture/Карты",
+    "Autogeek/Constructors.canvas",
+    "Java/package/built-in/java/net",
     "Autogeek/3 Data architecture/Maps/Карта.canvas",
     "Autogeek/3 Data architecture/Map/Карта.canvas",
-    "Autogeek/Basic architecture.canvas",
     "Java/Pasted image 20241104205929.png",
     "Autogeek/3 Data architecture/Карты/Карта.canvas",
-    "Autogeek/Constructors.canvas",
     "Java/package/class/наследование/Иерархия классов.canvas",
     "Автогик/Исследование/Custom Journey Map.canvas",
     "Untitled.canvas",

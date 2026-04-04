@@ -1,6 +1,6 @@
-Таблица, содержащая типы систем питания двигателя
+Contains data about engine power systems
 
-| Имя поля                 | Тип данных  | Unique | Not Null | Default | Описание                        |
-| ------------------------ | ----------- | ------ | -------- | ------- | ------------------------------- |
-| id                       | Bytea       | +      | +        | -       | Идентификатор                   |
-| engine_power_system_name | Varchar(25) | +      | +        | -       | Название типа питания двигателя |
+| Field name               | Data type   | Unique | Not Null | Default | Description            |
+| ------------------------ | ----------- | ------ | -------- | ------- | ---------------------- |
+| id                       | Bytea       | +      | +        | -       | ID                     |
+| engine_power_system_name | Varchar(25) | +      | +        | -       | Power system type name |

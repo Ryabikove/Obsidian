@@ -6,7 +6,7 @@
 4. [[Study/1 java core/4 Exceptions|Exceptions]]
 5. [[Study/1 java core/5 Collections|Collections]] 
 6. [[Study/1 java core/6 Inner classes|Inner classes]] 
-7. [[Study/1 java core/7 Input-Output|Input-Output]] #пропустил
+7. [[Study/1 java core/7 Input-Output|Input-Output]]
 8. [[Study/1 java core/8 Threads|Threads]]
 9. [[Study/1 java core/9 Stream-api|Stream-api]]
 

@@ -1,6 +1,6 @@
-Содержит типы двигателей по расположению.
+Contains data about engine positions
 
-| Имя поля             | Тип данных  | Unique | Not Null | Default | Описание                          |
-| -------------------- | ----------- | ------ | -------- | ------- | --------------------------------- |
-| id                   | bytea       | +      | +        | -       | Идентификатор                     |
-| engine_position_name | Varchar(25) | +      | +        | -       | Название типа положения двигателя |
+| Field name           | Data type   | Unique | Not Null | Default | Description               |
+| -------------------- | ----------- | ------ | -------- | ------- | ------------------------- |
+| id                   | bytea       | +      | +        | -       | ID                        |
+| engine_position_name | Varchar(25) | +      | +        | -       | Engine position type name |

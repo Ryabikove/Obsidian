@@ -1,7 +1,0 @@
-Table wich contains variants of [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Комплектация|complectation]] and [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Вариация/Вариация|variation]] mixes.
-
-| Имя поля         | Тип данных | Unique         | Not Null | Default | Описание                                                                                                                                                              |
-| ---------------- | ---------- | -------------- | -------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| id               | Serial     | PK             | +        | -       | Идентификатор                                                                                                                                                         |
-| variation_id     | Int        | FK one to many | +        | -       | Идентификатор вариации из таблицы [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Вариация/Таблицы/Variations\|variations]]                 |
-| complectation_id | Int        | FK one to many | +        | -       | Идентификатор комплектации из таблицы [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Таблицы/Complectations\|complectations]] |

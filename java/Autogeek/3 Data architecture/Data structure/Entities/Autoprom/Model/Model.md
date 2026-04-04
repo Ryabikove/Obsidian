@@ -1,25 +1,23 @@
 Сущность, представляющая модель авто.
 
-*Представление в БД* - [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Модель/Таблицы/Models|models]]
+*Table in DB* - [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Tables/Models|Models]].
 
-*Полное представление:*
+*Full view:*
 
-| Описание                                                                                                                          | Имя поля                                                                                                                             |
-| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Полное название                                                                                                                   | full_name                                                                                                                            |
-| Лицевые фотографии всех поколений                                                                                                 | photos                                                                                                                               |
-| Ссылка-название на [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Brand/Brand\|бренд]]                 | short_name из [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Brand/Tables/Brands\|brands]] по brand_id   |
-| Список ссылок-названий [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Поколение/Поколение\|поколений]] | name из [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Поколение/Таблицы/Generations\|generations]] по id |
-| Концепция + общие принципы машиностроения, а так же история модели                                                                | description_n_history                                                                                                                |
-| Кол-во производимых единиц                                                                                                        | produced_auto                                                                                                                        |
-| Кол-во продаваемых единиц                                                                                                         | sold_auto                                                                                                                            |
-*Краткое представление:*
+| Description                                                                                                                  | Field name                                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Full name                                                                                                                    | full_name                                                                                                                         |
+| Photos of all generation                                                                                                     | photos                                                                                                                            |
+| [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Brand/Brand\|Brand]] name-link                               | short_name from [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Brand/Tables/Brands\|brands]] on brand_id         |
+| List with name-links of [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation\|generations]] | full_name from [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Tables/Generations\|generations]] on id |
+| Description and history                                                                                                      | description_n_history                                                                                                             |
+*Short view:*
 
-| Описание                                                                                                          | Имя поля                                                                                                                           |
-| ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Полное название                                                                                                   | full_name                                                                                                                          |
-| Ссылка-название на [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Brand/Brand\|бренд]] | short_name из [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Brand/Tables/Brands\|brands]] по brand_id |
-| Лицевые фотографии всех поколений                                                                                 | logo                                                                                                                               |
-[[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Список сущностей|Полное и краткое представления]]
+| Description                                                                                    | Field name                                                                                                                |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Full name                                                                                      | full_name                                                                                                                 |
+| Photos of all generation                                                                       | photos                                                                                                                    |
+| [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Brand/Brand\|Brand]] name-link | short_name from [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Brand/Tables/Brands\|brands]] on brand_id |
+[[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|Full and short views]].
 
-Может быть представлена в виде [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Список сущностей|списка сущностей]]
+Can be shown as [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]].

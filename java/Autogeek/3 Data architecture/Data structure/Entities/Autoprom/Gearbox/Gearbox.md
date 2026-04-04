@@ -1,19 +1,19 @@
-Сущность, представляющая коробку передач.
+Entity which represent gearbox.
 
-*Представление в БД* - [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Коробка передач/Таблицы/Gearboxes|Gearboxes]]
+*Table in DB* - [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Gearbox/Tables/Gearboxes|Gearboxes]]
 
-*Полное представление:*
+*Full view:*
 
-| Описание                                                                                                                                                                   | Имя поля                                                                                                                                      |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Имя двигателя                                                                                                                                                              | full_name                                                                                                                                     |
-| Фото двигателя                                                                                                                                                             | photos                                                                                                                                        |
-| Идентификатор двигателя предыдущего поколения из таблицы [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Двигатель/Таблицы/Engines\|engines]]    | gearbox_parent_id                                                                                                                             |
-| Список ссылок-названий на [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Вариация/Вариация\|вариации]] моделей авто, где двигатель используется | full_name из [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Вариация/Таблицы/Variations\|variations]] по engine_id |
-| Тип коробки передач                                                                                                                                                        | gearbox_type                                                                                                                                  |
-| Количество передач                                                                                                                                                         | gear_numbers                                                                                                                                  |
-| Преимущества и недостатки                                                                                                                                                  | review                                                                                                                                        |
+| Description                                                                                                                                 | Field name                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Gearbox name                                                                                                                                | full_name                                                                                                                                 |
+| Gearbox photos                                                                                                                              | photos                                                                                                                                    |
+| Previouis generation parent-gearbox name-link                                                                                               | full_name from [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Gearbox/Tables/Gearboxes\|gearboxes]] on gearbox_parent_id |
+| List of [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Variation\|variations]] name-links which has this gearbox | full_name from [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/Variations\|variations]] on gearbox_id    |
+| Gearbox type                                                                                                                                | gearbox_type                                                                                                                              |
+| Gears number                                                                                                                                | gear_numbers                                                                                                                              |
+| Review                                                                                                                                      | review                                                                                                                                    |
 
-[[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Список сущностей|Полное и краткое представления]]
+[[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|Full and short views]]
 
-Не может быть представлен в виде [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Список сущностей|списка сущностей]].
+Can't be shows as [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]].

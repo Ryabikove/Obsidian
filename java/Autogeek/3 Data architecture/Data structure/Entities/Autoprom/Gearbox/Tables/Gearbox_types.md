@@ -1,6 +1,6 @@
-Таблица с типами коробок передач по управлению.
+Table which contains data about gearbox types.
 
-| Field name        | Data type   | Unique | Not Null | Default | Description             |
-| ----------------- | ----------- | ------ | -------- | ------- | ----------------------- |
-| id                | bytea       | +      | +        | -       | Идентификатор           |
-| gearbox_type_name | Varchar(25) | +      | +        | -       | Название типа двигателя |
+| Field name         | Data type   | Unique | Not Null | Default | Description |
+| ------------------ | ----------- | ------ | -------- | ------- | ----------- |
+| id                 | bytea       | +      | +        | -       | ID          |
+| gearbox_types_name | Varchar(25) | +      | +        | -       | Type's name |

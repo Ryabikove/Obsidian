@@ -1,11 +1,9 @@
-Меню, доступное на сайте продукта, представляющее из себя скрытую прямоугольную область со ссылками на модули. Раскрытие области происходит при нажатии на соответствующую иконку. 
+A menu available on the product website, consisting of a hidden rectangular area with links to modules. This area expands when you click its icon.
 
-Свойства:
-- Доступно из любого модуля
+Properties:
+- Available from every module.
 
-Меню позволяет переходить к модулям:
-- [[Autogeek/3 Data architecture/Карты/Модули/Основные/Об аккаунте|Об аккаунте]] - если пользователь прошел авторизацию ИЛИ [[Autogeek/3 Data architecture/Карты/Модули/Основные/Авторизация и регистрация|Авторизация и регистрация]] - если пользователь не авторизовался
-- [[Autogeek/3 Data architecture/Карты/Модули/Основные/Калькуляторы|Калькуляторы]]
-- [[Autogeek/3 Data architecture/Карты/Модули/Основные/Помощь|Помощь]]
-
-#TODO *придумать иконку*
+The menu allows you to navigate to modules:
+- [[Autogeek/3 Data architecture/Maps/Modules/Main/About profile|About profile]] - available if the user has been authorized OR [[Autogeek/3 Data architecture/Maps/Modules/Main/Autorization and Registration|Autorization and Registration]] -  if user hasn't;
+- [[Autogeek/3 Data architecture/Maps/Modules/Main/Halcs|Halcs]];
+- [[Autogeek/3 Data architecture/Maps/Modules/Main/Help|Help]].

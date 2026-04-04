@@ -1,13 +1,14 @@
-Окно, содержащее тест, при прохождении которого пользователю будет выведен [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Список сущностей|список сущностей]].
+A window with test, if user passes the test it would show [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]] with cars based on answers.
 
-Тест позволит подобрать пользователю авто исходя из предпочтений.
-В дополнение можно будет использовать ИИ помощника, чтобы уточнить или изменить список.
+The test helps the user select a car based on their preferences.
+Additionally, the assistant's AI can be used to refine or edit the list.
 
-Принципы:
-- В список могут быть добавлены только модели, поколения
 
-Переход к модулю осуществляется:
-- На сайте:
-	- Через [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Основное меню|основное меню]]
-- В телеграм-боте:
-	- С помощью команды "/test"
+Principles:
+- There can be only [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Model|models]] and [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generations]] in list.
+
+Wired with:
+- On site:
+	- [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Main menu|Main menu]];
+- In telegram bot:
+	- Command "/test"

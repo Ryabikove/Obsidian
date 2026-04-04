@@ -20,7 +20,7 @@ String content = Files.readString(Path.of("./data.txt")); // read data
 Files.write(Path.of("output.txt"), List.of("Line 1", "Line 2")); //write data
 ```
 
-Java has serialization technology which allows us save whole classes into files and download later.
-To prevent saving fields keyword [[Java/memory/io streams/Transient]] can be used (perfect for sensitive data).
+Java has [[Java/memory/io streams/Serialization|serialization]] technology which allows us save whole classes into files and download later.
+To prevent saving fields keyword [[Java/memory/io streams/Transient|transient]] can be used (perfect for sensitive or non-serializable data).
 
 For more information see [[Java/memory/io streams/Input-Output streams|I/O streams]].

@@ -1,6 +1,6 @@
-Таблица с названиями типов экологических классов.
+Table which contains eco classes.
 
-| Имя поля       | Тип данных  | Unique | Not Null | Default | Описание                       |
-| -------------- | ----------- | ------ | -------- | ------- | ------------------------------ |
-| id             | bytea       | PK     | +        | -       | Идентификатор                  |
-| eco_class_name | Varchar(25) | +      | +        | -       | Название экологического класса |
+| Field name     | Data type   | Unique | Not Null | Default | Description    |
+| -------------- | ----------- | ------ | -------- | ------- | -------------- |
+| id             | bytea       | PK     | +        | -       | ID             |
+| eco_class_name | Varchar(25) | +      | +        | -       | Eco class name |

@@ -1,11 +1,11 @@
-Таблица с характеристиками комплектаций
+Table which contains data about [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Complectation|complectations]]
 
-| Field name          | Data type | Unique        | Not Null | Default | Description                                                                                                                                                                       |
-| ------------------- | --------- | ------------- | -------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| id                  | Serial    | PK            | +        | -       | Идентификатор                                                                                                                                                                     |
-| linght_props_id     | Int       | FK one to one | -        | -       | Идентификатор обзорно-световых характеристик из таблицы [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Таблицы/Light_props\|light_props]] |
-| anti-theft_props    | Int       | FK one to one | -        | -       | Id of anti-theft properties from table [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Таблицы/Anti-theft_props\|anti-theft_props]]        |
-| interier_props_id   | Int       | FK one to one | -        | -       | Идентификатор характеристик салона из таблицы [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Таблицы/Interier_props\|interier_props]]     |
-| safety_props_id     | Int       | FK one to one | -        | -       | Идентификатор характеристик безопасности из таблицы [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Таблицы/Safety_props\|safety_props]]   |
-| multimedia_props_id | Int       | FK one to one | -        | -       | Id of multimedia properties from table [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Таблицы/Multimedia_props\|multimedia_props]]        |
-| exterier_props_id   | Int       | FK one to one | -        | -       | Id of exterier properties from table [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Таблицы/Exterier_props\|exterier_props]]              |
+| Field name          | Data type | Unique | Not Null | Default | Description                                                                                                                                |
+| ------------------- | --------- | ------ | -------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| id                  | Serial    | PK     | +        | -       | ID                                                                                                                                         |
+| linght_props_id     | JSONB     | -      | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Light_props\|light props]]           |
+| anti-theft_props    | JSONB     | -      | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Anti-theft_props\|anti-theft props]] |
+| interier_props_id   | JSONB     | -      | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Interier_props\|interier props]]     |
+| safety_props_id     | JSONB     | -      | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Safety_props\|safety props]]         |
+| multimedia_props_id | JSONB     | -      | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Multimedia_props\|multimedia props]] |
+| exterier_props_id   | JSONB     | -      | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Exterier_props\|exterier props]]     |

@@ -1,6 +1,6 @@
-Таблица, содержащая рекомендованные типы топлива для двигателя
+Contains data about fuel types.
 
-| Имя поля              | Тип данных  | Unique | Not Null | Default | Описание              |
-| --------------------- | ----------- | ------ | -------- | ------- | --------------------- |
-| id                    | bytea       | +      | +        | -       | Идентификатор         |
-| engine_fuel_type_name | Varchar(25) | +      | +        | -       | Название типа топлива |
+| Field name            | Data type   | Unique | Not Null | Default | Description    |
+| --------------------- | ----------- | ------ | -------- | ------- | -------------- |
+| id                    | bytea       | +      | +        | -       | ID             |
+| engine_fuel_type_name | Varchar(25) | +      | +        | -       | Fuel type name |

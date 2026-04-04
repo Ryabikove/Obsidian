@@ -1,51 +1,52 @@
-Окно с информацией о сущности [[Autogeek/3 Data architecture/Структура данных/Сущности/Пользовательские/Account/Account|аккаунт]] принадлежащей пользователю продукта.
-Содержит несколько разделов:
-- Информация о пользователе.
-- Информация об аккаунте.
-- Предпочтения.
-- [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Offer/Offer|Карточки]].
+Module which contains information about [[Autogeek/3 Data architecture/Data structure/Entities/Users/Account/Account|account]] of product user.
+Has next sections:
+- About user;
+- About account;
+- Preferences;
+- [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|Offers]].
 
-При просмотре аккаунта, под которым пользователь прошел авторизацию категории содержат следующую информацию:
-- Информация о пользователе:
-	- Привязанные аккаунты.
-	- ФИО.
-	- Логин.
-	- Почта.
-	- Телефон.
-	- Город.
-	- Стаж вождения.
-	- Дата рождения.
-- Информация об аккаунте:
-	- id.
-	- Тип аккаунта: личный/корпоративный.
-	- Кошелек *в перспективе*.
-	- Дата регистрации.
-	- Последний раз онлайн.
-- Предпочтения:
-	- [[Autogeek/3 Data architecture/Карты/Модули/Основные/Избранное|Избранное]] авто (не путать с [[Autogeek/3 Data architecture/Карты/Модули/Основные/Понравившееся|понравившееся]]).
-	- Отношение к стилям вождения: агрессивный/спокойный/динамичный/чрезмерно аккуратный.
-	- Текущие авто (характеристики как у [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Offer/Offer|карточки]]).
-	- Список предпочтений по характеристикам.
-- [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Offer/Offer|Карточки]]:
-	- Активные карточки.
-	- Завершенные карточки.
+If user looks on information about the account under which the user logged in:
+- About user:
+	- Linked accounts;
+	- Full name;
+	- Login;
+	- Email;
+	- Phone number;
+	- City;
+	- Drive since;
+	- Birth date;
+- About account:
+	- id;
+	- Account type: private/corporation;
+	- Wallet *in plans*;
+	- Registered at;
+	- Last seen online;
+- Preferences:
+	- [[Autogeek/3 Data architecture/Maps/Modules/Main/Favourite|Favourite]] cars (don't  confused with [[Autogeek/3 Data architecture/Maps/Modules/Main/Liked|liked]]);
+	- Relates with driving stype: agressive/calm/dynamic/careful;
+	- Own cars (almost as [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Tables/Offers|offers]]);
+	- List of preferences in car properties;
+- [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Tables/Offers|Offers]]:
+	- Active offers;
+	- Inactive offers;
 
-При просмотре аккаунта другого пользователя категории содержат следующую информацию:
-- Информация о пользователе:
-	- ФИО.
-	- Город.
-- Информация об аккаунте:
-	- Тип аккаунта: личный/корпоративный.
-	- Дата регистрации.
-	- Последний раз онлайн.
-- [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Offer/Offer|Карточки]]:
-	- Активные карточки.
-	- Завершенные карточки.
+If user looks on information about the other accounts:
+- About user:
+	- Full name;
+	- City;
+- About account:
+	- Account type: private/corporation;
+	- Registered at;
+	- Last seen online;
+- [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Tables/Offers|Offers]]:
+	- Active offers;
+	- Inactive offers.
 
-Переход к модулю осуществляется:
-- На сайте:
-	- Через ссылку в полном представлении карточки.
-	- Через [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Вспомогательное меню|вспомогательное меню]] - если пользователь не прошел авторизацию перенаправляет в модуль "[[Autogeek/3 Data architecture/Карты/Модули/Основные/Авторизация и регистрация|авторизация и регистрация]]".
-- В телеграм-боте:
-	- С помощью команды "/me" - если пользователь не прошел авторизацию перенаправляет в модуль "[[Autogeek/3 Data architecture/Карты/Модули/Основные/Авторизация и регистрация|авторизация и регистрация]]".
-	- Через ссылку в полном представлении карточки.
+
+Wired with:
+- On site:
+	- Name-link in [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offer]];
+	- [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Assistant menu|Assistant menu]] - if user hasn't logged in, he will be sent to [[Autogeek/3 Data architecture/Maps/Modules/Main/Autorization and Registration|autorization and registration]];
+- In telegram bot:
+	- Command "/me" -  if user hasn't logged in, he will be sent to [[Autogeek/3 Data architecture/Maps/Modules/Main/Autorization and Registration|autorization and registration]];
+	- Name-link in full view of [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offer]].

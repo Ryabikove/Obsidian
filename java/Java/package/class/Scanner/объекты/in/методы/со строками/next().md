@@ -7,5 +7,5 @@
  System.out.printf("Your number: %s\\n", num);
  in.close();
 
-[[Java/package/built-in/java.lang/String|String]]
+[[Java/package/built-in/java/lang/String|String]]
 #метод

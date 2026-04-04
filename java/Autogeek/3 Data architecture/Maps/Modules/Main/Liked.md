@@ -1,12 +1,12 @@
-Окно, содержащее [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Список сущностей|список сущностей]], которые были отмечены пользователем.
+A window with [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]] which contains cars that have been liked by user.
 
-Задуманы как список сущностей, которые пользователь выбирает временно с целью покупки или сравнения.
+It is intended as a list of entities that the user selects temporarily for purchase or compare.
 
-Принципы:
-- В список могут быть добавлены только модели, поколения, карточки.
+Principles:
+- There can be only [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Model|models]], [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generations]] and [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offers]] in list.
 
-Переход к модулю осуществляется:
-- На сайте:
-	- Через [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Основное меню|основное меню]].
-- В телеграм-боте:
-	- С помощью команды "/liked".
+Wired with:
+- On site:
+	- [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Main menu|Main menu]];
+- In telegram bot:
+	- Command "/liked"

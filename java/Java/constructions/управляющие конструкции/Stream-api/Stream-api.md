@@ -2,7 +2,7 @@
 
 Ключевая концепция - stream - конвейер операций над элементами, взятыми из источника. Источником может быть:
 - [[Study/1 java core/5 Collections|коллекция]]
-- [[Java/variables/атрибуты переменных/значения переменной/Массив|Массив]]
+- [[Java/variables/атрибуты переменных/значения переменной/Array|Array]]
 - файл
 - генератор значений и д.р.
 
@@ -19,9 +19,9 @@
 Операции в потоке делятся на промежуточные (intermediate) и терминальные (terminal).
 
 Промежуточные операции преобразуют поток и возвращают новый поток. Могут выстраиваться в цепочку. К таким операциям относятся:
-- filter([[Java/package/built-in/java.util/function/Predicate|Predicate]]) - отбирают элементы по условию;
-- map([[Java/package/built-in/java.util/function/Function|Function]]) - выстраивает список эл-тов в один поток и преобразуют каждый;
-- flatMap([[Java/package/built-in/java.util/function/Function|Function]]) - то же, что и map(), только может разделять многомерные массивы на эл-ты;
+- filter([[Java/package/built-in/java/util/function/Predicate|Predicate]]) - отбирают элементы по условию;
+- map([[Java/package/built-in/java/util/function/Function|Function]]) - выстраивает список эл-тов в один поток и преобразуют каждый;
+- flatMap([[Java/package/built-in/java/util/function/Function|Function]]) - то же, что и map(), только может разделять многомерные массивы на эл-ты;
 - distinct() - удаляет дубликаты;
 - sorted() - сортирует элементы;
 - limit(n) - ограничивает количество элементов;
@@ -38,11 +38,11 @@ IntStream.range(7, 15);
 
 Терминальные операции завершают работу с потоком и возвращают результат, после их выполнения поток становится недоступным. К таким операциям относятся:
 - forEach(action) - выполняет действие для каждого элемента;
-- collect([[Java/package/built-in/java.util/stream/Collector|Collector]]) - собирает эл-ты в коллекцию;
+- collect([[Java/package/built-in/java/util/stream/Collector|Collector]]) - собирает эл-ты в коллекцию;
 - reduce(accumutalor) - сводит эл-ты к одному значению;
 - count() - возвращает кол-во элементов;
 - findFirst() - возвращает первый эл-т;
-- anyMatch([[Java/package/built-in/java.util/function/Predicate|Predicate]]) - проверят, есть ли эл-ты, удовлетворяющие условию;
+- anyMatch([[Java/package/built-in/java/util/function/Predicate|Predicate]]) - проверят, есть ли эл-ты, удовлетворяющие условию;
 - toList() - возвращает эл-ты в виде коллекции List;
 
 Основные ==преимущества==:

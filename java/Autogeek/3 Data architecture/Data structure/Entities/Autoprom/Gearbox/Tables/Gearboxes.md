@@ -1,12 +1,11 @@
-Таблица, содержащая характеристики коробки передач.
+Tables which contains data about [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Gearbox/Gearbox|gearboxes]]
 
-| Имя поля          | Тип данных                             | Unique         | Not Null | Default | Описание                                                                                                                                                                |
-| ----------------- | -------------------------------------- | -------------- | -------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| id                | Serial                                 | PK             | +        | -       | Идентификатор                                                                                                                                                           |
-| full_name         | Varchar(250)                           | +              | +        | -       | Имя двигателя                                                                                                                                                           |
-| photos            | #TODO придумать как хранить фотографии | -              | -        | -       | Фото двигателя                                                                                                                                                          |
-| gearbox_parent_id | Int                                    | FK one to many | -        | -       | Идентификатор двигателя предыдущего поколения из таблицы [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Двигатель/Таблицы/Engines\|engines]] |
-| gearbox_type      | Bytea                                  | FK one to many | -        | -       | Тип коробки передач из таблицы [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Коробка передач/Таблицы/Gearbox_types\|gearbox_types]]         |
-| gear_numbers      | Bytea                                  | -              | -        | -       | Количество передач                                                                                                                                                      |
-| review            | Text                                   | -              | -        | -       | Преимущества и недостатки                                                                                                                                               |
-
+| Field name        | Data type    | Unique         | Not Null | Default | Description                                                                                                                     |
+| ----------------- | ------------ | -------------- | -------- | ------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| id                | Serial       | PK             | +        | -       | ID                                                                                                                              |
+| full_name         | Varchar(250) | +              | +        | -       | Full name                                                                                                                       |
+| photos            | Varchar(255) | +              | -        | -       | link to photos archive                                                                                                          |
+| gearbox_parent_id | Int          | FK one to many | -        | -       | parent gearbox from [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Gearbox/Tables/Gearboxes\|gearboxes]]       |
+| gearbox_type      | Bytea        | FK one to many | -        | -       | gearbox type from [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Gearbox/Tables/Gearbox_types\|gearbox_types]] |
+| gear_numbers      | Bytea        | -              | -        | -       | gear numbers                                                                                                                    |
+| review            | Text         | -              | -        | -       | review                                                                                                                          |

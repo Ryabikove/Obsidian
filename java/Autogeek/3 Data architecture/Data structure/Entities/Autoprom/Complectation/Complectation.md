@@ -1,6 +1,3 @@
-Сущность, представляющая вариацию поколения авто.
+Entity which represents a complectation of a car.
 
-Комплектация для каждой вариации может иметь разное оснащение.
-
-
-Нет краткого и полного представлений. Отображается внутри полного представления [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Поколение/Поколение|поколения]].
+Doesn't have full or short view. Shown inside full view of [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generation]].

@@ -1,19 +1,19 @@
-Окно с перечнем популярных моделей авто в конкретном регионе.
+A window with list of popular cars.
 
-Принципы:
-- Представляет из себя [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Список сущностей|список сущностей]]: моделей и поколений.
-- Приоритет настроек выбора региона:
-	1. Вручную указан пользователем.
-	2. Взят из информации личного кабинета.
-	3. ip-адреса.
-- Список можно упорядочить по следующим критериям:
-	- кол-во успешных сделок.
-	- кол-во просмотров сущности.
-	- кол-во новых объявлений.
-- Период расчетов показателей популярности последние 3 месяца.
+Principles:
+- Represents a [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]]: [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Model|model]] and [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generations]];
+- Priority of region selection settings:
+	1. Specified by the user;
+	2. Taken from personal [[Autogeek/3 Data architecture/Data structure/Entities/Users/Account/Account|accounts]] information;
+	3. Location of IP-address.
+- The list can be sorted by the following criteria:
+	- Number of successful transactions;
+	- Number of entity views;
+	- Number of new ads.
+- Popularity metrics are calculated over the last three months.
 
-Переход к модулю осуществляется:
-- На сайте:
-	- Через [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Основное меню|основное меню]]
-- В телеграм-боте:
-	- С помощью команды "/top"
+Wired with:
+- On site:
+	- [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Main menu|Main menu]];
+- In telegram bot:
+	- Command "/top"

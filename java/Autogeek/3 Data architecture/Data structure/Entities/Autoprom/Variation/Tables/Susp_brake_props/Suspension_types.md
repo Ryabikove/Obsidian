@@ -1,6 +1,6 @@
-Таблица, содержащая типы систем подвески.
+Table which contains suspension types.
 
-| Имя поля             | Тип данных  | Unique | Not Null | Default | Описание               |
-| -------------------- | ----------- | ------ | -------- | ------- | ---------------------- |
-| id                   | bytea       | +      | +        | -       | Идентификатор          |
-| suspension_type_name | Varchar(25) | +      | +        | -       | Название типа подвески |
+| Field name           | Data type   | Unique | Not Null | Default | Description          |
+| -------------------- | ----------- | ------ | -------- | ------- | -------------------- |
+| id                   | bytea       | +      | +        | -       | ID                   |
+| suspension_type_name | Varchar(25) | +      | +        | -       | Suspencion type name |

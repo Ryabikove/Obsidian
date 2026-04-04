@@ -1,6 +1,6 @@
-Таблица с названиями типов расположений руля.
+Table which contains wheel orientations.
 
-| Имя поля                    | Тип данных  | Unique | Not Null | Default | Описание                        |
-| --------------------------- | ----------- | ------ | -------- | ------- | ------------------------------- |
-| id                          | bytea       | PK     | +        | -       | Идентификатор                   |
-| wheel_orientation_type_name | Varchar(25) | +      | +        | -       | Название типа расположения руля |
+| Field name                  | Data type   | Unique | Not Null | Default | Description                 |
+| --------------------------- | ----------- | ------ | -------- | ------- | --------------------------- |
+| id                          | bytea       | PK     | +        | -       | ID                          |
+| wheel_orientation_type_name | Varchar(25) | +      | +        | -       | Wheel orientation type name |

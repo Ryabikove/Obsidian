@@ -1,9 +1,9 @@
-Окно, содержащее статьи с разделенными на категории вопросами и ответами, чат с поддержкой и эл.почту поддержки и телефон горячей линии.
+A window containing articles with categorized popular questions and answers, a support chat, support email, and a hotline number.
 
-Необходимо для решения вопросов и проблем у пользователей при работе с продуктом.
+This is necessary for resolving user questions and issues while working with the product.
 
-Переход к модулю осуществляется:
-- На сайте:
-	- Через [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Основное меню|основное меню]].
-- В телеграм-боте:
-	- С помощью команды "/help".
+Wired with:
+- On site:
+	- [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Main menu|Main menu]];
+- In telegram bot:
+	- Command "/help"

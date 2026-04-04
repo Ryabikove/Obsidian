@@ -1,21 +1,15 @@
-Окно, содержащее добавленные в сравнительный лист модели/объявления.
+A window containing models/listings added to the comparison sheet.
 
-Окно в виде таблицы, где сравниваются все характеристики из [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Вариация/Вариация|вариации]], [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Комплектация/Комплектация|комплектации]] и приобретенные из [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Offer/Offer|карточки]].
-К приобретенным характеристикам относятся:
-- пробег;
-- цена;
-- деффекты;
-- кол-во владельцев;
-- прочее из ПТС;
+A table-like window comparing all properties of [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Variation|variations]], [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generations]] and [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offers]].
 
-Принципы сравнения:
-- Сущности разных уровней между собой невозможно сравнить - они добавляются в разные сравнительные таблицы.
-- Бренды и концерны нельзя сравнить.
+Comparison principles:
+- Entities of different kinds cannot be compared with each other - they are added to different comparison tables.
+- Brands and car concerns cannot be compared.
 
-Присутствует функция ИИ помощника, который делает выводы по каждой категории отдельно, и по всем в совокупности.
+There is an AI assistant function that makes conclusions for each category separately and for all of them in aggregate.
 
-Переход к модулю осуществляется:
-- На сайте:
-	- Через [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Основное меню|основное меню]]
-- В телеграм-боте:
-	- С помощью команды "/compare"
+Wired with:
+- On site:
+	- [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Main menu|Main menu]];
+- In telegram bot:
+	- Command "/compare"

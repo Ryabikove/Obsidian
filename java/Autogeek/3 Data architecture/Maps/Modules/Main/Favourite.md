@@ -1,12 +1,12 @@
-Окно, содержащее [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Список сущностей|список сущностей]], которые были отмечены пользователем.
+A window with [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]] which contains [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Tables/Models|models]], [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Tables/Generations|generations]] and [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/Variations|variations]].
 
-Принципы:
-- Задуманы как список сущностей, которые пользователь выбирает как "авто мечты".
-- В список могут быть добавлены только [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Модель/Модель|модели]] и [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Поколение/Поколение|поколения]]
-- Доступно только если пользователь прошел авторизацию
+Principles:
+- Designed as a list of entities that the user selects as their "dream car."
+- Only models and generations can be added to the list.
+- It is available only for users who is logged in.
 
-Переход к модулю осуществляется:
-- На сайте
-	- Через модуль продукта "[[Autogeek/3 Data architecture/Карты/Модули/Основные/Об аккаунте|об аккаунте]]" 
-- В телеграм-боте:
-	- Вызывается командой - /favourite
+Wired with:
+- On site:
+	- [[Autogeek/3 Data architecture/Maps/Modules/Main/About profile|About profile]];
+- In telegram bot:
+	- Command "/favourite".

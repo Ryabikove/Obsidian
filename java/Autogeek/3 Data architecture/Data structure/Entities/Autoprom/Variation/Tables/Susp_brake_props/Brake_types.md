@@ -1,7 +1,7 @@
-Таблица, содержащая типы тормозных систем.
+Table which contains brake types.
 
-| Имя поля        | Тип данных | Unique | Not Null | Default | Описание               |
-| --------------- | ---------- | ------ | -------- | ------- | ---------------------- |
-| id              | bytea      | +      | +        | -       | Идентификатор          |
-| brake_type_name | String     | +      | +        | -       | Название типа тормозов |
+| Field name      | Data type | Unique | Not Null | Default | Description     |
+| --------------- | --------- | ------ | -------- | ------- | --------------- |
+| id              | bytea     | +      | +        | -       | ID              |
+| brake_type_name | String    | +      | +        | -       | Brake type name |
 

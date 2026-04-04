@@ -1,6 +1,6 @@
-Содержит типы расположений цилиндров.
+Containt data about cylinder positions.
 
-| Имя поля                | Тип данных  | Unique | Not Null | Default | Описание                          |
-| ----------------------- | ----------- | ------ | -------- | ------- | --------------------------------- |
-| id                      | Bytea       | +      | +        | -       | Идентификатор                     |
-| cylinders_position_name | Varchar(25) | +      | +        | -       | Название типа положения цилиндров |
+| Field name              | Data type   | Unique | Not Null | Default | Description                   |
+| ----------------------- | ----------- | ------ | -------- | ------- | ----------------------------- |
+| id                      | Bytea       | +      | +        | -       | ID                            |
+| cylinders_position_name | Varchar(25) | +      | +        | -       | Cylinder's position type name |

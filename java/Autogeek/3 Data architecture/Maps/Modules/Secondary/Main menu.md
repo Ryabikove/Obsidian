@@ -1,11 +1,11 @@
-Основное меню, доступное на сайте, представляющее из себя прямоугольную область со ссылками на модули.
+The main menu available on the site is a rectangular area with links to modules.
 
-Свойства:
-- Доступно из любого модуля
+Properties:
+- Available from every module.
 
-Меню позволяет переходить к модулям:
-- [[Autogeek/3 Data architecture/Карты/Модули/Основные/О нас|О нас]]
-- [[Autogeek/3 Data architecture/Карты/Модули/Основные/Популярные|Популярные]]
-- [[Autogeek/3 Data architecture/Карты/Модули/Основные/Понравившееся|Понравившееся]]
-- [[Autogeek/3 Data architecture/Карты/Модули/Основные/Фильтры|Фильтры]]
-- [[Autogeek/3 Data architecture/Карты/Модули/Основные/Рекомендации|Рекомендации]]
+Menu which allows to move in app and wired with next modules:
+- [[Autogeek/3 Data architecture/Maps/Modules/Main/About us|About us]];
+- [[Autogeek/3 Data architecture/Maps/Modules/Main/Popular|Popular]];
+- [[Autogeek/3 Data architecture/Maps/Modules/Main/Liked|Liked]];
+- [[Autogeek/3 Data architecture/Maps/Modules/Main/Filters|Filters]];
+- [[Autogeek/3 Data architecture/Maps/Modules/Main/Recommendations|Recommendations]].

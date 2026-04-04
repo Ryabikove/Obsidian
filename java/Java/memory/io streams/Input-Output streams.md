@@ -9,7 +9,7 @@ Streams can be determinated by flowing data:
 | -------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | *Data Type*    | Raw 8-bit bytes (0-255)                                                                                                   | 16-bit Unicode characters                                                                           |
 | *Best For*     | Images, Videos, Zip files, Executables                                                                                    | Text files, Logs, HTML, JSON                                                                        |
-| *Root Classes* | [[Java/package/built-in/java.io/InputStream\|InputStream]] / [[Java/package/built-in/java.io/OutputStream\|OutputStream]] | [[Java/package/built-in/java.io/Reader\|Reader]] / [[Java/package/built-in/java.io/Writer\|Writer]] |
+| *Root Classes* | [[Java/package/built-in/java/io/InputStream\|InputStream]] / [[Java/package/built-in/java/io/OutputStream\|OutputStream]] | [[Java/package/built-in/java/io/Reader\|Reader]] / [[Java/package/built-in/java/io/Writer\|Writer]] |
 
 There are 2 patterns to make streams.
 *Decoration pattern*:
@@ -20,14 +20,14 @@ BufferedInputStream bis = new BufferedInputStream(fis); // Adds a buffer (faster
 DataInputStream dis = new DataInputStream(bis); // Allows reading ints, doubles, etc.
 ```
 
-[[Java/package/built-in/java.io/BufferedInputStream|BufferedInputStream]] makes reading faster cause it no longer needs to ask hard drive for one byte, it just asks for whole data and store into buffer.
+[[Java/package/built-in/java/io/BufferedInputStream|BufferedInputStream]] makes reading faster cause it no longer needs to ask hard drive for one byte, it just asks for whole data and store into buffer.
 
 *Modern way*:
 Starting with Java 7, the new I/O classes become available.
 Main classes:
-- [[Java/package/built-in/java.io/file/Path|Path]] - location of file;
-- [[Java/package/built-in/java.io/file/Paths|Paths]]/[[Java/package/built-in/java.io/file/Path|Path.of]] - how create a Path;
-- [[Java/package/built-in/java.io/file/Files|Files]] - utility class which does main actions (read, write, delete, copy);
+- [[Java/package/built-in/java/io/file/Path|Path]] - location of file;
+- [[Java/package/built-in/java/io/file/Paths|Paths]]/[[Java/package/built-in/java/io/file/Path|Path.of]] - how create a Path;
+- [[Java/package/built-in/java/io/file/Files|Files]] - utility class which does main actions (read, write, delete, copy);
 
 ```
 String content = Files.readString(Path.of("./data.txt")); // read data
@@ -35,7 +35,7 @@ Files.write(Path.of("output.txt"), List.of("Line 1", "Line 2")); //write data
 ```
 
 
-There is serialization technology, which allows us save whole classes in files and download later.
+There is [[Java/memory/io streams/Serialization|serialization]] technology, which allows us save whole classes in files and download later.
 
 IO can be [[Java/memory/io streams/Blocking and non-blocking|blocking and non-blocking]]:
 - blocking - wait until data be read or written

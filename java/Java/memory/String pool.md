@@ -10,4 +10,4 @@ String s4 = new String("Book").intern(); #s4==s2==s1
 
 В java тип данных String неизменяемый, то есть если есть строка "java", то при её форматировании в строку "Java" будет создан новый объект в памяти.
 
-Для добавления строк в пул существует метод [[Java/package/built-in/java.lang/String|intern()]] класса String.
+Для добавления строк в пул существует метод [[Java/package/built-in/java/lang/String|intern()]] класса String.

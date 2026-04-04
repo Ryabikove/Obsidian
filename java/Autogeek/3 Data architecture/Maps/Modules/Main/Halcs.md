@@ -1,17 +1,17 @@
-Окно, содержащее калькуляторы для расчета стоимости:
-- растаможки авто
-- владения авто в год
+A window containing calculators for calculating the cost of:
+- vehicle customs clearance;
+- annual vehicle ownership.
 
-Калькулятор растаможки по принципу - [Калькулятор растаможки автомобилей](https://calcus.ru/rastamozhka-auto)
-Калькулятор владения по принципу - [Калькулятор владения авто | Автопрагмат](https://autopragmat.ru/calculator/)
+Customs clearance calculator based on - [Калькулятор растаможки автомобилей](https://calcus.ru/rastamozhka-auto)
+Ownership calculator based on - [Калькулятор владения авто | Автопрагмат](https://autopragmat.ru/calculator/)
 
-Принципы:
-- Для расчета стоимости в обоих калькуляторах показатели можно ввести вручную или выбрать модель/поколение/карточку для автоматического расчета.
+Principles:
+- To calculate the cost in both calculators, you can enter the parameters manually or select a [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Model|model]]/[[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generation]]/[[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offer]] for automatic calculation.
 
-Переход к модулю осуществляется:
-- На сайте:
-	- Через [[Autogeek/3 Data architecture/Карты/Модули/Дополнительные/Вспомогательное меню|вспомогательное меню]]
-	- Через ссылку в полном представлении [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Поколение/Поколение|поколения]] или [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Offer/Offer|карточки]]
-- В телеграм-боте:
-	- вызывается командой - /halc
-	- Через полное представление [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Поколение/Поколение|поколения]] или [[Autogeek/3 Data architecture/Структура данных/Сущности/Автопром/Offer/Offer|карточки]]
+Wired with:
+- On site:
+	- [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Assistant menu|Assistant menu]];
+	- Link in full view of [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generation]] or [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offer]];
+- In telegram bot:
+	- Command "/halc";
+	-  Link in full view of [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generation]] or [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offer]].

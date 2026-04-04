@@ -1,6 +1,6 @@
-Содержит типы наддува двигателя.
+Contains data about boost types
 
-| Имя поля               | Тип данных  | Unique | Not Null | Default | Описание              |
-| ---------------------- | ----------- | ------ | -------- | ------- | --------------------- |
-| id                     | bytea       | +      | +        | -       | Идентификатор         |
-| engine_boost_type_name | Varchar(25) | +      | +        | -       | Название типа наддува |
+| Field name             | Data type   | Unique | Not Null | Default | Description       |
+| ---------------------- | ----------- | ------ | -------- | ------- | ----------------- |
+| id                     | bytea       | +      | +        | -       | ID                |
+| engine_boost_type_name | Varchar(25) | +      | +        | -       | Boost type's name |
