@@ -15,3 +15,5 @@ Table which contains data about [[Autogeek/3 Data architecture/Data structure/En
 | susp_brake_props_id  | JSONB        | -              | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/JSONB/Susp_brake_props\|susp brake props]]     |
 | other_props_id       | JSONB        | -              | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/JSONB/Other_props\|other props]]               |
 | description_n_review | Text         | -              | -        | -       | Description and review                                                                                                                     |
+| acl_to_100           | bytea        | -              | -        | -       | Acceleration to 100 (s/10)                                                                                                                 |
+| fuel_per_100         | bytea        | -              | -        | -       | Fuel consumption per 100 km (l);                                                                                                           |

@@ -45,7 +45,7 @@ If user looks on information about the other accounts:
 
 Wired with:
 - On site:
-	- Name-link in [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offer]];
+	- Name-link in full view of [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offer]];
 	- [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Assistant menu|Assistant menu]] - if user hasn't logged in, he will be sent to [[Autogeek/3 Data architecture/Maps/Modules/Main/Autorization and Registration|autorization and registration]];
 - In telegram bot:
 	- Command "/me" -  if user hasn't logged in, he will be sent to [[Autogeek/3 Data architecture/Maps/Modules/Main/Autorization and Registration|autorization and registration]];

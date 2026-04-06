@@ -8,4 +8,5 @@ Menu which allows to move in app and wired with next modules:
 - [[Autogeek/3 Data architecture/Maps/Modules/Main/Popular|Popular]];
 - [[Autogeek/3 Data architecture/Maps/Modules/Main/Liked|Liked]];
 - [[Autogeek/3 Data architecture/Maps/Modules/Main/Filters|Filters]];
-- [[Autogeek/3 Data architecture/Maps/Modules/Main/Recommendations|Recommendations]].
+- [[Autogeek/3 Data architecture/Maps/Modules/Main/Recommendations|Recommendations]];
+- [[Autogeek/3 Data architecture/Maps/Modules/Main/News|News]].

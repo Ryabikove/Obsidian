@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/2 algorithms and data structures/Data structures.md",
+                "file": "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Data structures"
+              "title": "Generation"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/2 algorithms and data structures/Data structures.md",
+                "file": "Autogeek/3 Data architecture/Maps/Modules/Main/Filters.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Data structures"
+              "title": "Filters"
             }
           }
         ],
@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "review",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,40 +198,40 @@
   },
   "active": "7804cc037373c424",
   "lastOpenFiles": [
-    "Java/memory/data structures/Restricted data structures.md",
-    "Study/2 algorithms and data structures/Data structures.md",
-    "Java/memory/data structures/Non-linear data structures.md",
-    "Java/package/built-in/java/TreeSet.md",
-    "Java/package/built-in/java/util/TreeMap.md",
-    "Java/memory/data structures/Physical stores.md",
-    "Java/memory/data structures/Non-Linear structures",
-    "Java/package/built-in/java/util/Stack.md",
-    "Java/package/built-in/java/util/Set.md",
-    "Java/package/built-in/java/util/Queue.md",
-    "Java/package/built-in/java/util/Map.md",
-    "Study/2 algorithms and data structures/Algorithms and Data structures.md",
-    "Java/memory/data structures/Data structures.md",
-    "Java/memory/data structures",
-    "Java/package/built-in/java/util/HashMap.md",
-    "Study/2 algorithms and data structures/Algorithms.md",
-    "Java/operations/Big O notation.md",
-    "Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Tables/Articles.md",
-    "Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Tables/JSONB",
-    "Autogeek/3 Data architecture/Data structure/Entities/Users/Review/Tables/Reviews.md",
-    "Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Article.md",
-    "Autogeek/3 Data architecture/Data structure/Entities/Users/Review/Review.md",
-    "Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Tables",
-    "Autogeek/3 Data architecture/Data structure/Entities/Users/Account/Tables/Accounts.md",
     "Autogeek/TODO.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Brand/Brand.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Model.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Concern/Concern.md",
     "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation.md",
-    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Engine/Engine.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Gearbox/Tables/Gearboxes.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Variation.md",
+    "Autogeek/3 Data architecture/Maps/Map.canvas",
+    "Autogeek/3 Data architecture/Maps/Map.md",
+    "Autogeek/3 Data architecture/Maps/Modules/Main/Filters.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/Variations.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/JSONB/Other_props.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/JSONB/Body_props.md",
     "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Engine/Tables/Engines.md",
-    "Autogeek/3 Data architecture/Data structure/Entities/Users/Account/Account.md",
-    "Autogeek/3 Data architecture/Data structure/Entities/Users/Report/Report.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/JSONB/Susp_brake_props.md",
+    "Study/2 algorithms and data structures/Data structures.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Tables/Generations.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Tables/Offers.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Tables/Offer_types.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Tables/Body_color_types.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Tables/Models.md",
+    "Autogeek/3 Data architecture/Maps/Modules/Main/News.md",
+    "Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list.md",
+    "Autogeek/3 Data architecture/Maps/Modules/Secondary/Main menu.md",
+    "Autogeek/3 Data architecture/Maps/Modules/Main/About profile.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Tables/Articles.md",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Tables/JSONB/Entities_list.md",
+    "Java/memory/data structures/Non-Linear structures",
+    "Java/memory/data structures",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Tables/JSONB",
+    "Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Tables",
     "Autogeek/3 Data architecture/Data structure/Entities/Users/Review/Tables",
     "Autogeek/3 Data architecture/Data structure/Entities/Users/Review",
     "Autogeek/Basic architecture.canvas",
-    "Autogeek/3 Data architecture/Maps/Map.canvas",
     "Autogeek/3 Data architecture/Карты/Модули/Основные",
     "Autogeek/3 Data architecture/Карты/Модули",
     "Autogeek/3 Data architecture/Карты",

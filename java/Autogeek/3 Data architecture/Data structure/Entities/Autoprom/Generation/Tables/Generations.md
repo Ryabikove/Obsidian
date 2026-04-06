@@ -12,3 +12,5 @@ Table which contains data about [[Autogeek/3 Data architecture/Data structure/En
 | produced_auto        | Int          | -              | -        | -       | how many were produced                                                                                                               |
 | sold_auto            | Int          | -              | -        | -       | how many were sold                                                                                                                   |
 | description_n_review | Text         | -              | -        | -       | Description + review                                                                                                                 |
+| prices_range         | Int          | -              | -        | -       | Prices range from [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Tables/Offers\|offers]]                         |
+

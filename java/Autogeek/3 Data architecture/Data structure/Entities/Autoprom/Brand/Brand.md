@@ -14,9 +14,9 @@ Entity which represent an auto brand.
 | Capitalization                                                                                            | capitalization                                                                                                                      |
 | Growth rates                                                                                              | growth                                                                                                                              |
 | Brand's description and history                                                                           | description_n_history                                                                                                               |
-| List of countries where do the cars produced                                                              | *think about realisation*                                                                                                           |
 | How many cars were produced                                                                               | produced_auto                                                                                                                       |
 | How many cars were sold                                                                                   | sold_auto                                                                                                                           |
+| List of countries where do the cars produced                                                              | *think about realisation later*                                                                                                     |
 *Short view:*
 
 | Description                                                                                          | Field name                                                                                                                          |

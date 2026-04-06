@@ -15,5 +15,20 @@ Jsonb which contains data about car body.
 | min_trunk_capacity | Smallint  | -      | +        | -       | Min trunk capacity (l) |
 | max_trunk_capacity | Smallint  | -      | +        | -       | Max trunk capacity (l) |
 | tank_capacity      | Smallint  | -      | +        | -       | Tank capacity (l)      |
-
-
+```
+interier_props: [
+	body_length: ...,
+	body_width: ...,
+	body_heigth: ...,
+	wheel_base: ...,
+	front_track: ...,
+	back_track: ...,
+	doors_number: ...,
+	seats_number : ...,
+	empty_weight: ...,
+	full_weight: ...,
+	min_trunk_capacity: ...,
+	max_trunk_capacity: ...,
+	tank_capacity: ...
+]
+```

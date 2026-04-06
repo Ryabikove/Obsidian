@@ -9,3 +9,13 @@ Jsonb which contains safety properties.
 | stabilization_system | boolean   | -      | +        | False   |
 | ERA-GLONASS          | boolean   | -      | +        | False   |
 
+```
+interier_props: [
+	abs: [true/false],
+	back_doors_lock: [true/false],
+	armored_body: [true/false],
+	tire_pressure_sensor: [true/false],
+	stabilization_system: [true/false],
+	ERA-GLONASS: [true/false]
+] 
+```

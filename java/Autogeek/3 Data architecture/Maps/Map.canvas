@@ -19,7 +19,8 @@
 		{"id":"812387d0354f8e8b","type":"text","text":"[[Autogeek/3 Data architecture/Maps/Modules/Main/In sell|In sell]]","x":145,"y":168,"width":146,"height":60,"color":"5"},
 		{"id":"fc97e2626ef62da1","type":"text","text":"[[Autogeek/3 Data architecture/Maps/Modules/Main/Help|Help]]","x":-261,"y":600,"width":163,"height":50,"color":"4"},
 		{"id":"407e6c4c6fe6133d","type":"text","text":"[[Autogeek/3 Data architecture/Maps/Modules/Main/About profile|About profile]]","x":145,"y":364,"width":147,"height":60,"color":"4"},
-		{"id":"4706a215e7a9e71a","type":"text","text":"[[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|Full view]]","x":-162,"y":265,"width":128,"height":70}
+		{"id":"4706a215e7a9e71a","type":"text","text":"[[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|Full view]]","x":-162,"y":265,"width":128,"height":70},
+		{"id":"00ad622b3348f502","x":-420,"y":-22,"width":124,"height":60,"color":"4","type":"text","text":"[[Autogeek/3 Data architecture/Maps/Modules/Main/News|News]]"}
 	],
 	"edges":[
 		{"id":"163bc258d3bdc3af","fromNode":"c79d9c6390b32b29","fromSide":"bottom","toNode":"758b9a5c4aecae04","toSide":"top"},
@@ -43,6 +44,7 @@
 		{"id":"b098bb1d91ea7d4d","fromNode":"407e6c4c6fe6133d","fromSide":"top","toNode":"812387d0354f8e8b","toSide":"bottom"},
 		{"id":"cfe6f3c195b1f898","fromNode":"4706a215e7a9e71a","fromSide":"right","toNode":"407e6c4c6fe6133d","toSide":"left"},
 		{"id":"1e01bc2e46e2fe1a","fromNode":"812387d0354f8e8b","fromSide":"top","toNode":"758b9a5c4aecae04","toSide":"bottom"},
-		{"id":"005fbcabed1afa37","fromNode":"8695a17db3b0dd2c","fromSide":"left","toNode":"fc97e2626ef62da1","toSide":"bottom"}
+		{"id":"005fbcabed1afa37","fromNode":"8695a17db3b0dd2c","fromSide":"left","toNode":"fc97e2626ef62da1","toSide":"bottom"},
+		{"id":"3f62af07e9d80e9b","fromNode":"585c4ef3145da56e","fromSide":"left","toNode":"00ad622b3348f502","toSide":"top"}
 	]
 }

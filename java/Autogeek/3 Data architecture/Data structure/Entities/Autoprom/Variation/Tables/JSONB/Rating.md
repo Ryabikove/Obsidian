@@ -10,3 +10,16 @@ Jsonb with rating of [[Autogeek/3 Data architecture/Data structure/Entities/Auto
 | representative   | Bytea     | -      | +        | 0       |
 | compactness      | Bytea     | -      | +        | 0       |
 | advancedness     | Bytea     | -      | +        | 0       |
+
+```
+rating: [
+	interior_comfor: [1-10],
+	capacity: [1-10],
+	dynamic: [1-10],
+	for_family: [1-10],
+	for_offroads: [1-10],
+	representative: [1-10],
+	compactness: [1-10],
+	advancedness: [1-10]
+]
+```

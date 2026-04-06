@@ -14,3 +14,19 @@ Jsonb which contains multimedia properties.
 | socket_12v          | boolean   | -      | +        | False   |
 | socket_220v         | boolean   | -      | +        | False   |
 | yandex_auto         | boolean   | -      | +        | False   |
+
+```
+interier_props: [
+	aux: [true/false],
+	android_auto: [true/false],
+	carplay: [true/false],
+	usb: [true/false],
+	voice_control: [true/false],
+	backseat_multimedia: [true/false],
+	lcd_screen: [true/false],
+	navigation_system : [true/false],
+	socket_12v: [true/false],
+	socket_220v: [true/false],
+	yandex_auto: [true/false]
+] 
+```

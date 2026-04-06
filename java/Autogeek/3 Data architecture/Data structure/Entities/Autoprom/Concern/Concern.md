@@ -14,7 +14,7 @@ Entity which represents concern - brands owner.
 | Capitalization                                                                                         | capitalization                                                                                                                      |
 | Grows of capitalization                                                                                | grows                                                                                                                               |
 | Description and history                                                                                | description_n_history                                                                                                               |
-| List of countries where do the cars produced                                                           | *think about realisation*                                                                                                           |
+| List of countries where do the cars produced                                                           | *think about realisation later*                                                                                                     |
 *Short view:*
 
 | Description                                                                                           | Field name                                                                                                                          |

@@ -11,3 +11,17 @@ Jsonb which contains light properties.
 | light_turning_correction  | boolean   | -      | +        | False   |
 | light_adaptation_system   | boolean   | -      | +        | False   |
 | high_light_control_system | boolean   | -      | +        | False   |
+
+```
+interier_props: [
+	light_auto_correction: [true/false],
+	rain_sensor: [true/false],
+	light_sensor: [true/false],
+	daytime_light: [true/false],
+	light_washers: [true/false],
+	fog_lights: [true/false],
+	light_turning_correction: [true/false],
+	light_adaptation_system : [true/false],
+	high_light_control_system: [true/false]
+] 
+```
