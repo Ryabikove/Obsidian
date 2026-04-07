@@ -1,7 +1,7 @@
-A window with list of recommended cars.
+Type of [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]] with recommended cars.
 
 Principles:
-- Represents a [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]]: [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Model|model]] and [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generations]];
+- Contains only [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Model|model]] and [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generations]];
 - If the user is not logged in, it contains information from the [[Autogeek/3 Data architecture/Maps/Modules/Main/Popular|popular]] list;
 - Recommendations are prioritized from the following:
 	- Favorites;

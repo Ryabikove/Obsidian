@@ -10,7 +10,7 @@ Jsonb which contains safety properties.
 | ERA-GLONASS          | boolean   | -      | +        | False   |
 
 ```
-interier_props: [
+safety_props: [
 	abs: [true/false],
 	back_doors_lock: [true/false],
 	armored_body: [true/false],

@@ -7,4 +7,4 @@ Table which contains information about [[Autogeek/3 Data architecture/Data struc
 | description   | Text                       | -      | +        | -       | Description of report                                                                                                       |
 | creation_date | Timestamp without timezone | -      | +        | NOW()   | Creation date                                                                                                               |
 | rating        | JSONB                      | -      | -        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/JSONB/Rating\|rating]]          |
-| entities_list | JSONB                      | -      | -        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Tables/JSONB/Entities_list\|entities_list]] |
+| entities_list | JSONB                      | -      | -        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Users/Article/Tables/JSONB/Entity_list\|entities_list]] |

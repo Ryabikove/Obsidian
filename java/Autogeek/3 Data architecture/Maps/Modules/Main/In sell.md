@@ -1,4 +1,4 @@
-A window with [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]] of [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offers]], which user has added to the app.
+Type of [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]] with [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offers]], which user has added to the app.
 
 Principles:
 - It is intendes as module which allows to add [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Variation|variations]] of car for selling;

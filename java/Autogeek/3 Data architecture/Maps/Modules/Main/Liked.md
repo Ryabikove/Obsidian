@@ -1,4 +1,4 @@
-A window with [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]] which contains cars that have been liked by user.
+Type of [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]] which contains cars that have been liked by user.
 
 It is intended as a list of entities that the user selects temporarily for purchase or compare.
 

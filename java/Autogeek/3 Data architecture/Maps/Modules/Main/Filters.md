@@ -1,4 +1,8 @@
-Depending on the view, a window or menu containing filters for the [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|Entity list]].
+Contains filters for the [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|Entity list]].
+
+Can be showed as:
+- Separate [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]] of [[Autogeek/3 Data architecture/Maps/Modules/Main/Filters|filters]].
+- Area on the screen in modules: [[Autogeek/3 Data architecture/Maps/Modules/Main/In sell|in sell]] [[Autogeek/3 Data architecture/Maps/Modules/Main/Recommendations|recommendations]], [[Autogeek/3 Data architecture/Maps/Modules/Main/Popular|popular]], [[Autogeek/3 Data architecture/Maps/Modules/Main/Liked|liked]] and [[Autogeek/3 Data architecture/Maps/Modules/Main/Favourite|favourite]].
 
 Filter types:
 - Primary:
@@ -15,6 +19,64 @@ Filter types:
 	- Country of manufacture;
 	- Acceleration to 100;
 	- Fuel consumption per 100 km;
+- Complectation:
+	- Light properties:
+		- Light auto correction;
+		- Rain sensor;
+		- Light sensor;
+		- Daytime light;
+		- Light washers;
+		- Fog lights;
+		- Light turning correction;
+		- Light adaptationv system;
+		- High light control system;
+	- Anti-theft properies:
+		- Central lock;
+		- Immobilizer;
+		- Intrusion sensor;
+	- Interier properties
+		- Sunroof;
+		- Color of interier;
+		- Wheel heaters;
+		- Wheel leather trim;
+		- Gearbox lever leather trim;
+		- Panoramic roof;
+		- Front central armrest;
+		- Folding back seat;
+		- Sport front seat;
+		- Tinted windows;
+		- Third seats row;
+	- Safety properties:
+		- Abs;
+		- Back doors lock;
+		- Armored body;
+		- Tire pressure sensor;
+		- Stabilization system;
+		- ERA-GLONASS;
+	- Multimedia properties:
+		- Aux;
+		- Android auto;
+		- Carplay;
+		- Usb;
+		- Voice control;
+		- Backseat multimedia;
+		- Lcd screen;
+		- Navigation system;
+		- Socket 12v;
+		- Socket 220v;
+		- Yandex auto;
+	- Exterier properties:
+		- Aerography;
+		- Body kits;
+		- Roof rails;
+- Offer:
+	- Owners number;
+	- VRC original;
+	- Offer type;
+	- Was car in accident;
+	- May car be changed;
+	- Has car a guarantee;
+	- Color type;
 - Body:
 	- Body length (mm);
 	- Body width (mm);
@@ -29,6 +91,7 @@ Filter types:
 	- Wheel base (mm);
 	- Front track (mm);
 	- Back track (mm);
+	- Color of body;
 - Engine:
 	- Power (hp);
 	- Engine type;
@@ -57,6 +120,7 @@ Filter types:
 	- Eco class;
 	- 0 to 100;
 	- Fuel consumption;
+
 
 *Add offer filters*
 Principles:

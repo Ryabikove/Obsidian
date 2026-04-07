@@ -1,4 +1,4 @@
-A window with [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]] which contains [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Tables/Models|models]], [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Tables/Generations|generations]] and [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/Variations|variations]].
+Type of [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]] which contains [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Tables/Models|models]], [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Tables/Generations|generations]] and [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/Variations|variations]].
 
 Principles:
 - Designed as a list of entities that the user selects as their "dream car."

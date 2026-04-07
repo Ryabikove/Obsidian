@@ -1,4 +1,6 @@
-A feed of entities in the form of short view.
+A basic window and at the same time representation of entities:
+- As window it contains list of entities in short view.
+- As representation it is feed of entities in the form of short view.
 
 Clicking on an entity's short view takes you to its full view and provides more information about it.
 You can't open two full views of an entity in the one window.

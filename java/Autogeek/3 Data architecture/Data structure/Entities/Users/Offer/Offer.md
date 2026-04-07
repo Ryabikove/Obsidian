@@ -23,7 +23,7 @@ Entity, which describes actual offer from auto-sellers.
 | Car has guarantee          | has_guarantee                                                                                                                                                |
 | Description of offer       | description                                                                                                                                                  |
 | Characteristics            | * from table [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Variation/Tables/Variations\|variations]] on variation_id                       |
-| Complectation              | * from table [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/Complectations\|complectations]] on complectation_id       |
+| Complectation              | complectation                                                                                                                                                |
 | Color of cars body         | body_color                                                                                                                                                   |
 | Color of interier          | interier_color                                                                                                                                               |
 | Color type                 | Color type name from table [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Tables/Body_color_types\|body_color_types]] on body_color_type |

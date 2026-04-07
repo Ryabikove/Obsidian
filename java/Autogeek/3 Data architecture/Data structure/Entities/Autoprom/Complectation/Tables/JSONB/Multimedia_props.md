@@ -16,7 +16,7 @@ Jsonb which contains multimedia properties.
 | yandex_auto         | boolean   | -      | +        | False   |
 
 ```
-interier_props: [
+multimedia_props: [
 	aux: [true/false],
 	android_auto: [true/false],
 	carplay: [true/false],

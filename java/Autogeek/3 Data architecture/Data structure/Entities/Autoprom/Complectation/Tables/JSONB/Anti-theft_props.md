@@ -1,4 +1,4 @@
-Jsonb which contains exterier properies.
+Jsonb which contains anti-theft properies.
 
 | Field name       | Data type | Unique | Not Null | Default |
 | ---------------- | --------- | ------ | -------- | ------- |
