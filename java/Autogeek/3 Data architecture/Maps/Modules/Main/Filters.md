@@ -70,13 +70,12 @@ Filter types:
 		- Body kits;
 		- Roof rails;
 - Offer:
-	- Owners number;
+	- Owners quantity;
 	- VRC original;
 	- Offer type;
 	- Was car in accident;
 	- May car be changed;
 	- Has car a guarantee;
-	- Color type;
 - Body:
 	- Body length (mm);
 	- Body width (mm);
@@ -84,14 +83,15 @@ Filter types:
 	- Tank capacity (l);
 	- Minimum trunk capacity (l);
 	- Maximum trunk capacity (l);
-	- Seats number;
-	- Doors number;
+	- Seats quantity;
+	- Doors quantity;
 	- Empty weight (kg);
 	- Full weight (kg);
 	- Wheel base (mm);
 	- Front track (mm);
 	- Back track (mm);
 	- Color of body;
+	- Color type;
 - Engine:
 	- Power (hp);
 	- Engine type;
@@ -110,7 +110,7 @@ Filter types:
 	- Piston stroke;
 - Gearbox:
 	- Gearbox type;
-	- Gear numbers;
+	- Gear quantity;
 - Brake and suspencion systems:
 	- Suspension type;
 	- Brake type;

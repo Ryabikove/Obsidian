@@ -1,72 +1,72 @@
 Jsonb which contains offer complectation properties.
 
-| Field name       | Data type    | Unique | Not Null | Default | Description                                                                                                                                |
-| ---------------- | ------------ | ------ | -------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| id               | Serial       | PK     | +        | -       | ID                                                                                                                                         |
-| full_name        | Varchar(100) | -      | +        | -       | Name of complectation                                                                                                                      |
-| linght_props     | JSONB        | -      | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Light_props\|light props]]           |
-| anti-theft_props | JSONB        | -      | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Anti-theft_props\|anti-theft props]] |
-| interier_props   | JSONB        | -      | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Interier_props\|interier props]]     |
-| safety_props     | JSONB        | -      | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Safety_props\|safety props]]         |
-| multimedia_props | JSONB        | -      | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Multimedia_props\|multimedia props]] |
-| exterier_props   | JSONB        | -      | +        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Exterier_props\|exterier props]]     |
+| Field name       | Data type    | Not Null | Default | Description                                                                                                                                |
+| ---------------- | ------------ | -------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| id               | Serial       | +        | -       | ID                                                                                                                                         |
+| full_name        | Varchar(100) | +        | -       | Name of complectation                                                                                                                      |
+| linght_props     | JSONB        | -        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Light_props\|light props]]           |
+| anti-theft_props | JSONB        | -        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Anti-theft_props\|anti-theft props]] |
+| interier_props   | JSONB        | -        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Interier_props\|interier props]]     |
+| safety_props     | JSONB        | -        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Safety_props\|safety props]]         |
+| multimedia_props | JSONB        | -        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Multimedia_props\|multimedia props]] |
+| exterier_props   | JSONB        | -        | -       | Jsonb with [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Complectation/Tables/JSONB/Exterier_props\|exterier props]]     |
 
 ```
 complectation : [
 	id: ...,
 	full_name: '...',
 	light_props: [
-		light_auto_correction: [true/false],
-		rain_sensor: [true/false],
-		light_sensor: [true/false],
-		daytime_light: [true/false],
-		light_washers: [true/false],
-		fog_lights: [true/false],
-		light_turning_correction: [true/false],
-		light_adaptation_system : [true/false],
-		high_light_control_system: [true/false]
+		light_auto_correction: true,
+		rain_sensor: true,
+		light_sensor: true,
+		daytime_light: true,
+		light_washers: true,
+		fog_lights: true,
+		light_turning_correction: true,
+		light_adaptation_system : true,
+		high_light_control_system: true
 	],
 	anti-theft_props: [
-		central_lock: [false/true],
-		immobilizer: [false/true],
-		intrusion_sensor: [false/true]
+		central_lock: true,
+		immobilizer: true,
+		intrusion_sensor: true
 	],
 	interier_props: [
-		light_auto_correction: [true/false],
-		rain_sensor: [true/false],
-		light_sensor: [true/false],
-		daytime_light: [true/false],
-		light_washers: [true/false],
-		fog_lights: [true/false],
-		light_turning_correction: [true/false],
-		light_adaptation_system : [true/false],
-		high_light_control_system: [true/false]
+		light_auto_correction: true,
+		rain_sensor: true,
+		light_sensor: true,
+		daytime_light: true,
+		light_washers: true,
+		fog_lights: true,
+		light_turning_correction: true,
+		light_adaptation_system : true,
+		high_light_control_system: true
 	],
 	safety_props: [
-		abs: [true/false],
-		back_doors_lock: [true/false],
-		armored_body: [true/false],
-		tire_pressure_sensor: [true/false],
-		stabilization_system: [true/false],
-		ERA-GLONASS: [true/false]
+		abs: true,
+		back_doors_lock: true,
+		armored_body: true,
+		tire_pressure_sensor: true,
+		stabilization_system: true,
+		ERA-GLONASS: true
 	],
 	multimedia_props: [
-		aux: [true/false],
-		android_auto: [true/false],
-		carplay: [true/false],
-		usb: [true/false],
-		voice_control: [true/false],
-		backseat_multimedia: [true/false],
-		lcd_screen: [true/false],
-		navigation_system : [true/false],
-		socket_12v: [true/false],
-		socket_220v: [true/false],
-		yandex_auto: [true/false]
+		aux: true,
+		android_auto: true,
+		carplay: true,
+		usb: true,
+		voice_control: true,
+		backseat_multimedia: true,
+		lcd_screen: true,
+		navigation_system : true,
+		socket_12v: true,
+		socket_220v: true,
+		yandex_auto: true
 	],
 	exterier_props: [
-		aerography: [true/false],
-		body_kits: [true/false],
-		roof_rails: [true/false]
+		aerography: true,
+		body_kits: true,
+		roof_rails: true
 	]
 ]
 ```

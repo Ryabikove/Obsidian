@@ -7,5 +7,5 @@ Tables which contains data about [[Autogeek/3 Data architecture/Data structure/E
 | photos            | Varchar(255) | +              | -        | -       | link to photos archive                                                                                                          |
 | gearbox_parent_id | Int          | FK one to many | -        | -       | parent gearbox from [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Gearbox/Tables/Gearboxes\|gearboxes]]       |
 | gearbox_type      | Bytea        | FK one to many | -        | -       | gearbox type from [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Gearbox/Tables/Gearbox_types\|gearbox_types]] |
-| gear_numbers      | Bytea        | -              | -        | -       | gear numbers                                                                                                                    |
+| gear_quantity     | Bytea        | -              | -        | -       | gear quantity                                                                                                                   |
 | review            | Text         | -              | -        | -       | review                                                                                                                          |

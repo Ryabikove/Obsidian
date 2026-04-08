@@ -1,16 +1,10 @@
 Algorithms are methods of manipulating data to most efficiently transfer it from state A to state B.
 
-Every algorithm has speed, to count speed "[[Java/operations/Big O notation|Big O notation]]" is used. There are all speed coefficients from the fastest to the slowest:
-- O(1) - constant time - no matter how many data does algorithm have, time always be the same 
-- O(log N) - logarithmic
-- O(N) - linear time - time scales as data
-- O(N \* log N)
-- O(N\*\*2) - quadratic
-- O(N\*\*3) - cubic
-- O(2\*\*N) - exponential
-- O(N!) - factorial
+Every algorithm has speed, to count speed "[[Java/operations/Big O notation|Big O notation]]" is used.
 
 They include topics such as:
 - Sorting
 - Value search
 - Finding the shortest path, etc.
+
+See [[Java/algorithms/Algorithms|Algorithms]] for more information

@@ -8,4 +8,12 @@ Has built-in realizations like [[Java/package/built-in/java/util/TreeMap|TreeMap
 
 *The Graph* - web relations type. There is no top or bottom, only nodes - the entities, edges - relationships, and edge type - directed or undirected.
 Used for most complex problems in tech: finding the shortest route, reccomending movies etc.
-Has no buil-in realizations.
+Has no built-in realizations.
+
+There are two ways of moving between nodes:
+- *BFS* - Breadth-First Search - exploring current position before deeper ones
+	- [[Java/package/built-in/java/util/Queue|Queue]] is usually used to keep track which nodes to visit next
+	- This way is the best for finding shortest path in terms of steps 
+- *DFS* - Depth-First Search - go to the deepest level and start exploring from the bottom to the top
+	- [[Java/package/built-in/java/util/Stack|Stack]] or recursion are usually used to remember the way back
+	- This way best for exhaustive searching or checking every possible outcome

@@ -7,9 +7,9 @@ Principles:
 	2. Taken from personal [[Autogeek/3 Data architecture/Data structure/Entities/Users/Account/Account|accounts]] information;
 	3. Location of IP-address.
 - The list can be sorted by the following criteria:
-	- Number of successful transactions;
-	- Number of entity views;
-	- Number of new ads.
+	- Amount of successful transactions;
+	- Amount of entity views;
+	- Amount of new ads.
 - Popularity metrics are calculated over the last three months.
 
 Wired with:
