@@ -1,7 +1,7 @@
-Contains filters for the [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|Entity list]].
+Contains filters for the [[Autogeek/4 UX-projecting/Data structure/Entity list|Entity list]].
 
 Can be showed as:
-- Separate [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]] of [[Autogeek/3 Data architecture/Maps/Modules/Main/Filters|filters]].
+- Separate [[Autogeek/4 UX-projecting/Data structure/Entity list|entity list]] of [[Autogeek/3 Data architecture/Maps/Modules/Main/Filters|filters]].
 - Area on the screen in modules: [[Autogeek/3 Data architecture/Maps/Modules/Main/In sell|in sell]] [[Autogeek/3 Data architecture/Maps/Modules/Main/Recommendations|recommendations]], [[Autogeek/3 Data architecture/Maps/Modules/Main/Popular|popular]], [[Autogeek/3 Data architecture/Maps/Modules/Main/Liked|liked]] and [[Autogeek/3 Data architecture/Maps/Modules/Main/Favourite|favourite]].
 
 Filter types:
@@ -118,9 +118,7 @@ Filter types:
 	- Max range with full tank;
 	- Wheel orientation;
 	- Eco class;
-	- 0 to 100;
 	- Fuel consumption;
-
 
 *Add offer filters*
 Principles:

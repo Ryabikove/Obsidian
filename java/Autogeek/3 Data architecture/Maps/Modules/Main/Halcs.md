@@ -6,12 +6,12 @@ Customs clearance calculator based on - [Калькулятор растамож
 Ownership calculator based on - [Калькулятор владения авто | Автопрагмат](https://autopragmat.ru/calculator/)
 
 Principles:
-- To calculate the cost in both calculators, you can enter the parameters manually or select a [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Model|model]]/[[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generation]]/[[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offer]] for automatic calculation.
+- To calculate the cost in both calculators, you can enter the parameters manually or select a [[Autogeek/4 UX-projecting/Data structure/Entities/Autoprom/Model/Model|model]]/[[Autogeek/4 UX-projecting/Data structure/Entities/Autoprom/Generation/Generation|generation]]/[[Autogeek/4 UX-projecting/Data structure/Entities/Users/Offer/Offer|offer]] for automatic calculation.
 
 Wired with:
 - On site:
 	- [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Assistant menu|Assistant menu]];
-	- Link in full view of [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generation]] or [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offer]];
+	- Link in full view of [[Autogeek/4 UX-projecting/Data structure/Entities/Autoprom/Generation/Generation|generation]] or [[Autogeek/4 UX-projecting/Data structure/Entities/Users/Offer/Offer|offer]];
 - In telegram bot:
 	- Command "/halc";
-	-  Link in full view of [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generation]] or [[Autogeek/3 Data architecture/Data structure/Entities/Users/Offer/Offer|offer]].
+	-  Link in full view of [[Autogeek/4 UX-projecting/Data structure/Entities/Autoprom/Generation/Generation|generation]] or [[Autogeek/4 UX-projecting/Data structure/Entities/Users/Offer/Offer|offer]].

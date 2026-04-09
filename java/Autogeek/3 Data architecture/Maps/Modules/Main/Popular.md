@@ -1,10 +1,10 @@
-Type of [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Entity list|entity list]] with popular cars.
+Type of [[Autogeek/4 UX-projecting/Data structure/Entity list|entity list]] with popular cars.
 
 Principles:
-- Contains only [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Model/Model|model]] and [[Autogeek/3 Data architecture/Data structure/Entities/Autoprom/Generation/Generation|generations]];
+- Contains only [[Autogeek/4 UX-projecting/Data structure/Entities/Autoprom/Model/Model|model]] and [[Autogeek/4 UX-projecting/Data structure/Entities/Autoprom/Generation/Generation|generations]];
 - Priority of region selection settings:
 	1. Specified by the user;
-	2. Taken from personal [[Autogeek/3 Data architecture/Data structure/Entities/Users/Account/Account|accounts]] information;
+	2. Taken from personal [[Autogeek/4 UX-projecting/Data structure/Entities/Users/Account/Account|accounts]] information;
 	3. Location of IP-address.
 - The list can be sorted by the following criteria:
 	- Amount of successful transactions;
