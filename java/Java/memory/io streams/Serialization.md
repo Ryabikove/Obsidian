@@ -37,7 +37,7 @@ If serialVersionUID in file equals serialVersionUID in class, everything is okay
 
 *Not all buil-in classes are serializable*
 *Serializable:*
-- Primitives and wrappers: [[Java/variables/атрибуты переменных/типы данных/целочисленные/int|int]], [[Java/package/built-in/java/lang/Integer|Integer]], etc;
+- Primitives and wrappers: [[Java/variables/attributes/data type/primitive/integer/Int|Int]], [[Java/package/built-in/java/lang/Integer|Integer]], etc;
 - Text: [[Java/package/built-in/java/lang/String|String]], [[Java/package/built-in/java/lang/StringBuilder|StringBuilder]];
 - Math: [[Java/package/built-in/java/math/BigDecimal|BigDecimal]], [[Java/package/built-in/java/math/BigInteger|BigInteger]];
 - Collections: [[Java/package/built-in/java/util/ArrayList|ArrayList]], [[Java/package/built-in/java/util/HashMap|HashMap]], [[Java/package/built-in/java/util/HashSet|HashSet]], [[Java/package/built-in/java/util/LinkedList|LinkedList]].

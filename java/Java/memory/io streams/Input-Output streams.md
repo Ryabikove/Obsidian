@@ -1,4 +1,4 @@
-Phisycal flows (streams) of data in programm. Don't confuse with [[Java/constructions/управляющие конструкции/Stream-api/Stream-api|stream-api]], it is not the same streams.
+Phisycal flows (streams) of data in programm. Don't confuse with [[Java/constructions/control constructions/Stream-api/Stream-api|stream-api]], it is not the same streams.
 Input - stream from data storage  to process.
 Otput - stream from process to data storage.
 

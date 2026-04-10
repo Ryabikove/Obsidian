@@ -1,7 +1,7 @@
 Built-in class is used for thread creation.
 Implement interface [[Java/package/built-in/java/lang/Runnable|Runnable]].
 
-Defines [[Java/package/class/метод/конструктор|constructors]] and [[Thread.Builder]] to create threads. 
+Defines [[Java/package/class/метод/Constructor|constructors]] and [[Thread.Builder]] to create threads. 
 
 Defines methods:
 - start() - execute thread

@@ -1,6 +1,6 @@
 There are 4 main type of data structures which are about how to physically store data in memory.
 
-[[Java/variables/атрибуты переменных/значения переменной/Array|Array]] is collection of items stored in contiguous memory location.
+[[Java/variables/attributes/value/Array|Array]] is collection of items stored in contiguous memory location.
 - *fixed size* which determinated when array is created;
 - *fast access* to element by its index. O(1)
 

@@ -1,5 +1,5 @@
 [[Java/package/class/наследование/Функциональный интерфейс|Функциональный интерфейс]], позволяющий реализовывать проверку с помощью лямбда выражений.
-Принимается всегда в методе в [[Java/constructions/управляющие конструкции/Stream-api/Stream-api|stream-api]]
+Принимается всегда в методе в [[Java/constructions/control constructions/Stream-api/Stream-api|stream-api]]
 
 Реализует единственный метод - boolean test(T t);
 

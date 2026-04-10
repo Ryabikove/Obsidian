@@ -19,5 +19,5 @@ class Person{
 	}
 }
 
-[[Java/package/class/метод/конструктор|конструктор]] [[Java/package/class/class|class]]
+[[Java/package/class/метод/Constructor|Constructor]] [[Java/package/class/Class|Class]]
 #класс #ключевое_слово

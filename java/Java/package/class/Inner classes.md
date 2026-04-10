@@ -11,9 +11,9 @@ class Outer_class{
 	class Inner_class{...}
 }
 ```
-Такой класс имеет доступ ко всем полям внешнего класса, даже к [[Java/package/class/модификаторы/private|private]]. Внешний класс так же имеет доступ ко всем полям внутреннего класса, даже закрытым модификатором private
+Такой класс имеет доступ ко всем полям внешнего класса, даже к [[Java/variables/modificators/private|private]]. Внешний класс так же имеет доступ ко всем полям внутреннего класса, даже закрытым модификатором private
 
-2. Статический вложенный класс (static netsted class) - тот же inner, но с модификатором [[Java/package/class/модификаторы/static|static]]. 
+2. Статический вложенный класс (static netsted class) - тот же inner, но с модификатором [[Java/variables/modificators/static|static]]. 
 ```
 class Outer_class{
 	Inner_class var;
@@ -48,7 +48,7 @@ Validator nameValidator = new Validator() {
 	} 
 };
 ```
-Именно из анонимных классов выросли [[Java/constructions/управляющие конструкции/Лямбда-выражения]]. В современном коде вместо 5 строк анонимного класса пишут одну: 
+Именно из анонимных классов выросли [[Java/constructions/control constructions/Лямбда-выражения]]. В современном коде вместо 5 строк анонимного класса пишут одну: 
 `value -> value.length() > 2`.
 Анонимные классы часто встречаются в проектах, особенно при сортировке [[Study/1 java core/5 Collections|коллекций]]. Пример с сортировкой:
 ```
@@ -66,5 +66,5 @@ items.sort(new Comparator<Item>() {
  - все указанное так же относится и к интерфейсам
 
 ссылку на объект внешнего класса из внутреннего класса можно получить с помощью выражения: Outer_class.this
-[[Java/package/class/class|class]]
+[[Java/package/class/Class|Class]]
 #класс #интерфейс 

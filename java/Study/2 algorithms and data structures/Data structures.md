@@ -1,7 +1,7 @@
 Data structures are the way we organize and store data in a computer.
 
 There are few main types of physically stored data: 
-- [[Java/variables/атрибуты переменных/значения переменной/Array|Array]] - a collection of items which stored in contiguous memory location. Fast but limited.
+- [[Java/variables/attributes/value/Array|Array]] - a collection of items which stored in contiguous memory location. Fast but limited.
 - [[Java/package/built-in/java/util/LinkedList|LinkedList]] consists of "nodes". Each node contains two things: the actual data and a "pointer" (reference) to the next node in the sequence. Slower than array but with dynamic size.
 - [[Java/package/built-in/java/util/ArrayList|ArrayList]] has inside an simple array, but manage to contain indefinite number of elements. Faster than linked list, has dynamic size, but manipulating with data like in linked list.
 - [[Java/package/built-in/java/util/HashMap|HashMap]] - collection that has unordered structure of key:value pares of data inside. Unordered, takes more space, manipulations is almost as fast as in array, has dynamic size.
