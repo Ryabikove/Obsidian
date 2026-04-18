@@ -1,0 +1,1 @@
+Part which reduce initial setup by providing sebsible, pre-configured defaults.

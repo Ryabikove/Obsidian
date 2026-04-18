@@ -11,9 +11,9 @@ class Outer_class{
 	class Inner_class{...}
 }
 ```
-Такой класс имеет доступ ко всем полям внешнего класса, даже к [[Java/variables/modificators/private|private]]. Внешний класс так же имеет доступ ко всем полям внутреннего класса, даже закрытым модификатором private
+Такой класс имеет доступ ко всем полям внешнего класса, даже к [[Java/variables/modifiers/private|private]]. Внешний класс так же имеет доступ ко всем полям внутреннего класса, даже закрытым модификатором private
 
-2. Статический вложенный класс (static netsted class) - тот же inner, но с модификатором [[Java/variables/modificators/static|static]]. 
+2. Статический вложенный класс (static netsted class) - тот же inner, но с модификатором [[Java/variables/modifiers/static|static]]. 
 ```
 class Outer_class{
 	Inner_class var;

@@ -1,4 +1,4 @@
-Declared with [[Java/variables/modificators/static|static]] inside class, but outside method.
+Declared with [[Java/variables/modifiers/static|static]] inside class, but outside method.
 
 Key features:
 - Shared by all objects;

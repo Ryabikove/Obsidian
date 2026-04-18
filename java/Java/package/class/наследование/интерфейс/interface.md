@@ -29,14 +29,14 @@
 
 ==требования==:
  - поля(переменные) по умолчанию имеют модификаторы public static final, поэтому обязательно должны быть определены. приватные поля запрещены в интерфейсах, за исключением переопределенного интерфейса, передаваемого экземпляру класса в конструктор.
-	![[Java/Pasted image 20241104205929.png]]
+	![[Java/images/Pasted image 20241104205929.png]]
  - методы без модификаторов по умолчанию абстрактные и не могут иметь [[Java/constructions/Code block|Code block]]
- - приватные методы интерфейса можно использовать только внутри самого интерфейса, и они не могут иметь базовой реализации ([[Java/variables/modificators/default|default]])
+ - приватные методы интерфейса можно использовать только внутри самого интерфейса, и они не могут иметь базовой реализации ([[Java/variables/modifiers/default|default]])
  - если класс не реализует все методы, то такой класс должен быть помечен как абстрактный
- - для того, чтобы метод имел блок кода, ему необходимо добавить модификатор [[Java/variables/modificators/default|default]] или он должен быть статичным [[Java/variables/modificators/static|static]]
+ - для того, чтобы метод имел блок кода, ему необходимо добавить модификатор [[Java/variables/modifiers/default|default]] или он должен быть статичным [[Java/variables/modifiers/static|static]]
  - нельзя напрямую создавать объекты интерфейсов
 	Int1 a = new Int1() \# вызовет ошибку
  - интерфейс может быть определен внутри другого класса или интерфейса
  
-[[Java/package/class/метод/Method|Method]]  [[Java/variables/Variable|Variable]]  [[Java/variables/modificators/abstract|abstract]]
+[[Java/package/class/метод/Method|Method]]  [[Java/variables/Variable|Variable]]  [[Java/variables/modifiers/abstract|abstract]]
 #интерфейс  #класс #ключевое_слово 

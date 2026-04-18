@@ -1,4 +1,4 @@
-Declared inside class but outside methods, also known as [[Java/package/class/Attribute|attribute]].
+Declared inside class but outside methods, also known as [[Java/package/class/Field|attribute]].
 
 Key features:
 - Belongs to an object;

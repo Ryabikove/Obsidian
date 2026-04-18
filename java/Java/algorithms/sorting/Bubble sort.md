@@ -17,5 +17,5 @@ for (int i = 0; i < arr.length; i++) {
 }
 ```
 
-*Speed* - [[Java/operations/Big O notation|O(N\*\*2)]] for the worst case and [[Java/operations/Big O notation|O(N)]] for the best case. 
+*Speed* - [[Java/operations/Big O notation|O(N**2)]] for the worst case and [[Java/operations/Big O notation|O(N)]] for the best case. 
 *Memory* - O(1) always.

@@ -1,6 +1,6 @@
 A window containing models/listings added to the comparison sheet.
 
-A table-like window comparing all properties of [[Autogeek/4 UX-projecting/Data structure/Entities/Autoprom/Variation/Variation|variations]], [[Autogeek/4 UX-projecting/Data structure/Entities/Autoprom/Generation/Generation|generations]] and [[Autogeek/4 UX-projecting/Data structure/Entities/Users/Offer/Offer|offers]].
+A table-like window comparing all properties of [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Variation|variations]], [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Generation|generations]] and [[Autogeek/4 UX-projecting/Entities/Users/Offer/Offer|offers]].
 
 Comparison principles:
 - Entities of different kinds cannot be compared with each other - they are added to different comparison tables.

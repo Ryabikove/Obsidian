@@ -12,7 +12,8 @@ Every algorithm has speed, to count speed "[[Java/operations/Big O notation|Big 
 
 They include topics such as:
 - Sorting
-	- [[Java/algorithms/sorting/Bubble sort|Bubble sort]] - swap adjoining elements in loop
-	- [[Java/algorithms/sorting/Merge sort|Merge sort]]
+	- [[Java/algorithms/sorting/Bubble sort|Bubble sort]] - swap adjoining elements in loop;
+	- [[Java/algorithms/sorting/Selection sort|Selection sort]] - ;
+	- [[Java/algorithms/sorting/Merge sort|Merge sort]] - devide elements until it be sorted and then unite in sorted arrays;
 - Value search
 - Finding the shortest path, etc.

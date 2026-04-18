@@ -1,8 +1,8 @@
 Уже шестой раздел изучения java. 
-Spring - фреймворк/технология, упрощающая разработку приложений. Считай стандарт.
+[[Spring/Spring|Spring]] - фреймворк/технология, упрощающая разработку приложений. Считай стандарт.
 
 Основные концепции технологии включают в себя:
-- IoC container
-- Spring beans
-- Bean configuration
-- Bean wiring
+- [[Spring/Inversion of Control|IoC]] container;
+- [[Spring/Entitites/Bean|Spring beans]];
+- Bean configuration;
+- Bean wiring.

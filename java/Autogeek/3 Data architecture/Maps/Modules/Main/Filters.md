@@ -1,7 +1,7 @@
-Contains filters for the [[Autogeek/4 UX-projecting/Data structure/Entity list|Entity list]].
+Contains filters for the [[Autogeek/4 UX-projecting/Entity list|Entity list]].
 
 Can be showed as:
-- Separate [[Autogeek/4 UX-projecting/Data structure/Entity list|entity list]] of [[Autogeek/3 Data architecture/Maps/Modules/Main/Filters|filters]].
+- Separate [[Autogeek/4 UX-projecting/Entity list|entity list]] of [[Autogeek/3 Data architecture/Maps/Modules/Main/Filters|filters]].
 - Area on the screen in modules: [[Autogeek/3 Data architecture/Maps/Modules/Main/In sell|in sell]] [[Autogeek/3 Data architecture/Maps/Modules/Main/Recommendations|recommendations]], [[Autogeek/3 Data architecture/Maps/Modules/Main/Popular|popular]], [[Autogeek/3 Data architecture/Maps/Modules/Main/Liked|liked]] and [[Autogeek/3 Data architecture/Maps/Modules/Main/Favourite|favourite]].
 
 Filter types:
@@ -30,13 +30,13 @@ Filter types:
 		- Light turning correction;
 		- Light adaptationv system;
 		- High light control system;
-	- Anti-theft properies:
+	- Antitheft properies:
 		- Central lock;
 		- Immobilizer;
 		- Intrusion sensor;
-	- Interier properties
+	- Interior properties
 		- Sunroof;
-		- Color of interier;
+		- Color of interior;
 		- Wheel heaters;
 		- Wheel leather trim;
 		- Gearbox lever leather trim;
@@ -65,7 +65,7 @@ Filter types:
 		- Socket 12v;
 		- Socket 220v;
 		- Yandex auto;
-	- Exterier properties:
+	- Exterior properties:
 		- Aerography;
 		- Body kits;
 		- Roof rails;

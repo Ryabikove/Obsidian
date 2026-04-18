@@ -4,7 +4,7 @@ Every variable has at least 3 required attributes:
 - [[Java/variables/attributes/data type/Data type|Data type]];
 - [[Java/variables/attributes/Name|Name]];
 - [[Java/variables/attributes/value/Value|Value]].
-And 1 optional - [[Java/variables/modificators/Modificators|modificator]].
+And 1 optional - [[Java/variables/modifiers/Modifiers|modificator]].
 ```
 [modificator] type name = value;
 ```

@@ -1,4 +1,4 @@
-Type of [[Autogeek/4 UX-projecting/Data structure/Entity list|entity list]] which contains [[Autogeek/4 UX-projecting/Data structure/Entities/Autoprom/Model/Tables/Models|models]], [[Autogeek/4 UX-projecting/Data structure/Entities/Autoprom/Generation/Tables/Generations|generations]] and [[Autogeek/4 UX-projecting/Data structure/Entities/Autoprom/Variation/Tables/Variations|variations]].
+Type of [[Autogeek/4 UX-projecting/Entity list|entity list]] which contains [[Autogeek/4 UX-projecting/Entities/Autoprom/Model/Tables/Models|models]], [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/Generations|generations]] and [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations|variations]].
 
 Principles:
 - Designed as a list of entities that the user selects as their "dream car."

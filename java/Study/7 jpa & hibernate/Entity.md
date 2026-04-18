@@ -35,6 +35,8 @@ Special annotations and meanings:
 	- name - name of column, as name from @Table, no essential, but if not specified, system relate value with column with identical name
 	- nullable - with "false" means that value is [[sql/Data Base/Schema/Table/Column/Modificators/Not null|Not null]], with true means value can be empty or null
 	- unique - with "true" means that value is [[Unique]]
-- @OneToOne/@ManyToOne/@OneToMany/@ManyToMany - optional annotation specify relations between columns in different tables. 
+- @OneToOne/@ManyToOne/@OneToMany/@ManyToMany(...) - optional annotation specify relations between columns in different tables. Has modificators:
+	- mappedBy - defines the "Owner" of the relationship. Prevents JPA from creating two separate FK columns.
+	- cascade - 
 
 

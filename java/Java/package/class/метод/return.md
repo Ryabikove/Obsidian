@@ -9,5 +9,5 @@ static int method(){
 
 если необходимо только выйти из метода, но ничего не возвращать, тогда заменять void нет необходимости
 
-[[Java/variables/modificators/void]]  [[Java/package/class/метод/Method|Method]]  [[Java/variables/attributes/data type/Data type|Data type]]
+[[Java/variables/modifiers/void]]  [[Java/package/class/метод/Method|Method]]  [[Java/variables/attributes/data type/Data type|Data type]]
 #ключевое_слово #метод #класс 

@@ -23,7 +23,7 @@ enum Day{
 			return code;
 		}
 	}
- - по умолчанию конструктор внутри перечисления приватный ([[Java/variables/modificators/private|private]])
+ - по умолчанию конструктор внутри перечисления приватный ([[Java/variables/modifiers/private|private]])
  - можно определять методы для отдельных констант
 	enum Test {
 		TEST{
@@ -33,7 +33,7 @@ enum Day{
 
 
 ==требования==:
- - единственный разрешенный модификатор приватности конструктора - [[Java/variables/modificators/private|private]], использование других вызовет ошибку
+ - единственный разрешенный модификатор приватности конструктора - [[Java/variables/modifiers/private|private]], использование других вызовет ошибку
 
 ==методы==:
  - [[Java/package/class/встроенные/enum/методы/values()|values()]] - возвращает все эл-ты в виде списка
