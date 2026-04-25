@@ -8,4 +8,4 @@
 
 если RETURNING опущено, оператор тем не менее выполняется, но не выдаёт никакого результата, так что на него нельзя сослаться как на таблицу в основном запросе.
 
-[[sql/Requests/select/select]]  [[TABLE]] [[VALUES]]  [[INSERT]]  [[UPDATE]]  [[DELETE]]  [[RETURNING]]
+[[sql/Requests/select/select]]  [[JPA/entity/annotations/table annotations/Table]] [[VALUES]]  [[INSERT]]  [[UPDATE]]  [[DELETE]]  [[RETURNING]]

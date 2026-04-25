@@ -1,32 +1,34 @@
 Jsonb which contains data about car body.
 
-| Field name         | Data type | Not Null | Default | Description            |
-| ------------------ | --------- | -------- | ------- | ---------------------- |
-| body_length        | Smallint  | +        | -       | Body length (mm)       |
-| body_width         | Smallint  | +        | -       | Body width (mm)        |
-| body_heigth        | Smallint  | +        | -       | Body height (mm)       |
-| wheel_base         | Smallint  | +        | -       | Wheel base (mm)        |
-| front_track        | Smallint  | +        | -       | Front track (mm)       |
-| back_track         | Smallint  | +        | -       | Back track (mm)        |
-| doors_quantity     | Bytea     | +        | -       | Doors quantity         |
-| seats_quantity     | Bytea     | +        | -       | Seats quantity         |
-| empty_weight       | Smallint  | +        | -       | Empty weight (kg)      |
-| full_weight        | Smallint  | +        | -       | Full weight (kg)       |
-| min_trunk_capacity | Smallint  | +        | -       | Min trunk capacity (l) |
-| max_trunk_capacity | Smallint  | +        | -       | Max trunk capacity (l) |
-| tank_capacity      | Smallint  | +        | -       | Tank capacity (l)      |
+| Field name         | Data type | Default | Description            |
+| ------------------ | --------- | ------- | ---------------------- |
+| body_length        | Smallint  | -       | Body length (mm)       |
+| body_width         | Smallint  | -       | Body width (mm)        |
+| body_heigth        | Smallint  | -       | Body height (mm)       |
+| wheel_base         | Smallint  | -       | Wheel base (mm)        |
+| ground_clearanse   | Smallint  | -       | Ground Clearanse (mm)  |
+| front_track        | Smallint  | -       | Front track (mm)       |
+| back_track         | Smallint  | -       | Back track (mm)        |
+| doors_quantity     | Bytea     | -       | Doors quantity         |
+| seats_quantity     | Bytea     | -       | Seats quantity         |
+| curb_weight        | Smallint  | -       | Curb weight (kg)       |
+| gross_weight       | Smallint  | -       | Gross weight (kg)      |
+| min_trunk_capacity | Smallint  | -       | Min trunk capacity (l) |
+| max_trunk_capacity | Smallint  | -       | Max trunk capacity (l) |
+| tank_capacity      | Smallint  | -       | Tank capacity (l)      |
 ```
 interior_props: [
 	body_length: ...,
 	body_width: ...,
 	body_heigth: ...,
+	ground_clearanse: ...,
 	wheel_base: ...,
 	front_track: ...,
 	back_track: ...,
 	doors_quantity: ...,
 	seats_quantity: ...,
-	empty_weight: ...,
-	full_weight: ...,
+	curb_weight: ...,
+	gross_weight: ...,
 	min_trunk_capacity: ...,
 	max_trunk_capacity: ...,
 	tank_capacity: ...

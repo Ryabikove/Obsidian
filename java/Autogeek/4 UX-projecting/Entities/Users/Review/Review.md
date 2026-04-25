@@ -1,4 +1,4 @@
-[[Study/7 jpa & hibernate/Entity|Entity]], which describes a review of the entities. 
+[[JPA/entity/Entity|Entity]], which describes a review of the entities. 
 A review can be created by user. It contains detailed description of cars properties and functions. Unlike reports, review can be created only by user who has a car specialist marker. *how it can be designed*
 
 *Table in DB* - [[Autogeek/4 UX-projecting/Entities/Users/Review/Tables/Reviews|Reviews]].

@@ -1,4 +1,4 @@
-[[Study/7 jpa & hibernate/Entity|Entity]] which represent country in general
+[[JPA/entity/Entity|Entity]] which represent country in general
 
 *Table in DB* - [[Autogeek/4 UX-projecting/Entities/General/Country/Tables/Countries|Countries]].
 

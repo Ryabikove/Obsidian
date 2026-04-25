@@ -80,13 +80,14 @@ Filter types:
 	- Body length (mm);
 	- Body width (mm);
 	- Body heigth (mm);
+	- Ground clearanse (mm);
 	- Tank capacity (l);
 	- Minimum trunk capacity (l);
 	- Maximum trunk capacity (l);
 	- Seats quantity;
 	- Doors quantity;
-	- Empty weight (kg);
-	- Full weight (kg);
+	- Curb weight (kg);
+	- Gross weight (kg);
 	- Wheel base (mm);
 	- Front track (mm);
 	- Back track (mm);
@@ -95,10 +96,8 @@ Filter types:
 - Engine:
 	- Power (hp);
 	- Engine type;
-	- Boost type;
 	- Torque (N\*m);
 	- Engine capacity;
-	- Engine position;
 	- Fuel type;
 	- Engine power system type;
 	- Compression ratio;

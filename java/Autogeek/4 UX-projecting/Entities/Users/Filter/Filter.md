@@ -1,4 +1,4 @@
-[[Study/7 jpa & hibernate/Entity|Entity]] which stores user settings for [[Autogeek/3 Data architecture/Maps/Modules/Main/Filters|filters]] module.
+[[JPA/entity/Entity|Entity]] which stores user settings for [[Autogeek/3 Data architecture/Maps/Modules/Main/Filters|filters]] module.
 
 *Table in DB* - [[Autogeek/4 UX-projecting/Entities/Users/Filter/Tables/Filters|Filters]]
 

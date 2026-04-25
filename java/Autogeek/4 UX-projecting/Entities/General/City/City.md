@@ -1,4 +1,4 @@
-[[Study/7 jpa & hibernate/Entity|Entity]] which represent city in general.
+[[JPA/entity/Entity|Entity]] which represent city in general.
 
 *Table in DB* - [[Autogeek/4 UX-projecting/Entities/General/City/Tables/Cities|Cities]].
 

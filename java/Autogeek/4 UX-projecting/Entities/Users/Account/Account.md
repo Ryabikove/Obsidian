@@ -1,4 +1,4 @@
-[[Study/7 jpa & hibernate/Entity|Entity]] which contains data about users.
+[[JPA/entity/Entity|Entity]] which contains data about users.
 
 *Table in DB* - [[Autogeek/4 UX-projecting/Entities/Users/Account/Tables/Accounts|Accounts]].
 

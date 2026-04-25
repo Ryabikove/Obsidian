@@ -1,4 +1,4 @@
-[[Study/7 jpa & hibernate/Entity|Entity]], which describes a report of the [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Generation|generation]]. 
+[[JPA/entity/Entity|Entity]], which describes a report of the [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Generation|generation]]. 
 A report can be created by a car driver and contains his experience of owning the car.
 
 *Table in DB* - [[Autogeek/4 UX-projecting/Entities/Users/Report/Tables/Reports|Reports]].

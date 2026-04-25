@@ -1,4 +1,4 @@
-[[Study/7 jpa & hibernate/Entity|Entity]], which describes actual offer from auto-sellers.
+[[JPA/entity/Entity|Entity]], which describes actual offer from auto-sellers.
 
 *Table in DB* - [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Offers|Offers]].
 

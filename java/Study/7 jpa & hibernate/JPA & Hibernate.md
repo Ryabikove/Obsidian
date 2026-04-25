@@ -10,10 +10,4 @@ Hibernate - наиболее популярный фреймворк, реали
 - https://javarush.com/groups/posts/2259-jpa--znakomstvo-s-tekhnologiey
 - https://www.baeldung.com/learn-jpa-hibernate
 
-JPA - Java Persistence API - спецификация, позволяющая нам связывать java-объекты с таблицами в реляционных базах данных.
-Такой процесс называется ORM (Object-Relational Mapping). Вместо того, чтобы вручную писать сложные sql-запросы для каждой операции, мы работаем с обычными java классами, а все остальное преобразуется автоматически.
-
-JPA состоит из 3 составляющих:
-- [[Study/7 jpa & hibernate/Entity|Entity]] (Сущность) - обычный java класс, помеченный специальными аннотациями, который JPA воспринимает как схему таблицы.
-- [[Study/7 jpa & hibernate/EntityManager|EntityManager]] - основной интерфейс, который управляет жизненным циклом объектов (сохраняет, обновляет, ищет и удаляет их)
-- [[Study/7 jpa & hibernate/Persistence Provider|Persistence Provider]] - реализация стандарта. JPA - это лишь референс или правила, а реализация правил происходит в библиотеке (например Hibernate)
+See [[JPA/Jpa|Jpa]] to learn more.

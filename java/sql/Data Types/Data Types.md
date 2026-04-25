@@ -1,4 +1,4 @@
-For every column in [[table]] you must select data type
+For every column in [[JPA/entity/annotations/table annotations/Table]] you must select data type
 
 ==The realisation of data types may be different from one data base to another==
 
