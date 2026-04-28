@@ -1,10 +1,30 @@
-Annotation which specifies relations between columns in different tables.
+Annotation which makes and specifies relations between columns in different tables.
+Creates FK inside entity and means that many children entities of class  mapped to one parent entity of field below.
 
 Has several attributes:
-- mappedBy - defines the "Owner" of the relationship. Prevents JPA from creating two separate FK columns.
-- cascade - 
+- targetEntity - link to class, which mapped as one. (By default - type of field);
+- cascade - list of cascade types. (By default - empty). Cascade works only in one direction;
+	There are few cascade types:
+	- ALL - cascade all operations;
+	- PERSIST - cascade the persist operations. Saves child entities when parent is saved. Ususally is used when parent depends on child for existencel.
+	- MERGE - update child entities when parent is updated. Usually is used for maintaining consistency;
+	- REMOVE - deletes child entities when parent is deleted. Usually is used when childs cannot exist without parent;
+	- REFRESH - reload child entities when parent is refreshed. Usually is used for synchronization with database;
+	- DETACH - detach remove child entities from persistence context. Usually is used for manual state management;
+- fetch - fetching type. (By default - EAGER)
+	There are two fetching types:
+	- EAGER - means that entity below must be taken from DB with main entity;
+	- LAZY - means that entity below is taken only if it is needed;
+- optional - if set to false, means that non-null relationship must always exist (By default - true).
 
 ```
-@ManyToOne  
-private Country country;
+@Entity
+class City {
+	...
+	@ManyToOne(targetEntity = Country.class,
+	cascade = CascadeType.ALL,
+	fetch = FetchType.EAGER,
+	optional = false)
+	private Country country;
+}
 ```

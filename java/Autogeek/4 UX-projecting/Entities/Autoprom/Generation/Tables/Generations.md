@@ -6,7 +6,7 @@ Table which contains data about [[Autogeek/4 UX-projecting/Entities/Autoprom/Gen
 | full_name            | Varchar(100) | +              | +        | -       | Full name                                                                                                         |
 | photos               | Varchar(255) | +              | -        | -       | link to photos archive                                                                                            |
 | model_id             | Int          | FK one to many | +        | -       | model which generation belongs to from [[Autogeek/4 UX-projecting/Entities/Autoprom/Model/Tables/Models\|models]] |
-| car_class            | Varchar(255) | -              | -        | -       | car_class_id from [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/enums/CarClass\|car_classes]]       |
+| car_class            | Varchar(255) | -              | -        | -       | car_class_id from [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/enums/CarClass\|car_classes]]    |
 | year_start           | Smallint     | -              | -        | -       | start of construction                                                                                             |
 | year_stop            | Smallint     | -              | -        | -       | end of construction                                                                                               |
 | produced_auto        | Int          | -              | -        | -       | how many were produced                                                                                            |
@@ -15,3 +15,10 @@ Table which contains data about [[Autogeek/4 UX-projecting/Entities/Autoprom/Gen
 | price_max            | Int          | -              | -        | -       | Prices max from [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Offers\|offers]]                           |
 | price_min            | Int          | -              | -        | -       | Prices min from [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Offers\|offers]]                           |
 
+*Relations*:
+
+| Mapped entity                                                                                     | Column   | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
+| ------------------------------------------------------------------------------------------------- | -------- | ------------- | ---------- | ------- | -------------- | -------- |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Model/Tables/Models\|Model]]                         | model_id | Many to one   | EAGER      | REFRESH | -              | false    |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Tables/Complectations\|Complectation]] | -        | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|Variation]]             | -        | One to many   | LAZY       | ALL     | true           | -        |

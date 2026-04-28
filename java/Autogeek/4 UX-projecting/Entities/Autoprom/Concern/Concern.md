@@ -8,7 +8,7 @@
 | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
 | Full name                                                                                              | full_name                                                                                                                           |
 | Logo                                                                                                   | logo                                                                                                                                |
-| [[Autogeek/4 UX-projecting/Entities/General/Country/Country\|Country's]] name-link  | full_name from [[Autogeek/4 UX-projecting/Entities/General/Country/Tables/Countries\|countries]] on country_code |
+| [[Autogeek/4 UX-projecting/Entities/Global/Country/Country\|Country's]] name-link  | full_name from [[Autogeek/4 UX-projecting/Entities/Global/Country/Tables/Countries\|countries]] on country_code |
 | [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Brand\|Main brand's]] name-link  | full name from [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Tables/Brands\|brands]] on main_brand_id       |
 | List [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Brand\|brand's]] name-links | full name from [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Tables/Brands\|brands]] on id                  |
 | Capitalization                                                                                         | capitalization                                                                                                                      |
@@ -21,7 +21,7 @@
 | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | Short name                                                                                            | short_name                                                                                                                          |
 | Logo                                                                                                  | logo                                                                                                                                |
-| [[Autogeek/4 UX-projecting/Entities/General/Country/Country\|Country's]] name-link | full_name from [[Autogeek/4 UX-projecting/Entities/General/Country/Tables/Countries\|countries]] on country_code |
+| [[Autogeek/4 UX-projecting/Entities/Global/Country/Country\|Country's]] name-link | full_name from [[Autogeek/4 UX-projecting/Entities/Global/Country/Tables/Countries\|countries]] on country_code |
 | [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Brand\|Main brand's]] name-link | full name from [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Tables/Brands\|brands]] on main_brand_id       |
 [[Autogeek/4 UX-projecting/Entity list|Full and short views]].
 

@@ -12,7 +12,7 @@ Jsonb which contains filter primary properties.
 | product_years_range   | Small int | -        | -       | Production years range                                                                                                    |
 | dirve_types           | Bytea     | -        | -       | Drive ids type from [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/DriveType\|DriveType]]            |
 | body_types            | Bytea     | -        | -       | Body type ids from [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/BodyType\|BodyType]]               |
-| product_country_codes | Small int | -        | -       | Country of manufacture codes from [[Autogeek/4 UX-projecting/Entities/General/Country/Tables/Countries\|countries]]       |
+| product_country_codes | Small int | -        | -       | Country of manufacture codes from [[Autogeek/4 UX-projecting/Entities/Global/Country/Tables/Countries\|countries]]       |
 | 0_to_100              | Bytea     | -        | -       | Acceleration to 100                                                                                                       |
 | consumpt_per_100      | Bytea     | -        | -       | Fuel consumption per 100 km                                                                                               |
 ```

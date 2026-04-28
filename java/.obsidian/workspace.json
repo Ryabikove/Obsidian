@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "edbf36d638ed3455",
+        "id": "4ef4a62959706719",
         "type": "tabs",
         "children": [
           {
-            "id": "12e93aaa532c34bf",
+            "id": "29ad8ebef12e10c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Autogeek/Untitled.md",
+                "file": "Spring/Testing/Unit tests/Mockito/Mockito.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Mockito"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "boost_type",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,44 +177,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "12e93aaa532c34bf",
+  "active": "29ad8ebef12e10c6",
   "lastOpenFiles": [
-    "Autogeek/TODO.md",
-    "Autogeek/Untitled.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Review/Tables/Reviews.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Report/Tables/Reports.md",
-    "Autogeek/4 UX-projecting/Entity.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Report/Report.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Article/Tables/Articles.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Article/Article.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Article/Tables/JSONB/Entity_list.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Account/Tables/Accounts.md",
-    "JPA/entity/annotations/column annotations/Column.md",
+    "Spring/packages/org/mockito/InjectMocks.md",
+    "Spring/packages/org/mockito/Mock.md",
+    "Spring/packages/org/mockito/Answers.md",
+    "Spring/packages/org/mockito/Untitled",
+    "Spring/Testing/Unit tests/Mockito/Mockito.md",
+    "Spring/Testing/Unit tests/Mockito/annotations/Mock.md",
+    "Spring/packages/org/mockito",
+    "Spring/Testing/Unit tests/Mockito/packages/org",
+    "Spring/Testing/Unit tests/Mockito/packages",
+    "Spring/Testing/Unit tests/Mockito/annotations",
+    "Spring/Testing/Unit tests/Mockito/Untitled.canvas",
+    "Spring/Testing/Unit tests/JUnit 5/JUnit 5.md",
+    "Spring/Testing/Unit tests/Unit tests.md",
+    "Spring/Testing/Unit tests/JUnit 5",
+    "Spring/Testing/Unit tests/Mockito",
+    "Spring/Testing/Testing.md",
+    "Spring/Spring.md",
+    "Spring/Testing/Unit tests",
+    "Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Offers.md",
     "Autogeek/4 UX-projecting/Entities/Users/Account/Account.md",
-    "Autogeek/3 Data architecture/Maps/Modules/Main/About profile.md",
-    "JPA/entity/annotations/column annotations/Embeddable.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/JSONB/Other_props.md",
+    "Autogeek/4 UX-projecting/Entities/Users/Account/Tables/Accounts.md",
     "Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Filter/Tables/JSONB/Engine_props.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Filter/Tables/JSONB/Other_props.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/WheelOrientationType.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/BodyType.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/BoostType.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/BrakeType.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/DriveType.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/EnginePosition.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/SuspensionType.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/EcoClass.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/enums",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/enums",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums",
-    "JPA/entity/annotations/table annotations",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/enums",
-    "JPA/entity/annotations/relate annotations/Untitled",
-    "JPA/entity/annotations/relate annotations",
-    "JPA/entity/annotations/column annotations",
-    "JPA/persistence provider",
-    "JPA/entityManager",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/Generations.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Tables/Complectations.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Model/Tables/Models.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Tables/Brands.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Concern/Tables/Сoncerns.md",
+    "Autogeek/4 UX-projecting/Entities/Global/City/Tables/Cities.md",
+    "Autogeek/4 UX-projecting/Entities/Global/City/City.md",
+    "Autogeek/4 UX-projecting/Entities/Global/Country/Tables/Countries.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/Gearboxes.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/enums/GearboxType.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Complectation.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Concern/Concern.md",
+    "JPA/entityManager/class",
+    "Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/enums",
     "Java/images/Pasted image 20241104205929.png",
     "Autogeek/3 Data architecture/Maps/Map.canvas",
     "Autogeek/Basic architecture.canvas",
@@ -224,7 +225,6 @@
     "Autogeek/3 Data architecture/Карты/Карта.canvas",
     "Java/package/class/наследование/Иерархия классов.canvas",
     "Автогик/Исследование/Custom Journey Map.canvas",
-    "Untitled.canvas",
-    "Java/variables/attributes/data type/type convertion/схема преобразования с потерей точности.canvas"
+    "Untitled.canvas"
   ]
 }

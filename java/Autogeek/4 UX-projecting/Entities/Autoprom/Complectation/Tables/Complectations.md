@@ -11,3 +11,8 @@ Table which contains data about [[Autogeek/4 UX-projecting/Entities/Autoprom/Com
 | safety_props     | JSONB        | -              | -        | -       | Jsonb with [[Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Tables/JSONB/Safety_props\|safety props]]         |
 | multimedia_props | JSONB        | -              | -        | -       | Jsonb with [[Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Tables/JSONB/Multimedia_props\|multimedia props]] |
 | exterior_props   | JSONB        | -              | -        | -       | Jsonb with [[Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Tables/JSONB/Exterior_props\|exterior props]]     |
+*Relations*:
+
+| Mapped entity                                                                            | Column        | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
+| ---------------------------------------------------------------------------------------- | ------------- | ------------- | ---------- | ------- | -------------- | -------- |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/Generations\|Generation]] | generation_id | Many to one   | LAZY       | REFRESH | -              | false    |

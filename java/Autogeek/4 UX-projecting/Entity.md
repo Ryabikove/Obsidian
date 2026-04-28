@@ -15,8 +15,8 @@ Entities:
 	- [[Autogeek/4 UX-projecting/Entities/Autoprom/Model/Model|Model]];
 	- [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Variation|Variation]].
 - General:
-	- [[Autogeek/4 UX-projecting/Entities/General/City/City|City]];
-	- [[Autogeek/4 UX-projecting/Entities/General/Country/Country|Country]]. 
+	- [[Autogeek/4 UX-projecting/Entities/Global/City/City|City]];
+	- [[Autogeek/4 UX-projecting/Entities/Global/Country/Country|Country]]. 
 - Users:
 	- [[Autogeek/4 UX-projecting/Entities/Users/Account/Account|Account]];
 	- [[Autogeek/4 UX-projecting/Entities/Users/Article/Article|Article]];

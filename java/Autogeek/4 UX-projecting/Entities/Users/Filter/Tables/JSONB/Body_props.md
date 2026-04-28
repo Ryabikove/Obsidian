@@ -15,7 +15,7 @@ Jsonb which contains filter body properties.
 | front_track_range    | Small int | -        | -       | Front track (mm)                                                                                             |
 | back_track_range     | Small int | -        | -       | Back track (mm)                                                                                              |
 | body_colors          | Bytea     | -        | -       | Body_colors                                                                                                  |
-| color_types          | Bytea     | -        | -       | Color types from [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Body_color_types\|body_color_types]] |
+| color_types          | Bytea     | -        | -       | Color types from [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/enums/BodyColorType\|body_color_types]] |
 
 ```
 body_props: [

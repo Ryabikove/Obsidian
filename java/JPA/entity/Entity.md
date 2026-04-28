@@ -30,11 +30,8 @@ Enumerated values also can be stored in DB with JPA. [[JPA/entity/annotations/co
 Entity may have [[JPA/entity/MappedSuperclass|MappedSuperclass]] - class which isn't saved in DB, but its fields are saved in child entity table.
 
 Specific annotations and meanings:
-
-
-- [[JPA/entity/annotations/column annotations/GeneratedValue|@GeneratedValue]] - optional annotation get used in conjunction with the @Id annotation to automatically generate unique values;
-
-- [[JPA/entity/annotations/relate annotations/OneToOne|@OneToOne]]
-- [[JPA/entity/annotations/relate annotations/ManyToOne|@ManyToOne]]
-- [[JPA/entity/annotations/relate annotations/OneToMany|@OneToMany]]
-- [[JPA/entity/annotations/relate annotations/ManyToMany|@ManyToMany]]
+To make relations between entites annotation below is used:
+- [[JPA/entity/annotations/relate annotations/OneToOne|@OneToOne]] - makes FK inside entity and map it to specific table as one (child) to one (parent) relation;
+- [[JPA/entity/annotations/relate annotations/ManyToOne|@ManyToOne]] - makes FK inside entity and map it to specific table as many (childrens) to one (parent). Also can make access from parent to child and specify cascade options;  
+- [[JPA/entity/annotations/relate annotations/OneToMany|@OneToMany]] - map parent entity to child, make access from parent to child(rens) and specify cascade options;  
+- [[JPA/entity/annotations/relate annotations/ManyToMany|@ManyToMany]] - Make FK inside entity and map it to specific table as many (childrens) to many (parents) relation. Also can make access from parent to child(rens) and specify cascade options;  

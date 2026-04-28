@@ -18,7 +18,7 @@
 | Table with [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Variation\|variations]] and properties                   | all properties from [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|variations]] on id              |
 | Table with name-links of [[Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Complectation\|complectations]]        | all properties from [[Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Tables/Complectations\|complectations]] on id  |
 | List of [[Autogeek/4 UX-projecting/Entities/Users/Report/Report\|reports]] in short view                                   | * from [[Autogeek/4 UX-projecting/Entities/Users/Report/Tables/Reports\|reports]] on generation_id                            |
-| List with name-links of [[Autogeek/4 UX-projecting/Entities/General/Country/Country\|countries]]  where autos are produced | *think about realization later*                                                                                               |
+| List with name-links of [[Autogeek/4 UX-projecting/Entities/Global/Country/Country\|countries]]  where autos are produced | *think about realization later*                                                                                               |
 
 *Short view:*
 

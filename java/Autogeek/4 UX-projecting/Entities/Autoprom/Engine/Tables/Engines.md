@@ -20,3 +20,10 @@ Table which containc properties of [[Autogeek/4 UX-projecting/Entities/Autoprom/
 | fuel_type           | Varchar(255) | -              | -        | -       | Fuel type from [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/enums/FuelType\|FuelTypes]]                                  |
 | co2_emission        | Smallint     | -              | -        | -       | СО2 emission (g/km)                                                                                                                    |
 | review              | Text         | -              | -        | -       | review                                                                                                                                 |
+*Relations*:
+
+| Mapped entity                                                                         | Column           | Relation type | Fetch type | Cascade | Orhpan removal |
+| ------------------------------------------------------------------------------------- | ---------------- | ------------- | ---------- | ------- | -------------- |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|Engine]]          | engine_parent_id | Many to one   | LAZY       | REFRESH | -              |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|Engine]]          | -                | One to many   | LAZY       | ALL     | true           |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|Variation]] | -                | One to many   | LAZY       | ALL     | true           |

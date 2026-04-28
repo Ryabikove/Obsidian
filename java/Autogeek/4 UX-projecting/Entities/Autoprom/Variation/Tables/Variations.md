@@ -18,3 +18,10 @@ Table which contains data about [[Autogeek/4 UX-projecting/Entities/Autoprom/Var
 | description_n_review | Text         | -              | -        | -       | Description and review                                                                                                    |
 | acl_to_100           | bytea        | -              | -        | -       | Acceleration to 100 (s/10)                                                                                                |
 | fuel_per_100         | bytea        | -              | -        | -       | Fuel consumption per 100 km (l);                                                                                          |
+*Relations*:
+
+| Mapped entity                                                                            | Column        | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
+| ---------------------------------------------------------------------------------------- | ------------- | ------------- | ---------- | ------- | -------------- | -------- |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/Generations\|Generation]] | generation_id | Many to one   | LAZY       | REFRESH | -              | false    |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|Engine]]             | engine_id     | Many to one   | LAZY       | REFRESH | -              | true     |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/Gearboxes\|Gearbox]]         | engine_id     | Many to one   | LAZY       | REFRESH | -              | true     |
