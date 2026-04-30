@@ -17,7 +17,7 @@ Has several attributes:
 ```
 @ManyToOne
 @JoinColumn(name = "country_code",
-	referencedColumnName = "country_code",
+	referencedColumnName = "code",
 	unique = false,
 	nullable = false,
 	nullable = false,

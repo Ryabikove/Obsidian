@@ -8,3 +8,5 @@ Wired with:
 	- [[Autogeek/3 Data architecture/Maps/Modules/Secondary/Main menu|Main menu]];
 - In telegram bot:
 	- Command "/news".
+
+#Delayed

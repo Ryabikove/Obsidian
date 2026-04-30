@@ -28,3 +28,4 @@ An article can be created only by a car specialist and contains information abou
 [[Autogeek/4 UX-projecting/Entity list|Full and short views]].
 
 Can be shown as [[Autogeek/4 UX-projecting/Entity list|entity list]].
+#Delayed
