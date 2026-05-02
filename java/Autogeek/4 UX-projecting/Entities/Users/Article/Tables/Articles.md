@@ -11,6 +11,6 @@ Table which contains information about [[Autogeek/4 UX-projecting/Entities/Users
 | entitiy_list  | JSONB        | -              | -        | -       | Jsonb with [[Autogeek/4 UX-projecting/Entities/Users/Article/Tables/JSONB/Entity_list\|Entity_list]]  |
 *Relations*:
 
-| Mapped entity                                                                         | Column        | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
-| ------------------------------------------------------------------------------------- | ------------- | ------------- | ---------- | ------- | -------------- | -------- |
-| [[Autogeek/4 UX-projecting/Entities/Users/Specialist/Tables/Specialists\|Specialist]] | specialist_id | Many to one   | EAGER      | REFRESH | -              | false    |
+| Mapped table                                                                           | Column        | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
+| -------------------------------------------------------------------------------------- | ------------- | ------------- | ---------- | ------- | -------------- | -------- |
+| [[Autogeek/4 UX-projecting/Entities/Users/Specialist/Tables/Specialists\|Specialists]] | specialist_id | Many to one   | EAGER      | REFRESH | -              | false    |

@@ -20,8 +20,11 @@ Table which contains data about [[Autogeek/4 UX-projecting/Entities/Autoprom/Var
 | fuel_per_100         | bytea        | -              | -        | -       | Fuel consumption per 100 km (l);                                                                                          |
 *Relations*:
 
-| Mapped entity                                                                            | Column        | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
-| ---------------------------------------------------------------------------------------- | ------------- | ------------- | ---------- | ------- | -------------- | -------- |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/Generations\|Generation]] | generation_id | Many to one   | LAZY       | REFRESH | -              | false    |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|Engine]]             | engine_id     | Many to one   | LAZY       | REFRESH | -              | true     |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/Gearboxes\|Gearbox]]         | engine_id     | Many to one   | LAZY       | REFRESH | -              | true     |
+| Mapped table                                                                                          | Column        | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
+| ----------------------------------------------------------------------------------------------------- | ------------- | ------------- | ---------- | ------- | -------------- | -------- |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/Generations\|Generations]]             | generation_id | Many to one   | LAZY       | REFRESH | -              | false    |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|Engines]]                         | engine_id     | Many to one   | LAZY       | REFRESH | -              | true     |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/Gearboxes\|Gearboxes]]                    | engine_id     | Many to one   | LAZY       | REFRESH | -              | true     |
+| [[Autogeek/4 UX-projecting/Extra Tables/Liked/Tables/Liked_variations\|Liked_variations]]             | -             | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Extra Tables/Favourite/Tables/Favourite_variations\|Favourite_variations]] | -             | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Entities/Users/Report/Tables/Reports\|Reports]]                            | -             | One to many   | LAZY       | ALL     | true           | -        |

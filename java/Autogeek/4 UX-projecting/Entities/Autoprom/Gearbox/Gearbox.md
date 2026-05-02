@@ -4,15 +4,15 @@
 
 *Full view:*
 
-| Description                                                                                                                                 | Field name                                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Gearbox name                                                                                                                                | full_name                                                                                                                                 |
-| Gearbox photos                                                                                                                              | photos                                                                                                                                    |
-| Previouis generation parent-gearbox name-link                                                                                               | full_name from [[Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/Gearboxes\|gearboxes]] on gearbox_parent_id |
-| List of [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Variation\|variations]] name-links which has this gearbox | full_name from [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|variations]] on gearbox_id    |
-| Gearbox type                                                                                                                                | gearbox_type                                                                                                                              |
-| Gears quantity                                                                                                                              | gear_quantity                                                                                                                             |
-| Review                                                                                                                                      | review                                                                                                                                    |
+| Description                                                                                                              | Field name        |
+| ------------------------------------------------------------------------------------------------------------------------ | ----------------- |
+| Gearbox name                                                                                                             | full_name         |
+| Gearbox photos                                                                                                           | photos            |
+| Previouis generation parent-gearbox name-link                                                                            | gearbox_parent_id |
+| List of [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Variation\|variations]] name-links which has this gearbox | -                 |
+| Gearbox type                                                                                                             | gearbox_type      |
+| Gears quantity                                                                                                           | gear_quantity     |
+| Review                                                                                                                   | review            |
 
 [[Autogeek/4 UX-projecting/Entity list|Full and short views]]
 

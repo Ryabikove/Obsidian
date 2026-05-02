@@ -12,8 +12,8 @@ Tables which contains data about [[Autogeek/4 UX-projecting/Entities/Autoprom/Ge
 
 *Relations*:
 
-| Mapped entity                                                                         | Column            | Relation type | Fetch type | Cascade | Orhpan removal |
-| ------------------------------------------------------------------------------------- | ----------------- | ------------- | ---------- | ------- | -------------- |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/Gearboxes\|Gearbox]]      | gearbox_parent_id | Many to one   | LAZY       | REFRESH | -              |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/Gearboxes\|Gearbox]]      | -                 | One to many   | LAZY       | ALL     | true           |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|Variation]] | -                 | One to many   | LAZY       | ALL     | true           |
+| Mapped table                                                                           | Column            | Relation type | Fetch type | Cascade | Orhpan removal |
+| -------------------------------------------------------------------------------------- | ----------------- | ------------- | ---------- | ------- | -------------- |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/Gearboxes\|Gearboxes]]     | gearbox_parent_id | Many to one   | LAZY       | REFRESH | -              |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/Gearboxes\|Gearboxes]]     | -                 | One to many   | LAZY       | ALL     | true           |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|Variations]] | -                 | One to many   | LAZY       | ALL     | true           |

@@ -7,6 +7,6 @@ Table which contains data about [[Autogeek/4 UX-projecting/Entities/Global/City/
 | full_name    | Varchar(200) | -              | +        | -       | Full name                                                                                          |
 *Relations*:
 
-| Mapped entity                                                                  | Column       | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
-| ------------------------------------------------------------------------------ | ------------ | ------------- | ---------- | ------- | -------------- | -------- |
-| [[Autogeek/4 UX-projecting/Entities/Global/Country/Tables/Countries\|Country]] | country_code | Many to one   | EAGER      | REFRESH | -              | false    |
+| Mapped table                                                                     | Column       | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
+| -------------------------------------------------------------------------------- | ------------ | ------------- | ---------- | ------- | -------------- | -------- |
+| [[Autogeek/4 UX-projecting/Entities/Global/Country/Tables/Countries\|Countries]] | country_code | Many to one   | EAGER      | REFRESH | -              | false    |

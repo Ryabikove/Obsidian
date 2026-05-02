@@ -14,11 +14,13 @@ Table which contains data about [[Autogeek/4 UX-projecting/Entities/Autoprom/Gen
 | description_n_review | Text         | -              | -        | -       | Description + review                                                                                              |
 | price_max            | Int          | -              | -        | -       | Prices max from [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Offers\|offers]]                           |
 | price_min            | Int          | -              | -        | -       | Prices min from [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Offers\|offers]]                           |
-
 *Relations*:
 
-| Mapped entity                                                                                     | Column   | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
-| ------------------------------------------------------------------------------------------------- | -------- | ------------- | ---------- | ------- | -------------- | -------- |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Model/Tables/Models\|Model]]                         | model_id | Many to one   | EAGER      | REFRESH | -              | false    |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Tables/Complectations\|Complectation]] | -        | One to many   | LAZY       | ALL     | true           | -        |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|Variation]]             | -        | One to many   | LAZY       | ALL     | true           | -        |
+| Mapped table                                                                                            | Column   | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
+| ------------------------------------------------------------------------------------------------------- | -------- | ------------- | ---------- | ------- | -------------- | -------- |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Model/Tables/Models\|Models]]                              | model_id | Many to one   | EAGER      | REFRESH | -              | false    |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Tables/Complectations\|Complectations]]      | -        | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|Variations]]                  | -        | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Extra Tables/Liked/Tables/Liked_generations\|Liked_generations]]             | -        | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Extra Tables/Favourite/Tables/Favourite_generations\|Favourite_generations]] | -        | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Entities/Users/Report/Tables/Reports\|Reports]]                              | -        | One to many   | LAZY       | ALL     | true           | -        |

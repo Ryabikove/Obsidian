@@ -17,10 +17,16 @@ Table which contains information about [[Autogeek/4 UX-projecting/Entities/Users
 | is_verified    | Boolean                 | -              | +        | False   | Is account verified                                                                        |
 *Relations*:
 
-| Mapped entity                                                                  | Column       | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
-| ------------------------------------------------------------------------------ | ------------ | ------------- | ---------- | ------- | -------------- | -------- |
-| [[Autogeek/4 UX-projecting/Entities/Global/Country/Tables/Countries\|Country]] | country_code | Many to one   | EAGER      | REFRESH | -              | false    |
-| [[Autogeek/4 UX-projecting/Entities/Users/Filter/Tables/Filters\|Filter]]      | -            | One to many   | LAZY       | ALL     | true           | -        |
-| [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Offers\|Offer]]         | -            | One to many   | LAZY       | ALL     | true           | -        |
-| [[Autogeek/4 UX-projecting/Entities/Users/Report/Tables/Reports\|Report]]      | -            | One to many   | LAZY       | ALL     | true           | -        |
-| [[Autogeek/4 UX-projecting/Entities/Users/Review/Tables/Reviews\|Review]]      | -            | One to many   | LAZY       | ALL     | true           | -        |
+| Mapped table                                                                                            | Column       | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
+| ------------------------------------------------------------------------------------------------------- | ------------ | ------------- | ---------- | ------- | -------------- | -------- |
+| [[Autogeek/4 UX-projecting/Entities/Global/Country/Tables/Countries\|Countries]]                        | country_code | Many to one   | EAGER      | REFRESH | -              | false    |
+| [[Autogeek/4 UX-projecting/Entities/Users/Filter/Tables/Filters\|Filters]]                              | -            | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Offers\|Offers]]                                 | -            | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Entities/Users/Report/Tables/Reports\|Reports]]                              | -            | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Entities/Users/Review/Tables/Reviews\|Reviews]]                              | -            | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Extra Tables/Favourite/Tables/Favourite_generations\|Favourite_generations]] | -            | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Extra Tables/Favourite/Tables/Favourite_variations\|Favourite_variations]]   | -            | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Extra Tables/Liked/Tables/Liked_models\|Liked_models]]                       | -            | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Extra Tables/Liked/Tables/Liked_generations\|Liked_generations]]             | -            | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Extra Tables/Liked/Tables/Liked_variations\|Liked_variations]]               | -            | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Extra Tables/Liked/Tables/Liked_offers\|Liked_offers]]                       | -            | One to many   | LAZY       | ALL     | true           | -        |

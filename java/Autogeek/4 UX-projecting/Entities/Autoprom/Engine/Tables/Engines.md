@@ -22,8 +22,8 @@ Table which containc properties of [[Autogeek/4 UX-projecting/Entities/Autoprom/
 | review              | Text         | -              | -        | -       | review                                                                                                                                 |
 *Relations*:
 
-| Mapped entity                                                                         | Column           | Relation type | Fetch type | Cascade | Orhpan removal |
-| ------------------------------------------------------------------------------------- | ---------------- | ------------- | ---------- | ------- | -------------- |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|Engine]]          | engine_parent_id | Many to one   | LAZY       | REFRESH | -              |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|Engine]]          | -                | One to many   | LAZY       | ALL     | true           |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|Variation]] | -                | One to many   | LAZY       | ALL     | true           |
+| Mapped table                                                                           | Column           | Relation type | Fetch type | Cascade | Orhpan removal |
+| -------------------------------------------------------------------------------------- | ---------------- | ------------- | ---------- | ------- | -------------- |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|Engines]]          | engine_parent_id | Many to one   | LAZY       | REFRESH | -              |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|Engines]]          | -                | One to many   | LAZY       | ALL     | true           |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|Variations]] | -                | One to many   | LAZY       | ALL     | true           |

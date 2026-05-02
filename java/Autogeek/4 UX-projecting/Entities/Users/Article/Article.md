@@ -6,24 +6,24 @@ An article can be created only by a car specialist and contains information abou
 
 *Full view:*
 
-| Field name         | Description                                                                                                                           |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Creation date      | creation_date                                                                                                                         |
-| Variation name     | full_name from [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|variations]] on variation_id                 |
-| Complectation name | full_name from [[Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Tables/Complectations\|complectations]] on complectation_id |
-| Photos             | photos                                                                                                                                |
-| Content            | content                                                                                                                               |
-| Rating             | rating                                                                                                                                |
-| Account            | full_name from [[Autogeek/4 UX-projecting/Entities/Users/Account/Tables/Accounts\|accounts]] on account_id                            |
+| Field name         | Description      |
+| ------------------ | ---------------- |
+| Creation date      | creation_date    |
+| Variation name     | variation_id     |
+| Complectation name | complectation_id |
+| Photos             | photos           |
+| Content            | content          |
+| Rating             | rating           |
+| Account            | account_id       |
 *Short view:*
 
-| Field name         | Description                                                                                                                                              |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Creation date      | creation_date                                                                                                                                            |
-| Variation name     | full_name from [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|variations]] on variation_id                 |
-| Complectation name | full_name from [[Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Tables/Complectations\|complectations]] on complectation_id |
-| Photos             | photos                                                                                                                                                   |
-| Owners             | full_name from [[Autogeek/4 UX-projecting/Entities/Users/Account/Tables/Accounts\|accounts]] on account_id                            |
+| Field name         | Description      |
+| ------------------ | ---------------- |
+| Creation date      | creation_date    |
+| Variation name     | variation_id     |
+| Complectation name | complectation_id |
+| Photos             | photos           |
+| Owners             | account_id       |
 
 [[Autogeek/4 UX-projecting/Entity list|Full and short views]].
 

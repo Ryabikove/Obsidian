@@ -15,8 +15,8 @@ Tables which contains data about [[Autogeek/4 UX-projecting/Entities/Autoprom/Br
 | sold_auto             | Int          | -              | -        | -       | Cars sold (last year)                                                                              |
 *Relations*:
 
-| Mapped entity                                                                   | Column       | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
-| ------------------------------------------------------------------------------- | ------------ | ------------- | ---------- | ------- | -------------- | -------- |
-| [[Autogeek/4 UX-projecting/Entities/Global/Country/Tables/Countries\|Country]]  | country_code | Many to one   | EAGER      | REFRESH | -              | false    |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Concern/Tables/Сoncerns\|Сoncern]] | concern_id   | Many to one   | EAGER      | REFRESH | -              | false    |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Model/Tables/Models\|Model]]       | -            | One to many   | LAZY       | ALL     | true           | -        |
+| Mapped table                                                                     | Column       | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
+| -------------------------------------------------------------------------------- | ------------ | ------------- | ---------- | ------- | -------------- | -------- |
+| [[Autogeek/4 UX-projecting/Entities/Global/Country/Tables/Countries\|Countries]] | country_code | Many to one   | EAGER      | REFRESH | -              | false    |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Concern/Tables/Сoncerns\|Сoncerns]] | concern_id   | Many to one   | EAGER      | REFRESH | -              | false    |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Model/Tables/Models\|Models]]       | -            | One to many   | LAZY       | ALL     | true           | -        |

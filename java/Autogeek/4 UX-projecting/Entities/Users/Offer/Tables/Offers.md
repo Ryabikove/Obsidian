@@ -18,15 +18,16 @@ Table which contains information about [[Autogeek/4 UX-projecting/Entities/Users
 | mileage           | Small int                  | -              | +        | -       | Mileage of car                                                                                                    |
 | vrc_id            | Big int                    | FK one to one  | +        | -       | vehicle registration certificate from [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Vrces\|vrces]]       |
 | body_color        | Bytea                      | -              | +        | -       | Color of car                                                                                                      |
-| body_color_type   | Bytea                      | FK one to many | +        | -       | Color type from [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/enums/BodyColorType\|BodyColorType]]       |
+| body_color_type   | Bytea                      | -              | +        | -       | Color type from [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/enums/BodyColorType\|BodyColorType]]       |
 | interior_color    | Bytea                      | -              | +        | -       | Color of car                                                                                                      |
 | has_guarantee     | Boolean                    | -              | +        | false   | Car has guarantee                                                                                                 |
 | may_change        | Boolean                    | -              | +        | false   | Car may be changed                                                                                                |
 *Relations*:
 
-| Mapped entity                                                                         | Column            | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
-| ------------------------------------------------------------------------------------- | ----------------- | ------------- | ---------- | ------- | -------------- | -------- |
-| [[Autogeek/4 UX-projecting/Entities/Users/Account/Account\|Account]]                  | seller_account_id | Many to one   | EAGER      | REFRESH | -              | false    |
-| [[Autogeek/4 UX-projecting/Entities/Global/City/Tables/Cities\|City]]                 | city_id           | Many to one   | LAZY       | REFRESH | -              | false    |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|Variation]] | variation_id      | One to many   | LAZY       | REFRESH | -              | false    |
-| [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Vrces\|Vrc]]                   | vrc_id            | One to one    | LAZY       | REFRESH | -              | false    |
+| Mapped table                                                                           | Column            | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
+| -------------------------------------------------------------------------------------- | ----------------- | ------------- | ---------- | ------- | -------------- | -------- |
+| [[Autogeek/4 UX-projecting/Entities/Users/Account/Tables/Accounts\|Accounts]]          | seller_account_id | Many to one   | EAGER      | REFRESH | -              | false    |
+| [[Autogeek/4 UX-projecting/Entities/Global/City/Tables/Cities\|Cities]]                | city_id           | Many to one   | LAZY       | REFRESH | -              | false    |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|Variations]] | variation_id      | One to many   | LAZY       | REFRESH | -              | false    |
+| [[Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Vrces\|Vrces]]                  | vrc_id            | One to one    | LAZY       | REFRESH | -              | false    |
+| [[Autogeek/4 UX-projecting/Extra Tables/Liked/Tables/Liked_offers\|Liked_offers]]      | -                 | One to many   | LAZY       | ALL     | true           | -        |

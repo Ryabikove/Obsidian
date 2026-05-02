@@ -13,8 +13,8 @@ Table which contains data about [[Autogeek/4 UX-projecting/Entities/Autoprom/Con
 | description_n_history | Text         | -              | -        | -       | Concern's description and history                                                              |
 *Relations*:
 
-| Mapped entity                                                                  | Column        | Relation type | Fetch type | Cascade        | Orhpan removal | Optional |
-| ------------------------------------------------------------------------------ | ------------- | ------------- | ---------- | -------------- | -------------- | -------- |
-| [[Autogeek/4 UX-projecting/Entities/Global/Country/Tables/Countries\|Country]] | country_code  | Many to one   | EAGER      | REFRESH        | -              | false    |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Tables/Brands\|Brand]]      | main_brand_id | One to one    | EAGER      | PERSIST, MERGE | -              | false    |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Tables/Brands\|Brand]]      | -             | One to many   | LAZY       | ALL            | true           | -        |
+| Mapped table                                                                     | Column        | Relation type | Fetch type | Cascade        | Orhpan removal | Optional |
+| -------------------------------------------------------------------------------- | ------------- | ------------- | ---------- | -------------- | -------------- | -------- |
+| [[Autogeek/4 UX-projecting/Entities/Global/Country/Tables/Countries\|Countries]] | country_code  | Many to one   | EAGER      | REFRESH        | -              | false    |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Tables/Brands\|Brands]]       | main_brand_id | One to one    | EAGER      | PERSIST, MERGE | -              | false    |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Tables/Brands\|Brands]]       | -             | One to many   | LAZY       | ALL            | true           | -        |

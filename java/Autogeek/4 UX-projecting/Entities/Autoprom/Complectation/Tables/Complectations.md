@@ -13,6 +13,7 @@ Table which contains data about [[Autogeek/4 UX-projecting/Entities/Autoprom/Com
 | exterior_props   | JSONB        | -              | -        | -       | Jsonb with [[Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Tables/JSONB/Exterior_props\|exterior props]]     |
 *Relations*:
 
-| Mapped entity                                                                            | Column        | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
-| ---------------------------------------------------------------------------------------- | ------------- | ------------- | ---------- | ------- | -------------- | -------- |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/Generations\|Generation]] | generation_id | Many to one   | LAZY       | REFRESH | -              | false    |
+| Mapped table                                                                              | Column        | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
+| ----------------------------------------------------------------------------------------- | ------------- | ------------- | ---------- | ------- | -------------- | -------- |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/Generations\|Generations]] | generation_id | Many to one   | LAZY       | REFRESH | -              | false    |
+| [[Autogeek/4 UX-projecting/Entities/Users/Report/Tables/Reports\|Reports]]                | -             | One to many   | LAZY       | ALL     | true           | -        |

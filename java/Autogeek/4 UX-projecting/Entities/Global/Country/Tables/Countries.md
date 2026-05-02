@@ -9,7 +9,8 @@ Table which contains data about [[Autogeek/4 UX-projecting/Entities/Global/Count
 | flag       | Varchar(255) | +      | -        | -       | Link on iamge of flag      |
 *Relations*:
 
-| Mapped entity                                                                   | Column | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
-| ------------------------------------------------------------------------------- | ------ | ------------- | ---------- | ------- | -------------- | -------- |
-| [[Autogeek/4 UX-projecting/Entities/Global/City/Tables/Cities\|City]]           | -      | One to many   | Lazy       | ALL     | true           | -        |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Concern/Tables/Сoncerns\|Concern]] | -      | One to many   | Lazy       | ALL     | true           | -        |
+| Mapped table                                                                     | Column | Relation type | Fetch type | Cascade | Orhpan removal | Optional |
+| -------------------------------------------------------------------------------- | ------ | ------------- | ---------- | ------- | -------------- | -------- |
+| [[Autogeek/4 UX-projecting/Entities/Global/City/Tables/Cities\|Cities]]          | -      | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Concern/Tables/Сoncerns\|Сoncerns]] | -      | One to many   | LAZY       | ALL     | true           | -        |
+| [[Autogeek/4 UX-projecting/Entities/Users/Account/Tables/Accounts\|Accounts]]    | -      | One to many   | LAZY       | ALL     | true           | -        |
