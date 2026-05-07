@@ -26,11 +26,11 @@ body_props: [
 	trunk_capacity_range: [...],
 	seats_quantity_range: [...],
 	doors_quantity_range: [...],
-	empty_weight_range: [...]
-	full_weight_range: [...]
-	wheel_base_range: [...]
-	front_track_range: [...]
-	back_track_range: [...]
+	empty_weight_range: [...],
+	full_weight_range: [...],
+	wheel_base_range: [...],
+	front_track_range: [...],
+	back_track_range: [...],
 	body_colors: [...],
 	color_types: [...],
 ]

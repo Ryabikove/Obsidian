@@ -7,7 +7,7 @@
 | Description                                                                         | Field name                      |
 | ----------------------------------------------------------------------------------- | ------------------------------- |
 | Full name                                                                           | full_name                       |
-| Logo                                                                                | logo                            |
+| Logo                                                                                | logo_url                        |
 | [[Autogeek/4 UX-projecting/Entities/Global/Country/Country\|Country's]] name-link   | country_code                    |
 | [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Brand\|Main brand's]] name-link  | main_brand_id                   |
 | List [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Brand\|brand's]] name-links | -                               |
@@ -20,7 +20,7 @@
 | Description                                                                        | Field name    |
 | ---------------------------------------------------------------------------------- | ------------- |
 | Short name                                                                         | short_name    |
-| Logo                                                                               | logo          |
+| Logo                                                                               | logo_url      |
 | [[Autogeek/4 UX-projecting/Entities/Global/Country/Country\|Country's]] name-link  | country_code  |
 | [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Brand\|Main brand's]] name-link | main_brand_id |
 [[Autogeek/4 UX-projecting/Entity list|Full and short views]].

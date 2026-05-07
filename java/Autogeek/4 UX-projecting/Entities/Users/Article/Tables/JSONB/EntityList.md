@@ -14,26 +14,14 @@ Jsonb with entities list markers
 | engines        | ids                                | -      | -        | -       |
 ```
 entities_list: [
-	countries: [
-		codes: [...],
-		cities: [
-			ids: [...]
-		]
-	],
-	concerns: [
-		ids: [...]
-	],
-	brands: [
-		ids: [...],
-		models: [
-			ids: [...],
-			generations: [
-				ids: [...],
-				variations: [...],
-				complectations: [...]
-			]
-		]
-	],
+	countries: [...],
+	cities: [...],
+	concerns: [...],
+	brands: [...],
+	models: [...],
+	generations: [...],
+	variations: [...],
+	complectations: [...],
 	gearboxes: [...],
 	engines: [...]
 ]

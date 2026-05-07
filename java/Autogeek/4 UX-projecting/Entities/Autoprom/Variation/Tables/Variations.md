@@ -4,17 +4,17 @@ Table which contains data about [[Autogeek/4 UX-projecting/Entities/Autoprom/Var
 | -------------------- | ------------ | -------------- | -------- | ------- | ------------------------------------------------------------------------------------------------------------------------- |
 | id                   | Serial       | PK             | +        | -       | ID                                                                                                                        |
 | full_name            | Varchar(100) | +              | +        | -       | Full name                                                                                                                 |
-| generation_id        | Int          | FK one to many | +        | -       | Generation id from [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/Generations\|generations]]              |
+| generation_id        | Int          | FK many to one | +        | -       | Generation id from [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/Generations\|generations]]              |
 | body_type            | Varchar(255) | -              | -        | -       | Body type from [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/BodyType\|BodyType]]                   |
 | drive_type           | Varchar(255) | -              | -        | -       | Drive type from [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/DriveType\|DriveType]]                |
-| engine_id            | Int          | FK one to many | -        | -       | Engine id from [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|engines]]                              |
+| engine_id            | Int          | FK many to one | -        | -       | Engine id from [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|engines]]                              |
 | boost_type           | Varchar(255) | -              | -        | -       | Boost type from [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/BoostType\|BoostTypes]]               |
 | engine_position      | Varchar(255) | -              | -        | -       | Engine position from [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/enums/EnginePosition\|EnginePosition]] |
-| gearbox_id           | Int          | FK one to many | -        | -       | Gearbox id from [[Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/Gearboxes\|gearboxes]]                        |
-| rating               | JSONB        | -              | -        | -       | Jsonb with [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/JSONB/Rating\|rating]]                           |
-| body_props           | JSONB        | -              | -        | -       | Jsonb with [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/JSONB/Body_props\|body props]]                   |
-| susp_brake_props     | JSONB        | -              | -        | -       | Jsonb with [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/JSONB/Susp_brake_props\|susp brake props]]       |
-| other_props          | JSONB        | -              | -        | -       | Jsonb with [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/JSONB/Other_props\|other props]]                 |
+| gearbox_id           | Int          | FK many to one | -        | -       | Gearbox id from [[Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/Gearboxes\|gearboxes]]                        |
+| rating               | JSONB        | -              | -        | -       | Jsonb with [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/JSONB/Rating\|Rating]]                           |
+| body_props           | JSONB        | -              | -        | -       | Jsonb with [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/JSONB/BodyProps\|BodyProps]]                     |
+| susp_brake_props     | JSONB        | -              | -        | -       | Jsonb with [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/JSONB/SuspBrakeProps\|SuspBrakeProps]]           |
+| other_props          | JSONB        | -              | -        | -       | Jsonb with [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/JSONB/OtherProps\|OtherProps]]                   |
 | description_n_review | Text         | -              | -        | -       | Description and review                                                                                                    |
 | acl_to_100           | bytea        | -              | -        | -       | Acceleration to 100 (s/10)                                                                                                |
 | fuel_per_100         | bytea        | -              | -        | -       | Fuel consumption per 100 km (l);                                                                                          |

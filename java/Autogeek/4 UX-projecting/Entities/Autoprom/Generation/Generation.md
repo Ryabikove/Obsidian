@@ -7,7 +7,7 @@
 | Description                                                                                                               | Field name                      |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
 | Full name                                                                                                                 | full_name                       |
-| Generation photos                                                                                                         | photos                          |
+| Generation photos                                                                                                         | -                               |
 | [[Autogeek/4 UX-projecting/Entities/Autoprom/Model/Model\|Models]] name-link                                              | model_id                        |
 | Car class                                                                                                                 | car_class                       |
 | Years of producing                                                                                                        | year_start - year_stop          |
@@ -25,7 +25,7 @@
 | Description                                                                  | Field name |
 | ---------------------------------------------------------------------------- | ---------- |
 | Full name                                                                    | full_name  |
-| Generation photos                                                            | photos     |
+| Generation photos                                                            | -          |
 | [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Brand\|Brands]] name-link | brand_id   |
 | [[Autogeek/4 UX-projecting/Entities/Autoprom/Model/Model\|Models]] name-link | model_id   |
 [[Autogeek/4 UX-projecting/Entity list|Full and short views]].

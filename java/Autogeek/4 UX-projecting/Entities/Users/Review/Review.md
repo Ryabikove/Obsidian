@@ -10,7 +10,7 @@ A review can be created by user. It contains detailed description of cars proper
 | Creation date      | creation_date    |
 | Variation name     | variation_id     |
 | Complectation name | complectation_id |
-| Photos             | photos           |
+| Photos             | -                |
 | Description        | description      |
 | Rating             | rating           |
 | Account            | account_id       |
@@ -21,7 +21,7 @@ A review can be created by user. It contains detailed description of cars proper
 | Creation date      | creation_date    |
 | Variation name     | variation_id     |
 | Complectation name | complectation_id |
-| Photos             | photos           |
+| Photos             | -                |
 | Owners             | account_id       |
 
 [[Autogeek/4 UX-projecting/Entity list|Full and short views]].

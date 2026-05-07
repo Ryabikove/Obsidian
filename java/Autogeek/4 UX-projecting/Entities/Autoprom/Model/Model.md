@@ -7,7 +7,7 @@
 | Description                                                                                               | Field name            |
 | --------------------------------------------------------------------------------------------------------- | --------------------- |
 | Full name                                                                                                 | full_name             |
-| Photos of all generation                                                                                  | photos                |
+| Photos of all generation                                                                                  | -                     |
 | [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Brand\|Brand]] name-link                               | brand_id              |
 | List with name-links of [[Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Generation\|generations]] | -                     |
 | Description and history                                                                                   | description_n_history |
@@ -16,7 +16,7 @@
 | Description                                                                 | Field name |
 | --------------------------------------------------------------------------- | ---------- |
 | Full name                                                                   | full_name  |
-| Photos of all generation                                                    | photos     |
+| Photos of all generation                                                    | -          |
 | [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Brand\|Brand]] name-link | brand_id   |
 [[Autogeek/4 UX-projecting/Entity list|Full and short views]].
 

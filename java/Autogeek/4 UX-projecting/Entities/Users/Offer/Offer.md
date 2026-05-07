@@ -8,7 +8,7 @@
 | -------------------------- | ----------------- |
 | Full name                  | variation_id      |
 | Complectation name         | complectation_id  |
-| Photos                     | photos            |
+| Photos                     | -                 |
 | Price                      | price             |
 | Type of offer              | offer_type        |
 | Year of manufacture        | vrc_id            |
@@ -31,7 +31,7 @@
 | Field name                 | Description       |
 | -------------------------- | ----------------- |
 | Full name                  | var_to_comp_id    |
-| Photos                     | photos            |
+| Photos                     | -                 |
 | Price                      | price             |
 | Year of manufacture        | vrc_id            |
 | Mileage of car             | mileage           |

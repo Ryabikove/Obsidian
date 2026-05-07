@@ -7,7 +7,7 @@ Jsonb which contains safety properties.
 | armored_body         | boolean   | +        | False   |
 | tire_pressure_sensor | boolean   | +        | False   |
 | stabilization_system | boolean   | +        | False   |
-| ERA-GLONASS          | boolean   | +        | False   |
+| ERA_GLONASS          | boolean   | +        | False   |
 
 ```
 safety_props: [
@@ -16,6 +16,6 @@ safety_props: [
 	armored_body: [true/false],
 	tire_pressure_sensor: [true/false],
 	stabilization_system: [true/false],
-	ERA-GLONASS: [true/false]
+	ERA_GLONASS: [true/false]
 ] 
 ```

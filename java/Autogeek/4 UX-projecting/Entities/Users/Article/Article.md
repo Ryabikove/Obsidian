@@ -11,7 +11,7 @@ An article can be created only by a car specialist and contains information abou
 | Creation date      | creation_date    |
 | Variation name     | variation_id     |
 | Complectation name | complectation_id |
-| Photos             | photos           |
+| Photos             | -                |
 | Content            | content          |
 | Rating             | rating           |
 | Account            | account_id       |
@@ -22,7 +22,7 @@ An article can be created only by a car specialist and contains information abou
 | Creation date      | creation_date    |
 | Variation name     | variation_id     |
 | Complectation name | complectation_id |
-| Photos             | photos           |
+| Photos             | -                |
 | Owners             | account_id       |
 
 [[Autogeek/4 UX-projecting/Entity list|Full and short views]].

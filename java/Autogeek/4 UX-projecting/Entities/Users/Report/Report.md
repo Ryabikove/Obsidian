@@ -10,7 +10,7 @@ A report can be created by a car driver and contains his experience of owning th
 | Creation date      | creation_date    |
 | Variation name     | variation_id     |
 | Complectation name | complectation_id |
-| Photos             | photos           |
+| Photos             | -                |
 | Description        | description      |
 | Rating             | rating           |
 | Owners             | account_id       |
@@ -21,7 +21,7 @@ A report can be created by a car driver and contains his experience of owning th
 | Creation date      | creation_date    |
 | Variation name     | variation_id     |
 | Complectation name | complectation_id |
-| Photos             | photos           |
+| Photos             | -                |
 | Owners             | account_id       |
 
 [[Autogeek/4 UX-projecting/Entity list|Full and short views]].

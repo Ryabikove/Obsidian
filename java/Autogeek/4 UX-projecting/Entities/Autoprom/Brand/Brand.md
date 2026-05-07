@@ -7,7 +7,7 @@
 | Description                                                                            | Field name                      |
 | -------------------------------------------------------------------------------------- | ------------------------------- |
 | Full name                                                                              | full_name                       |
-| Logo                                                                                   | logo                            |
+| Logo                                                                                   | logo_url                        |
 | [[Autogeek/4 UX-projecting/Entities/Autoprom/Concern/Concern\|Concern]] name-link      | concern_id                      |
 | [[Autogeek/4 UX-projecting/Entities/Global/Country/Country\|Country]] name-link        | country_code                    |
 | List of [[Autogeek/4 UX-projecting/Entities/Autoprom/Model/Model\|model's]] name-links | -                               |
@@ -23,7 +23,7 @@
 | --------------------------------------------------------------------------------- | ------------ |
 | Short name                                                                        | short_name   |
 | [[Autogeek/4 UX-projecting/Entities/Autoprom/Concern/Concern\|Concern]] name-link | concern_id   |
-| Logo                                                                              | logo         |
+| Logo                                                                              | logo_url     |
 | [[Autogeek/4 UX-projecting/Entities/Global/Country/Country\|Country]] name-link   | country_code |
 [[Autogeek/4 UX-projecting/Entity list|Full and short view]]
 

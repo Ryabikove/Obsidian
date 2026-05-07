@@ -7,7 +7,7 @@
 | Description                                                                                                             | Field name          |
 | ----------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | Full name                                                                                                               | full_name           |
-| Photos                                                                                                                  | photos              |
+| Photos                                                                                                                  | -                   |
 | Previouis generation parent-engine name-link                                                                            | engine_parent_id    |
 | List of [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Variation\|variations]] name-links which has this engine | -                   |
 | Engine capacity                                                                                                         | engine_capacity     |

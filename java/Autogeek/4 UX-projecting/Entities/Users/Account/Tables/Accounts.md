@@ -8,7 +8,7 @@ Table which contains information about [[Autogeek/4 UX-projecting/Entities/Users
 | phone_number   | Varchar(30)             | +              | -        | -       | Phone_number                                                                               |
 | full_name      | Varchar (250)           | -              | -        | -       | Full name                                                                                  |
 | birthday       | Date                    | -              | -        | -       | Birth date                                                                                 |
-| account_photos | Varchar(255)            | +              | -        | -       | Profile photo link                                                                         |
+| photo_url      | Varchar(255)            | +              | -        | -       | Profile photo link                                                                         |
 | is_corporation | Boolean                 | -              | +        | False   | Is account a corporation                                                                   |
 | create_at      | DATE                    | -              | +        | Now()   | Account create date                                                                        |
 | last_online    | Timestamp with timezone | -              | +        | Now()   | Last login                                                                                 |

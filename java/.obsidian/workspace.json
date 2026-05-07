@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4ef4a62959706719",
+        "id": "03422d66998a5b8e",
         "type": "tabs",
         "children": [
           {
-            "id": "29ad8ebef12e10c6",
+            "id": "7d0af1a815ed67aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Vrces.md",
+                "file": "Autogeek/4 UX-projecting/Entities/Users/Specialist/Tables/Specialists.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
-                  "collapseAll": true,
+                  "collapseAll": false,
                   "extraContext": false,
                   "sortOrder": "alphabetical",
                   "showSearch": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vrces"
+              "title": "Specialists"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "function",
+                "query": "photo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,34 +178,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "29ad8ebef12e10c6",
+  "active": "7d0af1a815ed67aa",
   "lastOpenFiles": [
-    "Autogeek/4 UX-projecting/Entities/Users/Article/Tables/Articles.md",
+    "Autogeek/TODO.md",
+    "Autogeek/4 UX-projecting/Entities/Users/Specialist/Tables/Specialists.md",
+    "Autogeek/4 UX-projecting/Entities/Users/Review/Tables/Review_photos.md",
+    "Autogeek/4 UX-projecting/Entities/Users/Offer/Offer.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Model/Model.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/Generations.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/Generation_photos.md",
+    "Generation_photos.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Generation.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Tables/Gearboxes.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Gearbox.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Engine.md",
+    "Autogeek/4 UX-projecting/Entities/Users/Article/Tables/Article_photos.md",
     "Autogeek/4 UX-projecting/Entities/Users/Article/Article.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Filter/Tables/Filters.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Filter/Tables/JSONB/Primary_props.md",
     "Autogeek/4 UX-projecting/Entities/Users/Review/Tables/Reviews.md",
     "Autogeek/4 UX-projecting/Entities/Users/Report/Tables/Reports.md",
+    "Autogeek/4 UX-projecting/Entities/Users/Report/Tables/Report_photos.md",
+    "Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Offers.md",
+    "Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Offer_photos.md",
     "Autogeek/4 UX-projecting/Entities/Users/Review/Review.md",
     "Autogeek/4 UX-projecting/Entities/Users/Report/Report.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Offers.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Offer/Tables/Vrces.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Filter/Filter.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Account/Tables/Accounts.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Account/Account.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Specialist/Specialist.md",
-    "Autogeek/4 UX-projecting/Entities/Users/Offer/Offer.md",
-    "Autogeek/4 UX-projecting/Entities/Global/Country/Country.md",
-    "Autogeek/4 UX-projecting/Entities/Global/City/City.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Variation.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Model/Model.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Generation.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Generation/Tables/Generations.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Engine.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Gearbox/Gearbox.md",
+    "Autogeek/4 UX-projecting/Entities/Users/Article/Tables/Articles.md",
     "Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines.md",
+    "Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engine_photos.md",
+    "Autogeek/4 UX-projecting/Entities/Users/Account/Tables/Accounts.md",
     "Autogeek/4 UX-projecting/Entities/Autoprom/Concern/Concern.md",
-    "Autogeek/4 UX-projecting/Entities/Autoprom/Complectation/Complectation.md",
+    "AI/month 1/week 1",
+    "AI/month 1",
+    "AI",
     "Autogeek/4 UX-projecting/Extra Tables/Liked/Tables",
     "Autogeek/4 UX-projecting/Extra Tables/Favourite/Tables",
     "Autogeek/4 UX-projecting/Extra Tables",
@@ -212,9 +216,6 @@
     "Autogeek/4 UX-projecting/Extra Tables/Favourite",
     "Autogeek/4 UX-projecting/Entities/Users/Specialist/Tables",
     "Autogeek/4 UX-projecting/Entities/Users/Specialist",
-    "Spring/packages/org/junit/jupiter/api/Untitled",
-    "Spring/packages/org/junit/jupiter/api",
-    "Spring/packages/org/junit/jupiter",
     "Spring/Testing/Unit tests/Mockito/Untitled.canvas",
     "Java/images/Pasted image 20241104205929.png",
     "Autogeek/3 Data architecture/Maps/Map.canvas",

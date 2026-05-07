@@ -6,12 +6,13 @@ Can be showed as:
 
 Filter types:
 - Primary:
-	- Concern;
-	- Brand;
-	- Model;
-	- Generation;
-	- Variation;
-	- Complectation;
+	- Car properties:
+		- Concern;
+		- Brand;
+		- Model;
+		- Generation;
+		- Variation;
+		- Complectation;
 	- Price range;
 	- Production years range;
 	- Drive type;

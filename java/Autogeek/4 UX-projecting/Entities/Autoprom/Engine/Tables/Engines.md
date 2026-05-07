@@ -4,7 +4,6 @@ Table which containc properties of [[Autogeek/4 UX-projecting/Entities/Autoprom/
 | ------------------- | ------------ | -------------- | -------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | id                  | Serial       | PK             | +        | -       | ID                                                                                                                                     |
 | full_name           | Varchar(250) | +              | +        | -       | Full name                                                                                                                              |
-| photos              | Varchar(255) | +              | -        | -       | Link to photos archive                                                                                                                 |
 | engine_parent_id    | Int          | FK one to many | -        | -       | Engine parent id from [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|engines]]                                    |
 | engine_capacity     | Smallint     | -              | -        | -       | Engine capacity                                                                                                                        |
 | engine_type         | Varchar(255) | -              | -        | -       | Engine type from [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/enums/EngineType\|EngineTypes]]                            |
@@ -22,8 +21,9 @@ Table which containc properties of [[Autogeek/4 UX-projecting/Entities/Autoprom/
 | review              | Text         | -              | -        | -       | review                                                                                                                                 |
 *Relations*:
 
-| Mapped table                                                                           | Column           | Relation type | Fetch type | Cascade | Orhpan removal |
-| -------------------------------------------------------------------------------------- | ---------------- | ------------- | ---------- | ------- | -------------- |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|Engines]]          | engine_parent_id | Many to one   | LAZY       | REFRESH | -              |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|Engines]]          | -                | One to many   | LAZY       | ALL     | true           |
-| [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|Variations]] | -                | One to many   | LAZY       | ALL     | true           |
+| Mapped table                                                                              | Column           | Relation type | Fetch type | Cascade | Orhpan removal |
+| ----------------------------------------------------------------------------------------- | ---------------- | ------------- | ---------- | ------- | -------------- |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|Engines]]             | engine_parent_id | Many to one   | LAZY       | REFRESH | -              |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engine_photos\|Engine_photos]] | -                | One to many   | EAGER      | ALL     | true           |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Engine/Tables/Engines\|Engines]]             | -                | One to many   | LAZY       | ALL     | true           |
+| [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Tables/Variations\|Variations]]    | -                | One to many   | LAZY       | ALL     | true           |

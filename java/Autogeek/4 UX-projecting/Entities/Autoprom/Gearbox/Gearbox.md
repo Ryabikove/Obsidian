@@ -7,7 +7,7 @@
 | Description                                                                                                              | Field name        |
 | ------------------------------------------------------------------------------------------------------------------------ | ----------------- |
 | Gearbox name                                                                                                             | full_name         |
-| Gearbox photos                                                                                                           | photos            |
+| Gearbox photos                                                                                                           | -                 |
 | Previouis generation parent-gearbox name-link                                                                            | gearbox_parent_id |
 | List of [[Autogeek/4 UX-projecting/Entities/Autoprom/Variation/Variation\|variations]] name-links which has this gearbox | -                 |
 | Gearbox type                                                                                                             | gearbox_type      |

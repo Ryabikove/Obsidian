@@ -7,7 +7,7 @@
 | Description                                                                                      | Field name |
 | ------------------------------------------------------------------------------------------------ | ---------- |
 | Full name                                                                                        | full_name  |
-| Image of flag                                                                                    | flag       |
+| Image of flag                                                                                    | flag_url   |
 | List with name-links of [[Autogeek/4 UX-projecting/Entities/Autoprom/Concern/Concern\|concerns]] | -          |
 | List with name-links of [[Autogeek/4 UX-projecting/Entities/Autoprom/Brand/Brand\|brands]]       | -          |
 
@@ -16,7 +16,7 @@
 | Description   | Field name |
 | ------------- | ---------- |
 | Full name     | full_name  |
-| Image of flag | flag       |
+| Image of flag | flag_url   |
 [[Autogeek/4 UX-projecting/Entity list|Full and short view]].
 
 Can be shown as [[Autogeek/4 UX-projecting/Entity list|entity list]].
